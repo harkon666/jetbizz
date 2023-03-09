@@ -1,0 +1,15 @@
+.section {
+    @apply min-h-screen bg-white text-semi-black sm:px-20 sm:py-10 lg:px-32 lg:py-20 xl:px-40;
+}
+
+.section-title{
+    @apply text-center;
+}
+
+.section-title p{
+    @apply text-lg
+}
+
+.section-title span{
+    @apply text-gold;
+}

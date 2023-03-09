@@ -1,13 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('./views/hawker-400.css');
+@import url('./components/section.css');
+@import url('./components/card-img.css');
+@import url('./components/travel-kit-amenity.css');
 
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -108,4 +112,134 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  @apply bg-gradient-to-r from-slate-700 to-transparent z-50 fixed top-0 left-0 justify-between items-center w-full px-20 sm:hidden lg:flex;
+}
+
+#home {
+  background-image: url("../public/images/businesswoman-going-up-with-luggage-ladder-private-airplane-jet-modern-passenger-plane-confident-european-woman-wear-formal-suit-glasses-civil-aviation-concept-air-travel-business-min.png");
+  background-attachment: fixed;
+  @apply min-h-screen sm:bg-center;
+}
+
+#pages {
+  @apply bg-white min-h-screen relative;
+}
+
+#pages button {
+  @apply bg-semi-black font-semibold px-4 py-3 hover:bg-gold rounded-lg text-lg text-white sm:text-base;
+}
+
+#section-3-1 {
+  background-image: url("../public/images/modern-executive-business-jet-isolated-white-background-min.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  @apply min-h-screen bg-white text-semi-black w-full flex flex-col py-20 sm:px-20 lg:px-32;
+}
+
+#our-deals {
+  @apply w-full bg-white text-semi-black px-40 min-h-screen pt-20 sm:px-20 lg:px-32;
+}
+
+#packages {
+  @apply w-full bg-white text-semi-black px-40 min-h-screen pt-20 sm:px-20 lg:px-32;
+}
+
+#our-blog {
+  @apply w-full bg-white text-semi-black px-40 min-h-screen pt-20 sm:px-20 lg:px-32;
+}
+
+footer {
+  @apply w-full bg-[#19232D] text-light-gray px-40 min-h-screen pt-20 sm:px-20;
+}
+
+#parallax {
+  @apply bg-gradient-to-r from-slate-700 to-transparent min-h-screen flex items-center;
+}
+
+#parallax-content {
+  @apply space-y-10 sm:px-20 sm:py-20 sm:w-full lg:w-2/3 xl:w-1/2;
+}
+
+#parallax-content p {
+  @apply text-xl;
+}
+
+#parallax-content p:nth-child(1) {
+  @apply text-gold;
+}
+
+#parallax-content button {
+  @apply px-4 py-3 ring-1 ring-white text-lg rounded-lg hover:bg-gold hover:ring-0;
+}
+
+#overlay-image {
+  @apply relative min-h-screen overflow-hidden;
+}
+
+#overlay-1 {
+  background-image: url("../public/images/luxury-private-jet-parked-ground-passenger-airplane-parked-sunset-sky-view-3d-rendering-min.png");
+  background-repeat: no-repeat;
+  @apply absolute w-full h-full;
+}
+
+#overlay-2 {
+  background-image: url("../public/images/02-min.png");
+  background-repeat: no-repeat;
+  @apply absolute top-48 left-[50%] w-full h-full;
+}
+
+#overlay-text {
+  @apply absolute top-[20%] right-[10%] bg-light-gray p-10 text-semi-black mx-auto sm:left-[10%] xl:left-[30%];
+}
+
+#overlay-text-list ul {
+  @apply grid grid-cols-3 font-semibold space-y-2 items-center text-lg sm:text-sm lg:text-base;
+}
+
+#swiper figcaption {
+  @apply absolute mx-5 p-5 bg-white w-auto lg:top-[50%] xl:top-[60%];
+}
+
+#swiper figcaption h1 {
+  @apply text-gold text-xl font-semibold;
+}
+
+#swiper figcaption p {
+  @apply lg:text-sm xl:text-base;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
 }
