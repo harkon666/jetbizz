@@ -275,19 +275,19 @@ export default function AddDeals() {
                     src={Fokker50}
                     product="Fokker 50"
                     capacity="4-8 Seats"
-                    href="./Fokker-50"
+                    href="./fokker-50"
                   />
                   <CardImage
                     src={Fokker70}
                     product="Fokker 70"
                     capacity="4-8 Seats"
-                    href="./Fokker-70"
+                    href="./fokker-70"
                   />
                   <CardImage
                     src={Fokker100}
                     product="Fokker 100"
                     capacity="4-8 Seats"
-                    href="./Fokker-100"
+                    href="./fokker-100"
                   />
                   <CardImage
                     src={GulfstreamIVSP}

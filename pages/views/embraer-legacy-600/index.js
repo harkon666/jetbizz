@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Header from "../../layouts/Header";
 
-import Image1 from "../../../public/images/Jets/Embraer ERJ 135/cl-erj-conversions-7.jpg";
-import Image2 from "../../../public/images/Jets/Embraer ERJ 135/Embraer-ERJ-135BJ-Legacy-650-1.jpg";
-import Image3 from "../../../public/images/Jets/Embraer ERJ 135/ERJ145-Exterior-5.jpg";
+import Image1 from "../../../public/images/Jets/Embraer Legacy 600/AeroBT-Legacy600_2880x1440.jpg";
+import Image2 from "../../../public/images/Jets/Embraer Legacy 600/LEGACY-600-SX-KKA.jpg";
+import Image3 from "../../../public/images/Jets/Embraer Legacy 600/N317LL_Legacy600_socia.jpg";
 
 import Shape from "../../../public/images/service-background-shape.png";
 import Footer from "@/pages/layouts/Footer";
@@ -18,7 +18,7 @@ import TravelKitAmenity from "@/pages/components/TravelKitAmenity";
 import Contact from "@/pages/components/Contact";
 import OverviewList from "@/pages/components/OverviewList";
 
-export default function EmbraerERJ135() {
+export default function EmbraerLegacy600() {
   return (
     <>
       <Head>
@@ -42,7 +42,7 @@ export default function EmbraerERJ135() {
 
               <div className="absolute top-0 h-full w-full flex justify-center items-center">
                 <h1 className="text-5xl text-light-gray font-semibold">
-                  Embraer ERJ 135
+                  Embraer Legacy 600
                 </h1>
               </div>
             </figure>
@@ -55,7 +55,7 @@ export default function EmbraerERJ135() {
                   className="absolute -top-10 -left-8 z-0 sm:hidden lg:block"
                 />
                 <Image
-                  src={Image1}
+                  src={Image3}
                   className="absolute top-0 left-0 z-10 aspect-[1/1] max-w-full max-h-full object-cover object-center rounded-lg shadow-lg"
                 />
               </div>
@@ -65,21 +65,18 @@ export default function EmbraerERJ135() {
                 </div>
                 <div className="space-y-2 mb-4 text-base leading-relaxed tracking-wide">
                   <p>
-                    The Embraer ERJ family are regional jets designed and
-                    produced by the Brazilian aerospace company Embraer. The
-                    family includes the ERJ135, ERJ140, and ERJ145, as well as
-                    the Legacy 600 business jet and the R-99 family of military
-                    aircraft.
+                    The Embraer Legacy 600 is a business jet derivative of the
+                    Embraer ERJ 145 family of commercial jet aircraft.
                   </p>
                 </div>
                 <div>
                   <ul className="grid lg:grid-cols-2 sm:grid-cols-1 gap-4">
                     <OverviewList point="Crew: 2" />
-                    <OverviewList point="Passengers: 16" />
-                    <OverviewList point="Cabin Volume: 1425 cu ft" />
-                    <OverviewList point="Cabin Width: 6 ft 11 In" />
+                    <OverviewList point="Passengers: 14" />
+                    <OverviewList point="Cabin Volume: 1656 cu ft" />
+                    <OverviewList point="Cabin Width: 5 ft 1 In" />
                     <OverviewList point="Exterior Height: 22 ft 2 in" />
-                    <OverviewList point="Internal Baggage: 42 cu ft" />
+                    <OverviewList point="Internal Baggage: 286 cu ft" />
                   </ul>
                 </div>
               </div>
@@ -92,7 +89,9 @@ export default function EmbraerERJ135() {
                 <p className="uppercase">
                   Jet <span className="text-gold">Specification</span>
                 </p>
-                <h1 className="text-4xl leading-tight mb-4">Embraer ERJ 135</h1>
+                <h1 className="text-4xl leading-tight mb-4">
+                  Embraer Legacy 600
+                </h1>
               </div>
               <div className="grid sm:grid-cols-2 lg:grid-cols-3 place-items-center gap-4">
                 <div className="flex flex-col items-center p-10 w-full rounded-lg shadow-md border border-light-purple">
@@ -109,7 +108,7 @@ export default function EmbraerERJ135() {
 
                   <div className="flex flex-col items-center space-y-4 mt-6">
                     <h1 className="text-3xl font-bold">
-                      5.774 <span className="text-sm">ft</span>
+                      5.614 <span className="text-sm">ft</span>
                     </h1>
                     <p className="text-base">Takeoff Distance</p>
                   </div>
@@ -129,7 +128,7 @@ export default function EmbraerERJ135() {
 
                   <div className="flex flex-col items-center space-y-4 mt-6">
                     <h1 className="text-3xl font-bold">
-                      4.462 <span className="text-sm">ft</span>
+                      2.685 <span className="text-sm">ft</span>
                     </h1>
                     <p className="text-base">Landing Distance</p>
                   </div>
@@ -149,7 +148,7 @@ export default function EmbraerERJ135() {
 
                   <div className="flex flex-col items-center space-y-4 mt-6">
                     <h1 className="text-3xl font-bold">
-                      11.321 <span className="text-sm">Lb</span>
+                      18.170 <span className="text-sm">Lb</span>
                     </h1>
                     <p className="text-base">Fuel Capacity</p>
                   </div>
@@ -169,7 +168,7 @@ export default function EmbraerERJ135() {
 
                   <div className="flex flex-col items-center space-y-4 mt-6">
                     <h1 className="text-3xl font-bold">
-                      447 <span className="text-sm">kts</span>
+                      455 <span className="text-sm">kts</span>
                     </h1>
                     <p className="text-base">Max Speed</p>
                   </div>
@@ -189,7 +188,7 @@ export default function EmbraerERJ135() {
 
                   <div className="flex flex-col items-center space-y-4 mt-6">
                     <h1 className="text-3xl font-bold">
-                      2.034 <span className="text-sm">nm</span>
+                      3.400 <span className="text-sm">nm</span>
                     </h1>
                     <p className="text-base">Max Range</p>
                   </div>
@@ -223,7 +222,7 @@ export default function EmbraerERJ135() {
                   Jet <span className="text-gold">Gellery</span>
                 </p>
                 <h1 className="text-4xl font-bold my-4">
-                  Embraer ERJ 135 Photo Gallery
+                  Embraer Legacy 600 Photo Gallery
                 </h1>
               </div>
               <div className="px-32 flex justify-center items-center">
