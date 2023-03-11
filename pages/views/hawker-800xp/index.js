@@ -17,6 +17,12 @@ import Head from "next/head";
 import TravelKitAmenity from "@/pages/components/TravelKitAmenity";
 import Contact from "@/pages/components/Contact";
 import OverviewList from "@/pages/components/OverviewList";
+import Specification from "@/pages/components/Specification";
+import TakeoffIcon from "@/pages/components/icons/TakeoffIcon";
+import LandingIcon from "@/pages/components/icons/LandingIcon";
+import FuelIcon from "@/pages/components/icons/FuelIcon";
+import SpeedIcon from "@/pages/components/icons/SpeedIcon";
+import RangeIcon from "@/pages/components/icons/RangeIcon";
 
 export default function Hawker800XP() {
   return (
@@ -100,123 +106,46 @@ export default function Hawker800XP() {
                 <h1 className="text-4xl leading-tight mb-4">Hawker 800XP</h1>
               </div>
               <div className="grid sm:grid-cols-2 lg:grid-cols-3 place-items-center gap-4">
-                <div className="flex flex-col items-center p-10 w-full rounded-lg shadow-md border border-light-purple">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="w-20 h-20 bg-light-purple rounded-full p-4 my-2 text-gold"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      fill="currentColor"
-                      d="M2.5 19h19v2h-19v-2m19.57-9.36c-.21-.8-1.04-1.28-1.84-1.06L14.92 10L8 3.57l-1.91.51l4.14 7.17l-4.97 1.33l-1.97-1.54l-1.45.39l1.82 3.16l.77 1.33l1.6-.42l5.31-1.43l4.35-1.16L21 11.5c.81-.24 1.28-1.06 1.07-1.86Z"
-                    />
-                  </svg>
+                <Specification
+                  icon={<TakeoffIcon />}
+                  value="5.032"
+                  unit="ft"
+                  title="Takeoff at Sea Level"
+                />
+                <Specification
+                  icon={<TakeoffIcon />}
+                  value="25°C: 7,952"
+                  unit="ft"
+                  title="Takeoff at 5000’"
+                />
 
-                  <div className="flex flex-col items-center space-y-4 mt-6">
-                    <h1 className="text-3xl font-bold">
-                      5,032 <span className="text-sm">feet</span>
-                    </h1>
-                    <p className="text-base">Takeoff at Sea Level</p>
-                  </div>
-                </div>
+                <Specification
+                  icon={<LandingIcon />}
+                  value="41.000"
+                  unit="ft"
+                  title="Landing Distance"
+                />
 
-                <div className="flex flex-col items-center p-10 w-full rounded-lg shadow-md border border-light-purple">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="w-20 h-20 bg-light-purple rounded-full p-4 my-2 text-gold"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      fill="currentColor"
-                      d="M2.5 19h19v2h-19v-2m19.57-9.36c-.21-.8-1.04-1.28-1.84-1.06L14.92 10L8 3.57l-1.91.51l4.14 7.17l-4.97 1.33l-1.97-1.54l-1.45.39l1.82 3.16l.77 1.33l1.6-.42l5.31-1.43l4.35-1.16L21 11.5c.81-.24 1.28-1.06 1.07-1.86Z"
-                    />
-                  </svg>
+                <Specification
+                  icon={<FuelIcon />}
+                  value="250"
+                  unit="gal/h"
+                  title="Fuel Consumption"
+                />
 
-                  <div className="flex flex-col items-center space-y-4 mt-6">
-                    <h1 className="text-3xl font-bold">
-                      25°C: 7,952 <span className="text-sm">feet</span>
-                    </h1>
-                    <p className="text-base">Takeoff at 5000’</p>
-                  </div>
-                </div>
+                <Specification
+                  icon={<SpeedIcon />}
+                  value="447"
+                  unit="kts"
+                  title="High Speed Cruise"
+                />
 
-                <div className="flex flex-col items-center p-10 w-full rounded-lg shadow-md border border-light-purple">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="w-20 h-20 bg-light-purple rounded-full p-4 my-2 text-gold"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      fill="currentColor"
-                      d="M2.5 19h19v2h-19v-2m7.18-5.73l4.35 1.16l5.31 1.42c.8.21 1.62-.26 1.84-1.06c.21-.79-.26-1.62-1.06-1.84l-5.31-1.42l-2.76-9.03l-1.93-.5v8.28L5.15 8.95l-.93-2.32l-1.45-.39v5.17l1.6.43l5.31 1.43Z"
-                    />
-                  </svg>
-
-                  <div className="flex flex-col items-center space-y-4 mt-6">
-                    <h1 className="text-3xl font-bold">
-                      41,000 feet <span className="text-sm">feet</span>
-                    </h1>
-                    <p className="text-base">Landing Distance</p>
-                  </div>
-                </div>
-
-                <div className="flex flex-col items-center p-10 w-full rounded-lg shadow-md border border-light-purple">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="w-20 h-20 bg-light-purple rounded-full p-4 my-2 text-gold"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      fill="currentColor"
-                      d="M3 2h3c.28 0 .53.11.71.29l2.08 2.09l.8-.79C10 3.2 10.5 3 11 3h6c.5 0 1 .2 1.41.59l1 1C19.8 5 20 5.5 20 6v13a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V8c0-.5.2-1 .59-1.41l.79-.8L5.59 4H3V2m8 3v2h6V5h-6m.41 6l-2-2H8v1.41l2 2v3.18l-2 2V19h1.41l2-2h3.18l2 2H18v-1.41l-2-2v-3.18l2-2V9h-1.41l-2 2h-3.18m.59 2h2v2h-2v-2Z"
-                    />
-                  </svg>
-
-                  <div className="flex flex-col items-center space-y-4 mt-6">
-                    <h1 className="text-3xl font-bold">
-                      250 gallons <span className="text-sm">/ Hr</span>
-                    </h1>
-                    <p className="text-base">Fuel Consumption</p>
-                  </div>
-                </div>
-
-                <div className="flex flex-col items-center p-10 w-full rounded-lg shadow-md border border-light-purple">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="w-20 h-20 bg-light-purple rounded-full p-4 my-2 text-gold"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      fill="currentColor"
-                      d="M12 16a3 3 0 0 1-3-3c0-1.12.61-2.1 1.5-2.61l9.71-5.62l-5.53 9.58c-.5.98-1.51 1.65-2.68 1.65m0-13c1.81 0 3.5.5 4.97 1.32l-2.1 1.21C14 5.19 13 5 12 5a8 8 0 0 0-8 8c0 2.21.89 4.21 2.34 5.65h.01c.39.39.39 1.02 0 1.41c-.39.39-1.03.39-1.42.01A9.969 9.969 0 0 1 2 13A10 10 0 0 1 12 3m10 10c0 2.76-1.12 5.26-2.93 7.07c-.39.38-1.02.38-1.41-.01a.996.996 0 0 1 0-1.41A7.95 7.95 0 0 0 20 13c0-1-.19-2-.54-2.9L20.67 8C21.5 9.5 22 11.18 22 13Z"
-                    />
-                  </svg>
-
-                  <div className="flex flex-col items-center space-y-4 mt-6">
-                    <h1 className="text-3xl font-bold">
-                      447 <span className="text-sm">knot</span>
-                    </h1>
-                    <p className="text-base">High Speed Cruise</p>
-                  </div>
-                </div>
-
-                <div className="flex flex-col items-center p-10 w-full rounded-lg shadow-md border border-light-purple">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="w-20 h-20 bg-light-purple rounded-full p-4 my-2 text-gold"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      fill="currentColor"
-                      d="M12 16a3 3 0 0 1-3-3c0-1.12.61-2.1 1.5-2.61l9.71-5.62l-5.53 9.58c-.5.98-1.51 1.65-2.68 1.65m0-13c1.81 0 3.5.5 4.97 1.32l-2.1 1.21C14 5.19 13 5 12 5a8 8 0 0 0-8 8c0 2.21.89 4.21 2.34 5.65h.01c.39.39.39 1.02 0 1.41c-.39.39-1.03.39-1.42.01A9.969 9.969 0 0 1 2 13A10 10 0 0 1 12 3m10 10c0 2.76-1.12 5.26-2.93 7.07c-.39.38-1.02.38-1.41-.01a.996.996 0 0 1 0-1.41A7.95 7.95 0 0 0 20 13c0-1-.19-2-.54-2.9L20.67 8C21.5 9.5 22 11.18 22 13Z"
-                    />
-                  </svg>
-
-                  <div className="flex flex-col items-center space-y-4 mt-6">
-                    <h1 className="text-3xl font-bold">2,540</h1>
-                    <p className="text-base">Range, Four Pax, Nautical Miles</p>
-                  </div>
-                </div>
+                <Specification
+                  icon={<RangeIcon />}
+                  value="2.540"
+                  unit="nm"
+                  title="Range"
+                />
               </div>
             </div>
             {/* Specification List */}

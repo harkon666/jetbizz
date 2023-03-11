@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Header from "../../layouts/Header";
-import Image1 from "../../../public/images/main-banner-min.png";
-import Image2 from "../../../public/images/jets/BAE 146/BAe-146.jpg";
-import Image3 from "../../../public/images/jets/BAE 146/bae_146_200-int-1-1024x679.jpg";
-import Image4 from "../../../public/images/jets/BAE 146/Microsoft-Flight-Simulator-3-3.webp";
+import Hawker1 from "../../../public/images/main-banner-min.png";
+import Hawker2 from "../../../public/images/Jets/Hawker 900XP/download.jpeg";
+import Hawker3 from "../../../public/images/Jets/Hawker 900XP/Hawker-900XP-Ext-JS.webp";
+import Hawker4 from "../../../public/images/Jets/Hawker 900XP/hawker_900xp_aerial_3.jpg";
 
 import Shape from "../../../public/images/service-background-shape.png";
 import Footer from "@/pages/layouts/Footer";
@@ -16,8 +16,16 @@ import { Autoplay, Navigation, Pagination } from "swiper";
 import Head from "next/head";
 import TravelKitAmenity from "@/pages/components/TravelKitAmenity";
 import Contact from "@/pages/components/Contact";
+import OverviewList from "@/pages/components/OverviewList";
+import Specification from "@/pages/components/Specification";
+import TakeoffIcon from "@/pages/components/icons/TakeoffIcon";
+import LandingIcon from "@/pages/components/icons/LandingIcon";
+import FuelIcon from "@/pages/components/icons/FuelIcon";
+import SpeedIcon from "@/pages/components/icons/SpeedIcon";
+import RangeIcon from "@/pages/components/icons/RangeIcon";
+import EngineIcon from "@/pages/components/icons/EngineIcon";
 
-export default function BAE146Series() {
+export default function Hawker900XP() {
   return (
     <>
       <Head>
@@ -33,15 +41,12 @@ export default function BAE146Series() {
         <section>
           <div className="min-h-screen bg-white py-20 text-semi-black">
             <figure className="relative">
-              <Image
-                src={Image2}
-                className="h-[300px] object-cover object-center"
-              />
+              <Image src={Hawker1} />
               <div className="absolute h-full w-full top-0 left-0 bg-gradient-to-r from-slate-700 to-transparent"></div>
 
               <div className="absolute top-0 h-full w-full flex justify-center items-center">
                 <h1 className="text-5xl text-light-gray font-semibold">
-                  BAE 146 Series
+                  Hawker 900XP
                 </h1>
               </div>
             </figure>
@@ -54,93 +59,87 @@ export default function BAE146Series() {
                   className="absolute -top-10 -left-8 z-0 sm:hidden lg:block"
                 />
                 <Image
-                  src={Image3}
+                  src={Hawker4}
                   className="absolute top-0 left-0 z-10 aspect-[1/1] max-w-full max-h-full object-cover object-center rounded-lg shadow-lg"
                 />
               </div>
               <div className="flex flex-col justify-center sm:px-20 lg:px-0">
                 <div className="text-sm font-bold">
-                  <h1 className="text-5xl leading-tight mb-4">
-                    Overview
-                  </h1>
+                  <h1 className="text-4xl leading-tight mb-4">Overview</h1>
                 </div>
                 <div className="space-y-2 mb-4 text-base leading-relaxed tracking-wide">
                   <p>
-                    The British Aerospace 146 is a short-haul and regional
-                    airliner that was manufactured in the United Kingdom by
-                    British Aerospace, later part of BAE Systems. Production ran
-                    from 1983 until 2001. Manufacture by Avro International
-                    Aerospace of an improved version known as the Avro RJ began
-                    in 1992.
+                    The Hawker 900XP is a well-known business jet that is ideal
+                    for mid-range destinations and provides you with a luxury
+                    flight experience in a spacious cabin that fits up to 8
+                    passengers. With a maximum cruise speed of 448 knots and a
+                    range of 2,572 nm you will reach your destination in a
+                    comfortable and economical way.
                   </p>
+                </div>
+                <div>
+                  <ul className="grid lg:grid-cols-2 sm:grid-cols-1 gap-4">
+                    <OverviewList point="Seating: 8 VIP" />
+                    <OverviewList point="Air Crew: 2 cockpit, 1 cabin" />
+                    <OverviewList point="Cabin Volume: 604 cu ft" />
+                    <OverviewList point=" Cabin Width: 6 ft" />
+                    <OverviewList point=" Cabin Length: 21 ft 4 In" />
+                    <OverviewList point="Internal Baggage: 50 cu ft" />
+                  </ul>
                 </div>
               </div>
             </div>
             {/* Overlay */}
 
             {/* Specification List */}
-            <div className="w-full py-20 lg:px-32 sm:px-10 md:px-20">
+            <div className="w-full py-20 lg:px-32 sm:px-10">
               <div className="text-sm font-bold text-center">
                 <p className="uppercase">
                   Jet <span className="text-gold">Specification</span>
                 </p>
-                <h1 className="text-5xl leading-tight mb-4">BAE 146 Series</h1>
+                <h1 className="text-4xl leading-tight mb-4">Hawker 900XP</h1>
               </div>
-              <div>
-                <table className="table border-collapse border border-slate-300 w-full rounded-lg shadow-lg">
-                  <thead>
-                    <tr>
-                      <th className="p-4">#</th>
-                      <th className="p-4">BAE 146-100</th>
-                      <th className="p-4">BAE 146-200</th>
-                      <th className="p-4">BAE 146-300</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr className="border border-slate-300">
-                      <th className="p-3 text-left">Seats</th>
-                      <td className="text-center">70 - 82</td>
-                      <td className="text-center">85 - 100</td>
-                      <td className="text-center">97 - 112</td>
-                    </tr>
-                    <tr className="border border-slate-300">
-                      <th className="p-3 text-left">Cabin</th>
-                      <td colSpan={3} className="text-center">
-                        342m (11.2 ft
-                      </td>
-                    </tr>
-                    <tr className="border border-slate-300">
-                      <th className="p-3 text-left">Fuel</th>
-                      <td colSpan={3} className="text-center">
-                        11.728 L
-                      </td>
-                    </tr>
-                    <tr className="border border-slate-300">
-                      <th className="p-3 text-left">Speed</th>
-                      <td colSpan={3} className="text-center">
-                        Mach 0.739
-                      </td>
-                    </tr>
-                    <tr className="border border-slate-300">
-                      <th className="p-3 text-left">Takeoff SL</th>
-                      <td className="text-center">3921 ft</td>
-                      <td className="text-center">4560 ft</td>
-                      <td className="text-center">5036 ft</td>
-                    </tr>
-                    <tr className="border border-slate-300">
-                      <th className="p-3 text-left">Landing SL</th>
-                      <td className="text-center">3870 ft</td>
-                      <td className="text-center">3900 ft</td>
-                      <td className="text-center">4170 ft</td>
-                    </tr>
-                    <tr className="border border-slate-300">
-                      <th className="p-3 text-left">Fuel Consumption</th>
-                      <td className="text-center">5441 Lb/h</td>
-                      <td className="text-center">5474 Lb/h</td>
-                      <td className="text-center">5549 Lb/h</td>
-                    </tr>
-                  </tbody>
-                </table>
+              <div className="grid sm:grid-cols-2 lg:grid-cols-3 place-items-center gap-4">
+                <Specification
+                  icon={<TakeoffIcon />}
+                  value="4.965"
+                  unit="ft"
+                  title="Takeoff Distance"
+                />
+
+                <Specification
+                  icon={<LandingIcon />}
+                  value="3.805"
+                  unit="ft"
+                  title="Landing Distance"
+                />
+
+                <Specification
+                  icon={<FuelIcon />}
+                  value="10.000"
+                  unit="Lb"
+                  title="Fuel Capacity"
+                />
+
+                <Specification
+                  icon={<SpeedIcon />}
+                  value="452"
+                  unit="kts"
+                  title="Max Speed"
+                />
+
+                <Specification
+                  icon={<RangeIcon />}
+                  value="2.929"
+                  unit="nm"
+                  title="Max Range"
+                />
+
+                <Specification
+                  icon={<EngineIcon />}
+                  value="2"
+                  title="Total Engines"
+                />
               </div>
             </div>
             {/* Specification List */}
@@ -152,7 +151,7 @@ export default function BAE146Series() {
                   Jet <span className="text-gold">Gellery</span>
                 </p>
                 <h1 className="text-4xl font-bold my-4">
-                  Hawker 400XP Photo Gallery
+                  Hawker 900XP Photo Gallery
                 </h1>
               </div>
               <div className="px-32 flex justify-center items-center">
@@ -174,37 +173,37 @@ export default function BAE146Series() {
                 >
                   <SwiperSlide>
                     <Image
-                      src={Image2}
+                      src={Hawker2}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
-                      src={Image3}
+                      src={Hawker3}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
-                      src={Image4}
+                      src={Hawker4}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
-                      src={Image2}
+                      src={Hawker2}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
-                      src={Image3}
+                      src={Hawker3}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
-                      src={Image4}
+                      src={Hawker4}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>

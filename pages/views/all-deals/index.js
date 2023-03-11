@@ -20,6 +20,7 @@ import Hawker900 from "../../../public/images/Jets/Hawker 900XP/Hawker-900XP-Ext
 import BAE146 from "../../../public/images/Jets/BAE 146/BAe-146.jpg";
 import BeechcraftKingAir200 from "../../../public/images/Jets/Beechcraft King Air 200/1979-Beechcraft-King-Air-200-01.jpg";
 import BeechcraftKingAir350 from "../../../public/images/Jets/Beechcraft King Air 350/Beechcraft-King-Air-350i-1090x500.jpg";
+import Beechcraft1900D from "../../../public/images/Jets/Beechcraft 1900D/1574693448.jpg";
 import Beechjet400A from "../../../public/images/Jets/Beechjet 400a/Hawker-Beechcraft-Beechjet-400A.jpg";
 import CesnaCitationXLS from "../../../public/images/Jets/Cessna Citation XLS/Citation_XLS_Ext3-3-1024x723.jpg";
 import EmbraerERJ135 from "../../../public/images/Jets/Embraer ERJ 135/Embraer-ERJ-135BJ-Legacy-650-1.jpg";
@@ -204,23 +205,23 @@ export default function AddDeals() {
               </div>
 
               <div>
-                <div className="grid lg:grid-cols-4 sm:grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="grid lg:grid-cols-4 sm:grid-cols-2 gap-6">
                   <CardImage
                     src={Hawker400}
                     product="Hawker 400XP"
-                    capacity="4-8 Seats"
+                    capacity="6 Seats"
                     href="./hawker-400xp"
                   />
                   <CardImage
                     src={Hawker800}
                     product="Hawker 800XP"
-                    capacity="4-8 Seats"
+                    capacity="8 Seats"
                     href="./hawker-800xp"
                   />
                   <CardImage
                     src={Hawker900}
                     product="Hawker 900XP"
-                    capacity="4-8 Seats"
+                    capacity="8 Seats"
                     href="./hawker-900xp"
                   />
                   <CardImage
@@ -232,14 +233,20 @@ export default function AddDeals() {
                   <CardImage
                     src={BeechcraftKingAir200}
                     product="Beechcraft King Air 200"
-                    capacity="4-8 Seats"
+                    capacity="6 Seats"
                     href="./beechcraft-king-air-200"
                   />
                   <CardImage
                     src={BeechcraftKingAir350}
                     product="Beechcraft King Air 350"
-                    capacity="4-8 Seats"
+                    capacity="9-11 Seats"
                     href="./beechcraft-king-air-350"
+                  />
+                  <CardImage
+                    src={Beechcraft1900D}
+                    product="Beechcraft 1900D"
+                    capacity="19"
+                    href="./beechcraft-1900-d"
                   />
                   <CardImage
                     src={Beechjet400A}
@@ -250,159 +257,159 @@ export default function AddDeals() {
                   <CardImage
                     src={CesnaCitationXLS}
                     product="Cessna Citation XLS"
-                    capacity="4-8 Seats"
+                    capacity="9 Seats"
                     href="./cessna-citation-xls"
                   />
                   <CardImage
                     src={EmbraerERJ135}
                     product="Embraer ERJ 135"
-                    capacity="4-8 Seats"
+                    capacity="16 Seats"
                     href="./embraer-erj-135"
                   />
                   <CardImage
                     src={EmbraerPhenom300}
                     product="Embraer Phenom 300"
-                    capacity="4-8 Seats"
+                    capacity="7 Seats"
                     href="./embraer-phenom-300"
                   />
                   <CardImage
                     src={EmbraerLegacy600}
                     product="Embraer Legacy 600"
-                    capacity="4-8 Seats"
+                    capacity="14 Seats"
                     href="./embraer-legacy-600"
                   />
                   <CardImage
                     src={Fokker50}
                     product="Fokker 50"
-                    capacity="4-8 Seats"
+                    capacity="46 Seats"
                     href="./fokker-50"
                   />
                   <CardImage
                     src={Fokker70}
                     product="Fokker 70"
-                    capacity="4-8 Seats"
+                    capacity="85 Seats"
                     href="./fokker-70"
                   />
                   <CardImage
                     src={Fokker100}
                     product="Fokker 100"
-                    capacity="4-8 Seats"
+                    capacity="107 Seats"
                     href="./fokker-100"
                   />
                   <CardImage
                     src={GulfstreamIVSP}
                     product="Gulfstream IV SP"
-                    capacity="4-8 Seats"
+                    capacity="14 Seats"
                     href="./gulfstream-iv-sp"
                   />
                   <CardImage
                     src={Gulfstream550}
                     product="Gulfstream 550"
-                    capacity="4-8 Seats"
+                    capacity="19 Seats"
                     href="./gulfstream-550"
                   />
                   <CardImage
                     src={Learjet31A}
                     product="Learjet 31 A"
-                    capacity="4-8 Seats"
+                    capacity="6 Seats"
                     href="./learjet-31a"
                   />
                 </div>
-              </div>
-            </div>
 
-            <div className="mx-32 my-20">
-              <div className="font-bold text-semi-black mb-10">
-                <p className="uppercase">
-                  Our <span className="text-gold">Luxury</span> Helicopters
-                </p>
-                <h2 className="text-2xl w-2/3">From 5 up to 15 seater</h2>
-                <p>
-                  executive helicopters with luxurious seating configuration and
-                  in-flight facilities.
-                </p>
-              </div>
+                <div className="my-20">
+                  <div className="font-bold text-semi-black mb-10">
+                    <p className="uppercase">
+                      Our <span className="text-gold">Luxury</span> Helicopters
+                    </p>
+                    <h2 className="text-2xl w-2/3">From 5 up to 15 seater</h2>
+                    <p>
+                      executive helicopters with luxurious seating configuration
+                      and in-flight facilities.
+                    </p>
+                  </div>
 
-              <div>
-                <div className="grid lg:grid-cols-4 sm:grid-cols-1 md:grid-cols-2 gap-6">
-                  <CardImage
-                    src={AirbusHelicopterEC}
-                    product="Airbus Helicopter EC"
-                    capacity="4-8 Seats"
-                    href="./airbus-helicopter-ec"
-                  />
-                  <CardImage
-                    src={Bell206L4}
-                    product="Bell 206 L-4"
-                    capacity="4-8 Seats"
-                    href="./bell-206-l-4"
-                  />
-                  <CardImage
-                    src={Bell407}
-                    product="Bell 407"
-                    capacity="4-8 Seats"
-                    href="./bell-407"
-                  />
-                  <CardImage
-                    src={Bell412}
-                    product="Bell 412"
-                    capacity="4-8 Seats"
-                    href="./bell-412"
-                  />
-                  <CardImage
-                    src={Bell429}
-                    product="Bell 429"
-                    capacity="4-8 Seats"
-                    href="./bell-429"
-                  />
-                  <CardImage
-                    src={BK117A4}
-                    product="BK 117A-4"
-                    capacity="4-8 Seats"
-                    href="./bk-117a-4"
-                  />
-                  <CardImage
-                    src={EurocopterAS530B3}
-                    product="Eurocopter AS350-B3"
-                    capacity="4-8 Seats"
-                    href="./eurocopter-as350-b3"
-                  />
-                  <CardImage
-                    src={EurocopterB155b1}
-                    product="Eurocopter B155-B1"
-                    capacity="4-8 Seats"
-                    href="./eurocopter-b155-b1"
-                  />
-                  <CardImage
-                    src={KamovKA32A}
-                    product="Kamov KA-32A"
-                    capacity="4-8 Seats"
-                    href="./kamov-ka-32a"
-                  />
-                  <CardImage
-                    src={Mi171}
-                    product="MI 171"
-                    capacity="4-8 Seats"
-                    href="./mi-171"
-                  />
-                  <CardImage
-                    src={Mi8}
-                    product="MI 8"
-                    capacity="4-8 Seats"
-                    href="./mi-8"
-                  />
-                  <CardImage
-                    src={Mi26}
-                    product="MI 26"
-                    capacity="4-8 Seats"
-                    href="./mi-26"
-                  />
-                  <CardImage
-                    src={SuperPuma}
-                    product="Super Puma"
-                    capacity="4-8 Seats"
-                    href="./super-puma"
-                  />
+                  <div>
+                    <div className="grid lg:grid-cols-4 sm:grid-cols-2 gap-6">
+                      <CardImage
+                        src={AirbusHelicopterEC}
+                        product="Airbus Helicopter EC"
+                        capacity="4-8 Seats"
+                        href="./airbus-helicopter-ec"
+                      />
+                      <CardImage
+                        src={Bell206L4}
+                        product="Bell 206 L-4"
+                        capacity="4-8 Seats"
+                        href="./bell-206-l-4"
+                      />
+                      <CardImage
+                        src={Bell407}
+                        product="Bell 407"
+                        capacity="4-8 Seats"
+                        href="./bell-407"
+                      />
+                      <CardImage
+                        src={Bell412}
+                        product="Bell 412"
+                        capacity="4-8 Seats"
+                        href="./bell-412"
+                      />
+                      <CardImage
+                        src={Bell429}
+                        product="Bell 429"
+                        capacity="4-8 Seats"
+                        href="./bell-429"
+                      />
+                      <CardImage
+                        src={BK117A4}
+                        product="BK 117A-4"
+                        capacity="4-8 Seats"
+                        href="./bk-117a-4"
+                      />
+                      <CardImage
+                        src={EurocopterAS530B3}
+                        product="Eurocopter AS350-B3"
+                        capacity="4-8 Seats"
+                        href="./eurocopter-as350-b3"
+                      />
+                      <CardImage
+                        src={EurocopterB155b1}
+                        product="Eurocopter B155-B1"
+                        capacity="4-8 Seats"
+                        href="./eurocopter-b155-b1"
+                      />
+                      <CardImage
+                        src={KamovKA32A}
+                        product="Kamov KA-32A"
+                        capacity="4-8 Seats"
+                        href="./kamov-ka-32a"
+                      />
+                      <CardImage
+                        src={Mi171}
+                        product="MI 171"
+                        capacity="4-8 Seats"
+                        href="./mi-171"
+                      />
+                      <CardImage
+                        src={Mi8}
+                        product="MI 8"
+                        capacity="4-8 Seats"
+                        href="./mi-8"
+                      />
+                      <CardImage
+                        src={Mi26}
+                        product="MI 26"
+                        capacity="4-8 Seats"
+                        href="./mi-26"
+                      />
+                      <CardImage
+                        src={SuperPuma}
+                        product="Super Puma"
+                        capacity="4-8 Seats"
+                        href="./super-puma"
+                      />
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
