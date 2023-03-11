@@ -333,43 +333,43 @@ export default function AddDeals() {
                       <CardImage
                         src={AirbusHelicopterEC}
                         product="Airbus Helicopter EC"
-                        capacity="4-8 Seats"
+                        capacity="8 Seats"
                         href="./airbus-helicopter-ec"
                       />
                       <CardImage
                         src={Bell206L4}
                         product="Bell 206 L-4"
-                        capacity="4-8 Seats"
+                        capacity="4 Seats"
                         href="./bell-206-l-4"
                       />
                       <CardImage
                         src={Bell407}
                         product="Bell 407"
-                        capacity="4-8 Seats"
+                        capacity="5 Seats"
                         href="./bell-407"
                       />
                       <CardImage
                         src={Bell412}
                         product="Bell 412"
-                        capacity="4-8 Seats"
+                        capacity="6 Seats"
                         href="./bell-412"
                       />
                       <CardImage
                         src={Bell429}
                         product="Bell 429"
-                        capacity="4-8 Seats"
+                        capacity="5 Seats"
                         href="./bell-429"
                       />
                       <CardImage
                         src={BK117A4}
                         product="BK 117A-4"
-                        capacity="4-8 Seats"
+                        capacity="up to 10 Seats"
                         href="./bk-117a-4"
                       />
                       <CardImage
                         src={EurocopterAS530B3}
                         product="Eurocopter AS350-B3"
-                        capacity="4-8 Seats"
+                        capacity="4 Seats"
                         href="./eurocopter-as350-b3"
                       />
                       <CardImage
@@ -381,7 +381,7 @@ export default function AddDeals() {
                       <CardImage
                         src={KamovKA32A}
                         product="Kamov KA-32A"
-                        capacity="4-8 Seats"
+                        capacity="13 Seats"
                         href="./kamov-ka-32a"
                       />
                       <CardImage
@@ -405,7 +405,7 @@ export default function AddDeals() {
                       <CardImage
                         src={SuperPuma}
                         product="Super Puma"
-                        capacity="4-8 Seats"
+                        capacity="20-24 Seats"
                         href="./super-puma"
                       />
                     </div>

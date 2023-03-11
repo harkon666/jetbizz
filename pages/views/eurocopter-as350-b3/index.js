@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Header from "../../layouts/Header";
 
-import Image1 from "../../../public/images/Helicopters/BELL 407/bell407.jpg";
-import Image2 from "../../../public/images/Helicopters/Bell 407/helicopter-bell_407-1024x768.jpg";
-import Image3 from "../../../public/images/Helicopters/Bell 407/hillsboro-aviation-executive-charter-b407-cabin-detail-small-web-1200x800.jpg";
+import Image1 from "../../../public/images/Helicopters/Eurocopter AS350B-3/561858f6f1f111cc50bd394ed422f876.webp";
+import Image2 from "../../../public/images/Helicopters/Eurocopter AS350B-3/AS350B3+-Squirrel-EN.jpg";
+import Image3 from "../../../public/images/Helicopters/Eurocopter AS350B-3/Javaheli-AS350-B3-interior-helicoptercharterjakartaindonesia-javaheli-min-1024x768.jpg";
 
 import Shape from "../../../public/images/service-background-shape.png";
 import Footer from "@/pages/layouts/Footer";
@@ -25,7 +25,7 @@ import SpeedIcon from "@/pages/components/icons/SpeedIcon";
 import RangeIcon from "@/pages/components/icons/RangeIcon";
 import EngineIcon from "@/pages/components/icons/EngineIcon";
 
-export default function Bell407() {
+export default function AS350B3() {
   return (
     <>
       <Head>
@@ -49,7 +49,7 @@ export default function Bell407() {
 
               <div className="absolute top-0 h-full w-full flex justify-center items-center">
                 <h1 className="text-5xl text-light-gray font-semibold">
-                  Bell 407
+                  Eurocopter AS350B-3
                 </h1>
               </div>
             </figure>
@@ -72,22 +72,20 @@ export default function Bell407() {
                 </div>
                 <div className="space-y-2 mb-4 text-base leading-relaxed tracking-wide">
                   <p>
-                    The Bell 407 is a four-blade, single-engine, civil utility
-                    helicopter. A derivative of the Bell 206L-4 LongRanger, the
-                    407 uses the four-blade, soft-in-plane design rotor with
-                    composite hub developed for the United States Army's OH-58D
-                    Kiowa Warrior instead of the two-blade, semi-rigid,
-                    teetering rotor of the 206L-4.
+                    The Eurocopter EC135 is a twin-engine civil light utility
+                    helicopter produced by Airbus Helicopters. It is capable of
+                    flight under instrument flight rules and is outfitted with a
+                    digital automatic flight control system.
                   </p>
                 </div>
                 <div>
-                  <ul className="grid lg:grid-cols-2 sm:grid-cols-1 space-y-4">
+                  <ul className="grid lg:grid-cols-2 sm:grid-cols-1 gap-4">
                     <OverviewList point="Crew: 1" />
-                    <OverviewList point="Passengers: 5" />
-                    <OverviewList point="Cabin Volume: 84 cu ft" />
-                    <OverviewList point="Exterior Height: 11 ft 8 in" />
-                    <OverviewList point="External Baggage: 20 cu ft" />
-                    <OverviewList point="Internal Baggage: 3 cu ft" />
+                    <OverviewList point="Passengers: 4" />
+                    <OverviewList point="Cabin Volume: 61 cu ft" />
+                    <OverviewList point="Exterior Height: 10 ft 4 in" />
+                    <OverviewList point="Wing Span: 35 ft 1 in" />
+                    <OverviewList point="External Baggage: 35 cu ft" />
                   </ul>
                 </div>
               </div>
@@ -99,35 +97,37 @@ export default function Bell407() {
                 <p className="uppercase">
                   Heli <span className="text-gold">Specification</span>
                 </p>
-                <h1 className="text-4xl leading-tight mb-4">Bell 206 L-4</h1>
+                <h1 className="text-4xl leading-tight mb-4">
+                  Eurocopter AS350B-3
+                </h1>
               </div>
               <div className="grid sm:grid-cols-2 lg:grid-cols-3 place-items-center gap-4">
                 <Specification
                   icon={<FuelIcon />}
-                  value="856"
+                  value="939"
                   unit="Lb"
                   title="Fuel Capacity"
                 />
 
                 <Specification
                   icon={<SpeedIcon />}
-                  value="140"
+                  value="137"
                   unit="kts"
                   title="Max Speed"
                 />
 
                 <Specification
                   icon={<RangeIcon />}
-                  value="18.690"
-                  unit="ft"
-                  title="Service Ceiling"
+                  value="357"
+                  unit="nm"
+                  title="Max Range"
                 />
 
                 <Specification
                   icon={<EngineIcon />}
                   value="1"
                   unit=""
-                  title="Total Engines"
+                  title="Total Engine"
                 />
               </div>
             </div>
@@ -139,7 +139,7 @@ export default function Bell407() {
                   Jet <span className="text-gold">Gellery</span>
                 </p>
                 <h1 className="text-4xl font-bold my-4">
-                  Bell 407 Photo Gallery
+                  Eurocopter AS350B-3 Photo Gallery
                 </h1>
               </div>
               <div className="px-32 flex justify-center items-center">

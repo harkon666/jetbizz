@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Header from "../../layouts/Header";
 
-import Image1 from "../../../public/images/Helicopters/BELL 407/bell407.jpg";
-import Image2 from "../../../public/images/Helicopters/Bell 407/helicopter-bell_407-1024x768.jpg";
-import Image3 from "../../../public/images/Helicopters/Bell 407/hillsboro-aviation-executive-charter-b407-cabin-detail-small-web-1200x800.jpg";
+import Image1 from "../../../public/images/Helicopters/Super Puma/0dbcffc0d40410d5a3be8b1a7c7eea25e8cb01c8-tc-img-preview.jpg";
+import Image2 from "../../../public/images/Helicopters/Super Puma/1154833.jpg";
+import Image3 from "../../../public/images/Helicopters/Super Puma/superpuma-4.jpg";
 
 import Shape from "../../../public/images/service-background-shape.png";
 import Footer from "@/pages/layouts/Footer";
@@ -25,7 +25,7 @@ import SpeedIcon from "@/pages/components/icons/SpeedIcon";
 import RangeIcon from "@/pages/components/icons/RangeIcon";
 import EngineIcon from "@/pages/components/icons/EngineIcon";
 
-export default function Bell407() {
+export default function SuperPuma() {
   return (
     <>
       <Head>
@@ -42,14 +42,14 @@ export default function Bell407() {
           <div className="min-h-screen bg-white py-20 text-semi-black">
             <figure className="relative">
               <Image
-                src={Image1}
+                src={Image2}
                 className="h-[300px] w-full object-cover object-center"
               />
               <div className="absolute h-full w-full top-0 left-0 bg-gradient-to-r from-slate-700 to-transparent"></div>
 
               <div className="absolute top-0 h-full w-full flex justify-center items-center">
                 <h1 className="text-5xl text-light-gray font-semibold">
-                  Bell 407
+                  Super Puma
                 </h1>
               </div>
             </figure>
@@ -72,22 +72,21 @@ export default function Bell407() {
                 </div>
                 <div className="space-y-2 mb-4 text-base leading-relaxed tracking-wide">
                   <p>
-                    The Bell 407 is a four-blade, single-engine, civil utility
-                    helicopter. A derivative of the Bell 206L-4 LongRanger, the
-                    407 uses the four-blade, soft-in-plane design rotor with
-                    composite hub developed for the United States Army's OH-58D
-                    Kiowa Warrior instead of the two-blade, semi-rigid,
-                    teetering rotor of the 206L-4.
+                    The Airbus Helicopters H215 is a four-bladed, twin-engine,
+                    medium-size utility helicopter developed and initially
+                    produced by the French aerospace company Aérospatiale. It
+                    has been subsequently manufactured by the successor
+                    companies Eurocopter and Airbus Helicopters.
                   </p>
                 </div>
                 <div>
-                  <ul className="grid lg:grid-cols-2 sm:grid-cols-1 space-y-4">
-                    <OverviewList point="Crew: 1" />
-                    <OverviewList point="Passengers: 5" />
-                    <OverviewList point="Cabin Volume: 84 cu ft" />
-                    <OverviewList point="Exterior Height: 11 ft 8 in" />
-                    <OverviewList point="External Baggage: 20 cu ft" />
-                    <OverviewList point="Internal Baggage: 3 cu ft" />
+                  <ul className="grid lg:grid-cols-2 sm:grid-cols-1 gap-4">
+                    <OverviewList point="Crew: 1-2" />
+                    <OverviewList point="Passengers: 20-24" />
+                    <OverviewList point="Cabin Volume: 547 cu ft" />
+                    <OverviewList point="Cabin Width: 5 ft 11 In" />
+                    <OverviewList point="Cabin Height: 4 ft 9 In" />
+                    <OverviewList point="Cabin Length: 25 ft 10 In" />
                   </ul>
                 </div>
               </div>
@@ -99,33 +98,33 @@ export default function Bell407() {
                 <p className="uppercase">
                   Heli <span className="text-gold">Specification</span>
                 </p>
-                <h1 className="text-4xl leading-tight mb-4">Bell 206 L-4</h1>
+                <h1 className="text-4xl leading-tight mb-4">Super Puma</h1>
               </div>
               <div className="grid sm:grid-cols-2 lg:grid-cols-3 place-items-center gap-4">
                 <Specification
                   icon={<FuelIcon />}
-                  value="856"
+                  value="4.506"
                   unit="Lb"
                   title="Fuel Capacity"
                 />
 
                 <Specification
                   icon={<SpeedIcon />}
-                  value="140"
+                  value="175"
                   unit="kts"
                   title="Max Speed"
                 />
 
                 <Specification
                   icon={<RangeIcon />}
-                  value="18.690"
-                  unit="ft"
-                  title="Service Ceiling"
+                  value="604"
+                  unit="nm"
+                  title="Max Range"
                 />
 
                 <Specification
                   icon={<EngineIcon />}
-                  value="1"
+                  value="2"
                   unit=""
                   title="Total Engines"
                 />
@@ -139,7 +138,7 @@ export default function Bell407() {
                   Jet <span className="text-gold">Gellery</span>
                 </p>
                 <h1 className="text-4xl font-bold my-4">
-                  Bell 407 Photo Gallery
+                  Super Puma Photo Gallery
                 </h1>
               </div>
               <div className="px-32 flex justify-center items-center">

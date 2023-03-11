@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Header from "../../layouts/Header";
 
-import Bell1 from "../../../public/images/Helicopters/BELL 412/412-VIP-seats-cabin.jpg";
-import Bell2 from "../../../public/images/Helicopters/BELL 412/Bell-412EP-e1427082029160-1200x718.jpg";
-import Bell3 from "../../../public/images/Helicopters/BELL 412/LAFD_Bell_412_(cropped).jpg";
+import Image1 from "../../../public/images/Helicopters/Bell 412/412-VIP-seats-cabin.jpg";
+import Image2 from "../../../public/images/Helicopters/Bell 412/Bell-412EP-e1427082029160-1200x718.jpg";
+import Image3 from "../../../public/images/Helicopters/Bell 412/LAFD_Bell_412_(cropped).jpg";
 
 import Shape from "../../../public/images/service-background-shape.png";
 import Footer from "@/pages/layouts/Footer";
@@ -16,6 +16,14 @@ import { Autoplay, Navigation, Pagination } from "swiper";
 import Head from "next/head";
 import TravelKitAmenity from "@/pages/components/TravelKitAmenity";
 import Contact from "@/pages/components/Contact";
+import OverviewList from "@/pages/components/OverviewList";
+import Specification from "@/pages/components/Specification";
+import TakeoffIcon from "@/pages/components/icons/TakeoffIcon";
+import LandingIcon from "@/pages/components/icons/LandingIcon";
+import FuelIcon from "@/pages/components/icons/FuelIcon";
+import SpeedIcon from "@/pages/components/icons/SpeedIcon";
+import RangeIcon from "@/pages/components/icons/RangeIcon";
+import EngineIcon from "@/pages/components/icons/EngineIcon";
 
 export default function Bell412() {
   return (
@@ -34,7 +42,7 @@ export default function Bell412() {
           <div className="min-h-screen bg-white py-20 text-semi-black">
             <figure className="relative">
               <Image
-                src={Bell2}
+                src={Image2}
                 className="h-[300px] w-full object-cover object-center"
               />
               <div className="absolute h-full w-full top-0 left-0 bg-gradient-to-r from-slate-700 to-transparent"></div>
@@ -54,113 +62,73 @@ export default function Bell412() {
                   className="absolute -top-10 -left-8 z-0 sm:hidden lg:block"
                 />
                 <Image
-                  src={Bell1}
+                  src={Image3}
                   className="absolute top-0 left-0 z-10 aspect-[1/1] max-w-full max-h-full object-cover object-center rounded-lg shadow-lg"
                 />
               </div>
               <div className="flex flex-col justify-center sm:px-20 lg:px-0">
                 <div className="text-sm font-bold">
-                  <p className="uppercase">
-                    Jet <span className="text-gold">Specification</span>
-                  </p>
-                  <h1 className="text-5xl leading-tight mb-4">Bell 412</h1>
+                  <h1 className="text-4xl leading-tight mb-4">Overview</h1>
                 </div>
                 <div className="space-y-2 mb-4 text-base leading-relaxed tracking-wide">
                   <p>
-                    Ut non augue egestas, commodo velit eget, vestibulum tellus.
-                    Curabitur vulputate justo elit, at elementum orci pulvinar
-                    vel.
-                  </p>
-                  <p>
-                    The development of center-aisle cabin business jets was
-                    accelerated by an August 1956 United States Air Force (USAF)
-                    letter of the requirement for two "off-the-shelf" aircraft:
-                    the larger UCX (cargo) and smaller UTX (trainer). These
-                    requirements differed from standard Air Force.
+                    The Bell 412 is a utility helicopter of the Huey family
+                    manufactured by Bell Helicopter. It is a development of the
+                    Bell 212, with the major difference being the composite
+                    four-blade main rotor.
                   </p>
                 </div>
                 <div>
                   <ul className="grid lg:grid-cols-2 sm:grid-cols-1 space-y-4">
-                    <li className="flex justify-start items-start space-x-2">
-                      <div>
-                        <svg
-                          className="bg-gold rounded-full h-6 w-6 text-light-gray"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        >
-                          {" "}
-                          <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />{" "}
-                          <polyline points="22 4 12 14.01 9 11.01" />
-                        </svg>
-                      </div>
-                      <div>Seating: 4 Pax</div>
-                    </li>
-                    <li className="flex justify-start items-start space-x-2">
-                      <div>
-                        <svg
-                          className="bg-gold rounded-full h-6 w-6 text-light-gray"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        >
-                          {" "}
-                          <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />{" "}
-                          <polyline points="22 4 12 14.01 9 11.01" />
-                        </svg>
-                      </div>
-                      <div>Cruise Speed: 226 km/h</div>
-                    </li>
-                    <li className="flex justify-start items-start space-x-2">
-                      <div>
-                        <svg
-                          className="bg-gold rounded-full h-6 w-6 text-light-gray"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        >
-                          {" "}
-                          <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />{" "}
-                          <polyline points="22 4 12 14.01 9 11.01" />
-                        </svg>
-                      </div>
-                      <div>
-                        Flight: Max. Range : 662 km Max. Flight Time : 3.8 hours
-                        Base : HLP
-                      </div>
-                    </li>
-                    <li className="flex justify-start items-start space-x-2">
-                      <div>
-                        <svg
-                          className="bg-gold rounded-full h-6 w-6 text-light-gray"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        >
-                          {" "}
-                          <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />{" "}
-                          <polyline points="22 4 12 14.01 9 11.01" />
-                        </svg>
-                      </div>
-                      <div>Cabin & Baggage Vol: 6.2 m3 | 0.8 m3</div>
-                    </li>
+                    <OverviewList point="Crew: 2" />
+                    <OverviewList point="Passengers: 6" />
+                    <OverviewList point="Cabin Volume: 208 cu ft" />
+                    <OverviewList point="Cabin Width: 8 ft" />
+                    <OverviewList point="Cabin Height: 4 ft 35 In" />
+                    <OverviewList point="Internal Baggage: 40 cu ft" />
                   </ul>
                 </div>
               </div>
             </div>
             {/* Overlay */}
+
+            <div className="w-full py-20 lg:px-32 sm:px-10">
+              <div className="text-sm font-bold text-center">
+                <p className="uppercase">
+                  Heli <span className="text-gold">Specification</span>
+                </p>
+                <h1 className="text-4xl leading-tight mb-4">Bell 206 L-4</h1>
+              </div>
+              <div className="grid sm:grid-cols-2 lg:grid-cols-3 place-items-center gap-4">
+                <Specification
+                  icon={<FuelIcon />}
+                  value="2.214"
+                  unit="Lb"
+                  title="Fuel Capacity"
+                />
+
+                <Specification
+                  icon={<SpeedIcon />}
+                  value="124"
+                  unit="kts"
+                  title="Max Speed"
+                />
+
+                <Specification
+                  icon={<RangeIcon />}
+                  value="312"
+                  unit="nm"
+                  title="VFR Max Range"
+                />
+
+                <Specification
+                  icon={<EngineIcon />}
+                  value="2"
+                  unit=""
+                  title="Total Engines"
+                />
+              </div>
+            </div>
 
             {/* Jet Gallery */}
             <div className="w-full bg-light-gray py-20">
@@ -191,37 +159,37 @@ export default function Bell412() {
                 >
                   <SwiperSlide>
                     <Image
-                      src={Bell1}
+                      src={Image1}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
-                      src={Bell2}
+                      src={Image2}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
-                      src={Bell3}
+                      src={Image3}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
-                      src={Bell1}
+                      src={Image1}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
-                      src={Bell2}
+                      src={Image2}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
-                      src={Bell3}
+                      src={Image3}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>

@@ -1,10 +1,9 @@
 import Image from "next/image";
 import Header from "../../layouts/Header";
 
-import Image1 from "../../../public/images/Helicopters/BELL 407/bell407.jpg";
-import Image2 from "../../../public/images/Helicopters/Bell 407/helicopter-bell_407-1024x768.jpg";
-import Image3 from "../../../public/images/Helicopters/Bell 407/hillsboro-aviation-executive-charter-b407-cabin-detail-small-web-1200x800.jpg";
-
+import Image1 from "../../../public/images/Helicopters/Kamov KA-32A/32-02-department-of-disaster-prevention-and-mitigation-thailand-kamov-ka-32_PlanespottersNet_1170893_83388d51d5_o.jpg";
+import Image2 from "../../../public/images/Helicopters/Kamov KA-32A/95e8d6de6e842c7859e01faf026c477a_900.jpg";
+import Image3 from "../../../public/images/Helicopters/Kamov KA-32A/ka_32civil_7.jpg";
 import Shape from "../../../public/images/service-background-shape.png";
 import Footer from "@/pages/layouts/Footer";
 
@@ -25,7 +24,7 @@ import SpeedIcon from "@/pages/components/icons/SpeedIcon";
 import RangeIcon from "@/pages/components/icons/RangeIcon";
 import EngineIcon from "@/pages/components/icons/EngineIcon";
 
-export default function Bell407() {
+export default function AirbusHelicopterEC() {
   return (
     <>
       <Head>
@@ -49,7 +48,7 @@ export default function Bell407() {
 
               <div className="absolute top-0 h-full w-full flex justify-center items-center">
                 <h1 className="text-5xl text-light-gray font-semibold">
-                  Bell 407
+                  Kamov KA-32A
                 </h1>
               </div>
             </figure>
@@ -72,22 +71,26 @@ export default function Bell407() {
                 </div>
                 <div className="space-y-2 mb-4 text-base leading-relaxed tracking-wide">
                   <p>
-                    The Bell 407 is a four-blade, single-engine, civil utility
-                    helicopter. A derivative of the Bell 206L-4 LongRanger, the
-                    407 uses the four-blade, soft-in-plane design rotor with
-                    composite hub developed for the United States Army's OH-58D
-                    Kiowa Warrior instead of the two-blade, semi-rigid,
-                    teetering rotor of the 206L-4.
+                    The helicopter is designed for special search and rescue
+                    operations, building tall structures, transporting cargo
+                    internally and on an external sling, logging, medevac and
+                    complex fire-fighting missions, as well as on patrol and to
+                    support during law enforcement operations. The Ka-32A11BC
+                    can operate efficiently in dense urban areas, difficult to
+                    access mountainous and forested regions, and can also land
+                    on small vessels, drilling platforms, and on un-prepared,
+                    hard to access sites. Operated by a single pilot, the cabin
+                    can be fitted with additional task-specific equipment.
                   </p>
                 </div>
                 <div>
-                  <ul className="grid lg:grid-cols-2 sm:grid-cols-1 space-y-4">
-                    <OverviewList point="Crew: 1" />
-                    <OverviewList point="Passengers: 5" />
-                    <OverviewList point="Cabin Volume: 84 cu ft" />
-                    <OverviewList point="Exterior Height: 11 ft 8 in" />
-                    <OverviewList point="External Baggage: 20 cu ft" />
-                    <OverviewList point="Internal Baggage: 3 cu ft" />
+                  <ul className="grid lg:grid-cols-2 sm:grid-cols-1 gap-4">
+                    <OverviewList point="Crew: 2" />
+                    <OverviewList point="Passengers: 13" />
+                    <OverviewList point="Cabin Height: 4 ft" />
+                    <OverviewList point="Cabin Width: 4 ft 3 In" />
+                    <OverviewList point="Cabin Length: 14 ft 10 In" />
+                    <OverviewList point="Internal Baggage: 257 cu ft" />
                   </ul>
                 </div>
               </div>
@@ -99,13 +102,13 @@ export default function Bell407() {
                 <p className="uppercase">
                   Heli <span className="text-gold">Specification</span>
                 </p>
-                <h1 className="text-4xl leading-tight mb-4">Bell 206 L-4</h1>
+                <h1 className="text-4xl leading-tight mb-4">Kamov KA-32A</h1>
               </div>
               <div className="grid sm:grid-cols-2 lg:grid-cols-3 place-items-center gap-4">
                 <Specification
                   icon={<FuelIcon />}
-                  value="856"
-                  unit="Lb"
+                  value="647"
+                  unit="gal Lb"
                   title="Fuel Capacity"
                 />
 
@@ -118,14 +121,14 @@ export default function Bell407() {
 
                 <Specification
                   icon={<RangeIcon />}
-                  value="18.690"
-                  unit="ft"
-                  title="Service Ceiling"
+                  value="351"
+                  unit="nm"
+                  title="Max Range"
                 />
 
                 <Specification
                   icon={<EngineIcon />}
-                  value="1"
+                  value="2"
                   unit=""
                   title="Total Engines"
                 />
@@ -139,7 +142,7 @@ export default function Bell407() {
                   Jet <span className="text-gold">Gellery</span>
                 </p>
                 <h1 className="text-4xl font-bold my-4">
-                  Bell 407 Photo Gallery
+                  Kamov KA-32A Photo Gallery
                 </h1>
               </div>
               <div className="px-32 flex justify-center items-center">

@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Header from "../../layouts/Header";
 
-import Image1 from "../../../public/images/Helicopters/BELL 407/bell407.jpg";
-import Image2 from "../../../public/images/Helicopters/Bell 407/helicopter-bell_407-1024x768.jpg";
-import Image3 from "../../../public/images/Helicopters/Bell 407/hillsboro-aviation-executive-charter-b407-cabin-detail-small-web-1200x800.jpg";
+import Image1 from "../../../public/images/Helicopters/BELL 206 L 4/18012016-29.jpg";
+import Image2 from "../../../public/images/Helicopters/Bell 206 L 4/18012016-57.jpg";
+import Image3 from "../../../public/images/Helicopters/Bell 206 L 4/iyNL4qS0mFRlBjcQMOgJHKU3Y6nMUmdr4gG8r9kfYv2aa.jpg";
 
 import Shape from "../../../public/images/service-background-shape.png";
 import Footer from "@/pages/layouts/Footer";
@@ -25,7 +25,7 @@ import SpeedIcon from "@/pages/components/icons/SpeedIcon";
 import RangeIcon from "@/pages/components/icons/RangeIcon";
 import EngineIcon from "@/pages/components/icons/EngineIcon";
 
-export default function Bell407() {
+export default function Bell206L4() {
   return (
     <>
       <Head>
@@ -49,7 +49,7 @@ export default function Bell407() {
 
               <div className="absolute top-0 h-full w-full flex justify-center items-center">
                 <h1 className="text-5xl text-light-gray font-semibold">
-                  Bell 407
+                  Bell 206 L-4
                 </h1>
               </div>
             </figure>
@@ -72,22 +72,25 @@ export default function Bell407() {
                 </div>
                 <div className="space-y-2 mb-4 text-base leading-relaxed tracking-wide">
                   <p>
-                    The Bell 407 is a four-blade, single-engine, civil utility
-                    helicopter. A derivative of the Bell 206L-4 LongRanger, the
-                    407 uses the four-blade, soft-in-plane design rotor with
-                    composite hub developed for the United States Army's OH-58D
-                    Kiowa Warrior instead of the two-blade, semi-rigid,
-                    teetering rotor of the 206L-4.
+                    The Bell 206 is a family of two-bladed, single- and
+                    twin-engined helicopters, manufactured by Bell Helicopter at
+                    its Mirabel, Quebec, plant. Originally developed as the Bell
+                    YOH-4 for the United States Army's Light Observation
+                    Helicopter program, it was not selected by the Army. Bell
+                    redesigned the airframe and successfully marketed the
+                    aircraft commercially as the five-place Bell 206A JetRanger.
+                    The new design was eventually selected by the Army as the
+                    OH-58 Kiowa.
                   </p>
                 </div>
                 <div>
                   <ul className="grid lg:grid-cols-2 sm:grid-cols-1 space-y-4">
                     <OverviewList point="Crew: 1" />
-                    <OverviewList point="Passengers: 5" />
-                    <OverviewList point="Cabin Volume: 84 cu ft" />
-                    <OverviewList point="Exterior Height: 11 ft 8 in" />
-                    <OverviewList point="External Baggage: 20 cu ft" />
-                    <OverviewList point="Internal Baggage: 3 cu ft" />
+                    <OverviewList point="Passengers: 4" />
+                    <OverviewList point="Cabin Volume: 73 cu ft" />
+                    <OverviewList point="Cabin Width: 3 ft 9 In" />
+                    <OverviewList point="Cabin Height: 4 ft 2 In" />
+                    <OverviewList point="Internal Baggage: 2 cu ft" />
                   </ul>
                 </div>
               </div>
@@ -104,23 +107,23 @@ export default function Bell407() {
               <div className="grid sm:grid-cols-2 lg:grid-cols-3 place-items-center gap-4">
                 <Specification
                   icon={<FuelIcon />}
-                  value="856"
+                  value="742"
                   unit="Lb"
                   title="Fuel Capacity"
                 />
 
                 <Specification
                   icon={<SpeedIcon />}
-                  value="140"
+                  value="110"
                   unit="kts"
                   title="Max Speed"
                 />
 
                 <Specification
                   icon={<RangeIcon />}
-                  value="18.690"
-                  unit="ft"
-                  title="Service Ceiling"
+                  value="270"
+                  unit="nm"
+                  title="VFR Max Range"
                 />
 
                 <Specification
@@ -139,7 +142,7 @@ export default function Bell407() {
                   Jet <span className="text-gold">Gellery</span>
                 </p>
                 <h1 className="text-4xl font-bold my-4">
-                  Bell 407 Photo Gallery
+                  Bell 206 L-4 Photo Gallery
                 </h1>
               </div>
               <div className="px-32 flex justify-center items-center">

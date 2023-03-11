@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Header from "../../layouts/Header";
 
-import Image1 from "../../../public/images/Helicopters/BELL 407/bell407.jpg";
-import Image2 from "../../../public/images/Helicopters/Bell 407/helicopter-bell_407-1024x768.jpg";
-import Image3 from "../../../public/images/Helicopters/Bell 407/hillsboro-aviation-executive-charter-b407-cabin-detail-small-web-1200x800.jpg";
+import Image1 from "../../../public/images/Helicopters/BK117A-4/BK117A4_i3.jpg";
+import Image2 from "../../../public/images/Helicopters/BK117A-4/ext2.jpg";
+import Image3 from "../../../public/images/Helicopters/BK117A-4/maxresdefault.jpg";
 
 import Shape from "../../../public/images/service-background-shape.png";
 import Footer from "@/pages/layouts/Footer";
@@ -25,7 +25,7 @@ import SpeedIcon from "@/pages/components/icons/SpeedIcon";
 import RangeIcon from "@/pages/components/icons/RangeIcon";
 import EngineIcon from "@/pages/components/icons/EngineIcon";
 
-export default function Bell407() {
+export default function BK117A4() {
   return (
     <>
       <Head>
@@ -49,7 +49,7 @@ export default function Bell407() {
 
               <div className="absolute top-0 h-full w-full flex justify-center items-center">
                 <h1 className="text-5xl text-light-gray font-semibold">
-                  Bell 407
+                  BK117A-4
                 </h1>
               </div>
             </figure>
@@ -72,22 +72,22 @@ export default function Bell407() {
                 </div>
                 <div className="space-y-2 mb-4 text-base leading-relaxed tracking-wide">
                   <p>
-                    The Bell 407 is a four-blade, single-engine, civil utility
-                    helicopter. A derivative of the Bell 206L-4 LongRanger, the
-                    407 uses the four-blade, soft-in-plane design rotor with
-                    composite hub developed for the United States Army's OH-58D
-                    Kiowa Warrior instead of the two-blade, semi-rigid,
-                    teetering rotor of the 206L-4.
+                    The MBB/Kawasaki BK 117 is a twin-engined light
+                    utility–transport helicopter. It was jointly developed and
+                    manufactured by Messerschmitt-Bölkow-Blohm (MBB) of Germany
+                    and Kawasaki of Japan. MBB was later purchased by
+                    Daimler-Benz and eventually became a part of Eurocopter,
+                    which was later rebranded as Airbus Helicopters.
                   </p>
                 </div>
                 <div>
                   <ul className="grid lg:grid-cols-2 sm:grid-cols-1 space-y-4">
                     <OverviewList point="Crew: 1" />
-                    <OverviewList point="Passengers: 5" />
-                    <OverviewList point="Cabin Volume: 84 cu ft" />
-                    <OverviewList point="Exterior Height: 11 ft 8 in" />
-                    <OverviewList point="External Baggage: 20 cu ft" />
-                    <OverviewList point="Internal Baggage: 3 cu ft" />
+                    <OverviewList point="Passengers: up to 10 passengers" />
+                    <OverviewList point="Empty weight: 1,727 kg (3,807 lb)" />
+                    <OverviewList point="Max takeoff weight: 3,350 kg (7,385 lb)" />
+                    <OverviewList point="Main rotor diameter: 11.00 m (36 ft 1 in)" />
+                    <OverviewList point="Main rotor area: 95.03 m2 (1,022.9 sq ft)" />
                   </ul>
                 </div>
               </div>
@@ -104,30 +104,23 @@ export default function Bell407() {
               <div className="grid sm:grid-cols-2 lg:grid-cols-3 place-items-center gap-4">
                 <Specification
                   icon={<FuelIcon />}
-                  value="856"
-                  unit="Lb"
+                  value="697"
+                  unit="L"
                   title="Fuel Capacity"
                 />
 
                 <Specification
                   icon={<SpeedIcon />}
-                  value="140"
+                  value="130"
                   unit="kts"
                   title="Max Speed"
                 />
 
                 <Specification
                   icon={<RangeIcon />}
-                  value="18.690"
+                  value="15.010"
                   unit="ft"
                   title="Service Ceiling"
-                />
-
-                <Specification
-                  icon={<EngineIcon />}
-                  value="1"
-                  unit=""
-                  title="Total Engines"
                 />
               </div>
             </div>
@@ -139,7 +132,7 @@ export default function Bell407() {
                   Jet <span className="text-gold">Gellery</span>
                 </p>
                 <h1 className="text-4xl font-bold my-4">
-                  Bell 407 Photo Gallery
+                  BK117A-4 Photo Gallery
                 </h1>
               </div>
               <div className="px-32 flex justify-center items-center">

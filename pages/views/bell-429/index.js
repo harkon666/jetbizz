@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Header from "../../layouts/Header";
 
-import Image1 from "../../../public/images/Helicopters/BELL 407/bell407.jpg";
-import Image2 from "../../../public/images/Helicopters/Bell 407/helicopter-bell_407-1024x768.jpg";
-import Image3 from "../../../public/images/Helicopters/Bell 407/hillsboro-aviation-executive-charter-b407-cabin-detail-small-web-1200x800.jpg";
+import Image1 from "../../../public/images/Helicopters/Bell 429/AWN20141014151158.jpg";
+import Image2 from "../../../public/images/Helicopters/Bell 429/Bell-12-135.jpg";
+import Image3 from "../../../public/images/Helicopters/Bell 429/download.jpeg";
 
 import Shape from "../../../public/images/service-background-shape.png";
 import Footer from "@/pages/layouts/Footer";
@@ -25,7 +25,7 @@ import SpeedIcon from "@/pages/components/icons/SpeedIcon";
 import RangeIcon from "@/pages/components/icons/RangeIcon";
 import EngineIcon from "@/pages/components/icons/EngineIcon";
 
-export default function Bell407() {
+export default function Bell429() {
   return (
     <>
       <Head>
@@ -42,14 +42,14 @@ export default function Bell407() {
           <div className="min-h-screen bg-white py-20 text-semi-black">
             <figure className="relative">
               <Image
-                src={Image1}
+                src={Image2}
                 className="h-[300px] w-full object-cover object-center"
               />
               <div className="absolute h-full w-full top-0 left-0 bg-gradient-to-r from-slate-700 to-transparent"></div>
 
               <div className="absolute top-0 h-full w-full flex justify-center items-center">
                 <h1 className="text-5xl text-light-gray font-semibold">
-                  Bell 407
+                  Bell 429
                 </h1>
               </div>
             </figure>
@@ -72,22 +72,21 @@ export default function Bell407() {
                 </div>
                 <div className="space-y-2 mb-4 text-base leading-relaxed tracking-wide">
                   <p>
-                    The Bell 407 is a four-blade, single-engine, civil utility
-                    helicopter. A derivative of the Bell 206L-4 LongRanger, the
-                    407 uses the four-blade, soft-in-plane design rotor with
-                    composite hub developed for the United States Army's OH-58D
-                    Kiowa Warrior instead of the two-blade, semi-rigid,
-                    teetering rotor of the 206L-4.
+                    The Bell 429 GlobalRanger is a light, twin-engine helicopter
+                    developed by Bell Helicopter and Korea Aerospace Industries.
+                    First flight of the Bell 429 prototype took place on
+                    February 27, 2007, and the aircraft received type
+                    certification on July 1, 2009. Wikipedia
                   </p>
                 </div>
                 <div>
                   <ul className="grid lg:grid-cols-2 sm:grid-cols-1 space-y-4">
-                    <OverviewList point="Crew: 1" />
+                    <OverviewList point="Crew: 2" />
                     <OverviewList point="Passengers: 5" />
-                    <OverviewList point="Cabin Volume: 84 cu ft" />
-                    <OverviewList point="Exterior Height: 11 ft 8 in" />
-                    <OverviewList point="External Baggage: 20 cu ft" />
-                    <OverviewList point="Internal Baggage: 3 cu ft" />
+                    <OverviewList point="Cabin Volume: 130 cu ft" />
+                    <OverviewList point="Wing Span: 36 ft 0 in" />
+                    <OverviewList point="Exterior Height: 13 ft 3 in" />
+                    <OverviewList point="Internal Baggage: 50 cu ft" />
                   </ul>
                 </div>
               </div>
@@ -104,28 +103,28 @@ export default function Bell407() {
               <div className="grid sm:grid-cols-2 lg:grid-cols-3 place-items-center gap-4">
                 <Specification
                   icon={<FuelIcon />}
-                  value="856"
+                  value="1.471"
                   unit="Lb"
                   title="Fuel Capacity"
                 />
 
                 <Specification
                   icon={<SpeedIcon />}
-                  value="140"
+                  value="155 "
                   unit="kts"
                   title="Max Speed"
                 />
 
                 <Specification
                   icon={<RangeIcon />}
-                  value="18.690"
+                  value="20.000"
                   unit="ft"
                   title="Service Ceiling"
                 />
 
                 <Specification
                   icon={<EngineIcon />}
-                  value="1"
+                  value="2"
                   unit=""
                   title="Total Engines"
                 />
@@ -139,7 +138,7 @@ export default function Bell407() {
                   Jet <span className="text-gold">Gellery</span>
                 </p>
                 <h1 className="text-4xl font-bold my-4">
-                  Bell 407 Photo Gallery
+                  Bell 429 Photo Gallery
                 </h1>
               </div>
               <div className="px-32 flex justify-center items-center">
