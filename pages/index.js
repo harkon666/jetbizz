@@ -504,18 +504,18 @@ export default function Home() {
             <p className="text-sm uppercase">
               Luxury <span className="text-gold">Charter</span>
             </p>
-            <div className="flex justify-between items-center">
+            <div className="flex justify-between items-center w-full">
               <h1 className="text-4xl">Luxury Deals For You</h1>
               <Link
                 href="./views/all-deals"
-                className="px-4 py-3 rounded-full hover:bg-gold hover:text-white sm:text-sm md:text-base"
+                className="px-4 py-3 rounded-full hover:bg-gold hover:text-white sm:text-[12px] md:text-base"
               >
                 View All Deals
               </Link>
             </div>
           </div>
           <div className="mt-20">
-            <div className="grid lg:grid-cols-4 sm:grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid lg:grid-cols-4 sm:grid-cols-2 md:grid-cols-3 gap-6">
               <CardImage
                 src={Image1}
                 product="Hawker 400XP"
