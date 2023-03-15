@@ -245,13 +245,13 @@ export default function AddDeals() {
                   <CardImage
                     src={Beechcraft1900D}
                     product="Beechcraft 1900D"
-                    capacity="19"
+                    capacity="19 Seats"
                     href="./beechcraft-1900-d"
                   />
                   <CardImage
                     src={Beechjet400A}
                     product="Beechjet 400A"
-                    capacity="4-8 Seats"
+                    capacity="7-9 Seats"
                     href="./beechjet-400a"
                   />
                   <CardImage

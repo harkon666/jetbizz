@@ -12,7 +12,7 @@ export default function Contact() {
             className="rounded-lg w-full sm:h-[70rem] lg:h-[55rem]"
           />
           <div className="absolute h-full w-full top-0 left-0 bg-gradient-to-r from-slate-700 to-slate-700 opacity-70 lg:rounded-lg sm:rounded-none"></div>
-          <div className="absolute top-0 z-50 w-full lg:my-20 sm:my-10">
+          <div className="absolute top-0 z-40 w-full lg:my-20 sm:my-10">
             <div className="font-bold text-light-gray text-center">
               <p className="uppercase text-sm">
                 Instant <span className="text-gold">Query</span>

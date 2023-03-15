@@ -88,7 +88,7 @@ export default function Header() {
           <div></div>
         </nav>
 
-        <nav className="lg:hidden sm:block w-full z-[100px]">
+        <nav className="lg:hidden sm:block w-full z-[100]">
           <div className="flex justify-between items-center w-full">
             <a href="#home">
               <figure>
