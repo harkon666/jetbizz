@@ -1,8 +1,8 @@
 import Image from "next/image";
-import Header from "../../layouts/Header";
+import Header from "@/layouts/Header";
 
 import Shape from "../../../public/images/service-background-shape.png";
-import Footer from "@/pages/layouts/Footer";
+import Footer from "@/layouts/Footer";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -10,11 +10,10 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Autoplay, Navigation, Pagination } from "swiper";
 import Head from "next/head";
-import TravelKitAmenity from "@/pages/components/TravelKitAmenity";
-import Contact from "@/pages/components/Contact";
-import CardImage from "@/pages/components/CardImage";
+import Contact from "@/components/Contact";
+import CardImage from "@/components/CardImage";
 
-import Hawker400 from "../../../public/images/Jets/Hawker 400XP/beechcraft-hawker-400xp.jpg";
+import Hawker400 from "../../../public/images/Jets/Hawker-400XP/beechcraft-hawker-400xp.jpg";
 import Hawker800 from "../../../public/images/Jets/Hawker 800XP/hawker-800-xp-1.jpg";
 import Hawker900 from "../../../public/images/Jets/Hawker 900XP/Hawker-900XP-Ext-JS.webp";
 import BAE146 from "../../../public/images/Jets/BAE 146/BAe-146.jpg";
@@ -63,7 +62,7 @@ export default function AddDeals() {
         <section>
           <div className="min-h-screen bg-white py-20 text-semi-black">
             <figure className="relative">
-              <Image
+              <img
                 src={Bell407}
                 className="h-[300px] object-cover object-center w-full"
               />
@@ -79,11 +78,11 @@ export default function AddDeals() {
             {/* Overlay */}
             <div className="bg-white max-w-screen-xl mx-auto my-20 grid lg:grid-cols-2 sm:grid-col-1 gap-10">
               <div className="relative">
-                <Image
+                <img
                   src={Shape}
                   className="absolute -top-10 -left-8 z-0 sm:hidden lg:block"
                 />
-                <Image
+                <img
                   src={Fokker70}
                   className="absolute top-0 left-0 z-10 aspect-[1/1] max-w-full max-h-full object-cover object-center rounded-lg shadow-lg"
                 />
@@ -118,9 +117,9 @@ export default function AddDeals() {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         >
                           {" "}
                           <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />{" "}
@@ -136,9 +135,9 @@ export default function AddDeals() {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         >
                           {" "}
                           <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />{" "}
@@ -154,9 +153,9 @@ export default function AddDeals() {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         >
                           {" "}
                           <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />{" "}
@@ -175,9 +174,9 @@ export default function AddDeals() {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         >
                           {" "}
                           <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />{" "}
@@ -208,7 +207,7 @@ export default function AddDeals() {
                 <div className="grid lg:grid-cols-4 sm:grid-cols-2 gap-6">
                   <CardImage
                     src={Hawker400}
-                    product="Hawker 400XP"
+                    product="Hawker-400XP"
                     capacity="6 Seats"
                     href="./hawker-400xp"
                   />

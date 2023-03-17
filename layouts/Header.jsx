@@ -1,7 +1,7 @@
 import Logo from "./Logo";
 import { useRouter } from "next/router";
 import Link from "next/link";
-import { NavIcon } from "../components/icons/NavIcon";
+import NavIcon from "../components/icons/NavIcon";
 import { useState } from "react";
 
 export default function Header() {
@@ -69,16 +69,16 @@ export default function Header() {
             </a>
           </div>
           <ul className="flex justify-between space-x-5 font-semibold">
-            {data.map((data) => {
+            {data.map((data, i) => {
               if (router.pathname === "/") {
                 return (
-                  <li>
+                  <li key={i}>
                     <a href={data.href}>{data.name}</a>
                   </li>
                 );
               } else {
                 return (
-                  <li>
+                  <li key={i}>
                     <Link href={data.route}>{data.name}</Link>
                   </li>
                 );
@@ -104,16 +104,16 @@ export default function Header() {
             </button>
           </div>
           <ul id="navMobile" className="hidden flex-col font-semibold">
-            {data.map((data) => {
+            {data.map((data, i) => {
               if (router.pathname === "/") {
                 return (
-                  <li className="p-2">
+                  <li className="p-2" key={i}>
                     <a href={data.href}>{data.name}</a>
                   </li>
                 );
               } else {
                 return (
-                  <li className="p-2">
+                  <li className="p-2" key={i}>
                     <Link href={data.route}>{data.name}</Link>
                   </li>
                 );

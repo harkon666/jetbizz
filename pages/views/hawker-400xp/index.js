@@ -1,12 +1,12 @@
 import Image from "next/image";
-import Header from "../../layouts/Header";
+import Header from "@/layouts/Header";
 import Hawker1 from "../../../public/images/main-banner-min.png";
-import Hawker2 from "../../../public/images/jets/Hawker 400XP/hawker-400xp-interior-1.jpg";
-import Hawker3 from "../../../public/images/jets/Hawker 400XP/beechcraft-hawker-400xp.jpg";
-import Hawker4 from "../../../public/images/jets/Hawker 400XP/Starmedevac-hawker-400.jpg";
+import Hawker2 from "../../../public/images/jets/Hawker-400XP/hawker-400xp-interior-1.jpg";
+import Hawker3 from "../../../public/images/jets/Hawker-400XP/beechcraft-hawker-400xp.jpg";
+import Hawker4 from "../../../public/images/jets/Hawker-400XP/Starmedevac-hawker-400.jpg";
 
 import Shape from "../../../public/images/service-background-shape.png";
-import Footer from "@/pages/layouts/Footer";
+import Footer from "@/layouts/Footer";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -14,15 +14,15 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Autoplay, Navigation, Pagination } from "swiper";
 import Head from "next/head";
-import TravelKitAmenity from "@/pages/components/TravelKitAmenity";
-import Contact from "@/pages/components/Contact";
-import OverviewList from "@/pages/components/OverviewList";
-import Specification from "@/pages/components/Specification";
-import TakeoffIcon from "@/pages/components/icons/TakeoffIcon";
-import LandingIcon from "@/pages/components/icons/LandingIcon";
-import FuelIcon from "@/pages/components/icons/FuelIcon";
-import SpeedIcon from "@/pages/components/icons/SpeedIcon";
-import RangeIcon from "@/pages/components/icons/RangeIcon";
+import TravelKitAmenity from "@/components/TravelKitAmenity";
+import Contact from "@/components/Contact";
+import OverviewList from "@/components/OverviewList";
+import Specification from "@/components/Specification";
+import TakeoffIcon from "@/components/icons/TakeoffIcon";
+import LandingIcon from "@/components/icons/LandingIcon";
+import FuelIcon from "@/components/icons/FuelIcon";
+import SpeedIcon from "@/components/icons/SpeedIcon";
+import RangeIcon from "@/components/icons/RangeIcon";
 
 export default function Hawker400XP() {
   return (
@@ -40,12 +40,12 @@ export default function Hawker400XP() {
         <section>
           <div className="min-h-screen bg-white py-20 text-semi-black">
             <figure className="relative">
-              <Image src={Hawker1} />
+              <img src={Hawker1} />
               <div className="absolute h-full w-full top-0 left-0 bg-gradient-to-r from-slate-700 to-transparent"></div>
 
               <div className="absolute top-0 h-full w-full flex justify-center items-center">
                 <h1 className="text-5xl text-light-gray font-semibold">
-                  Hawker 400XP
+                  Hawker-400XP
                 </h1>
               </div>
             </figure>
@@ -53,11 +53,11 @@ export default function Hawker400XP() {
             {/* Overlay */}
             <div className="bg-white max-w-screen-xl mx-auto my-20 grid lg:grid-cols-2 sm:grid-col-1 gap-10">
               <div className="relative">
-                <Image
+                <img
                   src={Shape}
                   className="absolute -top-10 -left-8 z-0 sm:hidden lg:block"
                 />
-                <Image
+                <img
                   src={Hawker2}
                   className="absolute top-0 left-0 z-10 aspect-[1/1] max-w-full max-h-full object-cover object-center rounded-lg shadow-lg"
                 />
@@ -104,7 +104,7 @@ export default function Hawker400XP() {
                 <p className="uppercase">
                   Jet <span className="text-gold">Specification</span>
                 </p>
-                <h1 className="text-4xl leading-tight mb-4">Hawker 400XP</h1>
+                <h1 className="text-4xl leading-tight mb-4">Hawker-400XP</h1>
               </div>
               <div className="grid sm:grid-cols-2 lg:grid-cols-3 place-items-center gap-4">
                 <Specification
@@ -158,7 +158,7 @@ export default function Hawker400XP() {
                   Jet <span className="text-gold">Gellery</span>
                 </p>
                 <h1 className="text-4xl font-bold my-4">
-                  Hawker 400XP Photo Gallery
+                  Hawker-400XP Photo Gallery
                 </h1>
               </div>
               <div className="px-32 flex justify-center items-center">
@@ -179,37 +179,37 @@ export default function Hawker400XP() {
                   modules={[Autoplay, Pagination, Navigation]}
                 >
                   <SwiperSlide>
-                    <Image
+                    <img
                       src={Hawker2}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <Image
+                    <img
                       src={Hawker3}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <Image
+                    <img
                       src={Hawker4}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <Image
+                    <img
                       src={Hawker2}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <Image
+                    <img
                       src={Hawker3}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <Image
+                    <img
                       src={Hawker4}
                       className="aspect-[2/1] bg-center bg-cover"
                     />

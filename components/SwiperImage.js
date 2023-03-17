@@ -39,7 +39,7 @@ export default function SwiperImage(props) {
   return (
     <>
       <figure>
-        <Image src={props.src} alt={props.alt} />
+        <img src={props.src} alt={props.alt} />
         {Figcaption(props)}
       </figure>
     </>

@@ -1,12 +1,12 @@
 import Image from "next/image";
-import Header from "../../layouts/Header";
+import Header from "@/layouts/Header";
 
 import Image1 from "../../../public/images/Helicopters/Super Puma/0dbcffc0d40410d5a3be8b1a7c7eea25e8cb01c8-tc-img-preview.jpg";
 import Image2 from "../../../public/images/Helicopters/Super Puma/1154833.jpg";
 import Image3 from "../../../public/images/Helicopters/Super Puma/superpuma-4.jpg";
 
 import Shape from "../../../public/images/service-background-shape.png";
-import Footer from "@/pages/layouts/Footer";
+import Footer from "@/layouts/Footer";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -14,16 +14,16 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Autoplay, Navigation, Pagination } from "swiper";
 import Head from "next/head";
-import TravelKitAmenity from "@/pages/components/TravelKitAmenity";
-import Contact from "@/pages/components/Contact";
-import OverviewList from "@/pages/components/OverviewList";
-import Specification from "@/pages/components/Specification";
-import TakeoffIcon from "@/pages/components/icons/TakeoffIcon";
-import LandingIcon from "@/pages/components/icons/LandingIcon";
-import FuelIcon from "@/pages/components/icons/FuelIcon";
-import SpeedIcon from "@/pages/components/icons/SpeedIcon";
-import RangeIcon from "@/pages/components/icons/RangeIcon";
-import EngineIcon from "@/pages/components/icons/EngineIcon";
+import TravelKitAmenity from "@/components/TravelKitAmenity";
+import Contact from "@/components/Contact";
+import OverviewList from "@/components/OverviewList";
+import Specification from "@/components/Specification";
+import TakeoffIcon from "@/components/icons/TakeoffIcon";
+import LandingIcon from "@/components/icons/LandingIcon";
+import FuelIcon from "@/components/icons/FuelIcon";
+import SpeedIcon from "@/components/icons/SpeedIcon";
+import RangeIcon from "@/components/icons/RangeIcon";
+import EngineIcon from "@/components/icons/EngineIcon";
 
 export default function SuperPuma() {
   return (
@@ -41,7 +41,7 @@ export default function SuperPuma() {
         <section>
           <div className="min-h-screen bg-white py-20 text-semi-black">
             <figure className="relative">
-              <Image
+              <img
                 src={Image2}
                 className="h-[300px] w-full object-cover object-center"
               />
@@ -57,11 +57,11 @@ export default function SuperPuma() {
             {/* Overlay */}
             <div className="bg-white max-w-screen-xl mx-auto my-20 grid lg:grid-cols-2 sm:grid-col-1 gap-10">
               <div className="relative">
-                <Image
+                <img
                   src={Shape}
                   className="absolute -top-10 -left-8 z-0 sm:hidden lg:block"
                 />
-                <Image
+                <img
                   src={Image3}
                   className="absolute top-0 left-0 z-10 aspect-[1/1] max-w-full max-h-full object-cover object-center rounded-lg shadow-lg"
                 />
@@ -159,37 +159,37 @@ export default function SuperPuma() {
                   modules={[Autoplay, Pagination, Navigation]}
                 >
                   <SwiperSlide>
-                    <Image
+                    <img
                       src={Image1}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <Image
+                    <img
                       src={Image2}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <Image
+                    <img
                       src={Image3}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <Image
+                    <img
                       src={Image1}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <Image
+                    <img
                       src={Image2}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <Image
+                    <img
                       src={Image3}
                       className="aspect-[2/1] bg-center bg-cover"
                     />

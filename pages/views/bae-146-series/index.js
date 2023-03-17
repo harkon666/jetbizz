@@ -1,12 +1,12 @@
 import Image from "next/image";
-import Header from "../../layouts/Header";
+import Header from "@/layouts/Header";
 import Image1 from "../../../public/images/main-banner-min.png";
 import Image2 from "../../../public/images/jets/BAE 146/BAe-146.jpg";
 import Image3 from "../../../public/images/jets/BAE 146/bae_146_200-int-1-1024x679.jpg";
 import Image4 from "../../../public/images/jets/BAE 146/Microsoft-Flight-Simulator-3-3.webp";
 
 import Shape from "../../../public/images/service-background-shape.png";
-import Footer from "@/pages/layouts/Footer";
+import Footer from "@/layouts/Footer";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -14,8 +14,8 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Autoplay, Navigation, Pagination } from "swiper";
 import Head from "next/head";
-import TravelKitAmenity from "@/pages/components/TravelKitAmenity";
-import Contact from "@/pages/components/Contact";
+import TravelKitAmenity from "@/components/TravelKitAmenity";
+import Contact from "@/components/Contact";
 
 export default function BAE146Series() {
   return (
@@ -33,7 +33,7 @@ export default function BAE146Series() {
         <section>
           <div className="min-h-screen bg-white py-20 text-semi-black">
             <figure className="relative">
-              <Image
+              <img
                 src={Image2}
                 className="h-[300px] object-cover object-center"
               />
@@ -49,11 +49,11 @@ export default function BAE146Series() {
             {/* Overlay */}
             <div className="bg-white max-w-screen-xl mx-auto my-20 grid lg:grid-cols-2 sm:grid-col-1 gap-10">
               <div className="relative">
-                <Image
+                <img
                   src={Shape}
                   className="absolute -top-10 -left-8 z-0 sm:hidden lg:block"
                 />
-                <Image
+                <img
                   src={Image3}
                   className="absolute top-0 left-0 z-10 aspect-[1/1] max-w-full max-h-full object-cover object-center rounded-lg shadow-lg"
                 />
@@ -152,7 +152,7 @@ export default function BAE146Series() {
                   Jet <span className="text-gold">Gellery</span>
                 </p>
                 <h1 className="text-4xl font-bold my-4">
-                  Hawker 400XP Photo Gallery
+                  Hawker-400XP Photo Gallery
                 </h1>
               </div>
               <div className="px-32 flex justify-center items-center">
@@ -173,37 +173,37 @@ export default function BAE146Series() {
                   modules={[Autoplay, Pagination, Navigation]}
                 >
                   <SwiperSlide>
-                    <Image
+                    <img
                       src={Image2}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <Image
+                    <img
                       src={Image3}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <Image
+                    <img
                       src={Image4}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <Image
+                    <img
                       src={Image2}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <Image
+                    <img
                       src={Image3}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <Image
+                    <img
                       src={Image4}
                       className="aspect-[2/1] bg-center bg-cover"
                     />

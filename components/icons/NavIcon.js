@@ -1,4 +1,4 @@
-export function NavIcon() {
+export default function NavIcon() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"

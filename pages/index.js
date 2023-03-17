@@ -2,24 +2,18 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "@next/font/google";
 
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-import { Autoplay, Navigation, Pagination } from "swiper";
-import Image1 from "../public/images/Jets/Hawker 400XP/beechcraft-hawker-400xp.jpg";
+import Image1 from "../public/images/Jets/Hawker-400XP/beechcraft-hawker-400xp.jpg";
 import Image2 from "../public/images/Jets/Hawker 800XP/hawker-800xp-Exterior-NEW-jS.jpg";
 import Image3 from "../public/images/Helicopters/BELL 407/helicopter-bell_407-1024x768.jpg";
 import Image4 from "../public/images/Helicopters/BELL 412/Bell-412EP-e1427082029160-1200x718.jpg";
 import Image5 from "../public/images/shutterstock_337284917-min.png";
 import Image6 from "../public/images/close-up-photo-good-looking-man-casual-outfit-who-is-smiling-while-typing-something-his-laptop-holding-smartphone-his-left-hand-flying-first-class-plane-min.png";
-import Image7 from "../public/images/Exclusive and Luxury Transfer/Private-Jet-Luxurious-Travel-700x466-1.jpg";
+import Image7 from "../public/images/Exclusive-and-Luxury-Transfer/Private-Jet-Luxurious-Travel-700x466-1.jpg";
 import Image8 from "../public/images/Medical Evacuation/Air-medical-transport-JetOptions-Private-Jets.jpg";
 
-import Header from "./layouts/Header";
-import Footer from "./layouts/Footer";
-import SwiperImage from "./components/SwiperImage";
-import CardImage from "./components/CardImage";
+import Header from "../layouts/Header";
+import Footer from "../layouts/Footer";
+import CardImage from "../components/CardImage";
 import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -97,11 +91,11 @@ export default function Home() {
                         xmlns="http://www.w3.org/2000/svg"
                         fill="#000000"
                       >
-                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                         <g
                           id="SVGRepo_tracerCarrier"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         ></g>
                         <g id="SVGRepo_iconCarrier">
                           <path
@@ -125,11 +119,11 @@ export default function Home() {
                         xmlns="http://www.w3.org/2000/svg"
                         fill="#000000"
                       >
-                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                         <g
                           id="SVGRepo_tracerCarrier"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         ></g>
                         <g id="SVGRepo_iconCarrier">
                           <path
@@ -153,11 +147,11 @@ export default function Home() {
                         xmlns="http://www.w3.org/2000/svg"
                         fill="#000000"
                       >
-                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                         <g
                           id="SVGRepo_tracerCarrier"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         ></g>
                         <g id="SVGRepo_iconCarrier">
                           <path
@@ -181,11 +175,11 @@ export default function Home() {
                         xmlns="http://www.w3.org/2000/svg"
                         fill="#000000"
                       >
-                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                         <g
                           id="SVGRepo_tracerCarrier"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         ></g>
                         <g id="SVGRepo_iconCarrier">
                           <path
@@ -209,11 +203,11 @@ export default function Home() {
                         xmlns="http://www.w3.org/2000/svg"
                         fill="#000000"
                       >
-                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                         <g
                           id="SVGRepo_tracerCarrier"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         ></g>
                         <g id="SVGRepo_iconCarrier">
                           <path
@@ -238,11 +232,11 @@ export default function Home() {
                         xmlns="http://www.w3.org/2000/svg"
                         fill="#000000"
                       >
-                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                         <g
                           id="SVGRepo_tracerCarrier"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         ></g>
                         <g id="SVGRepo_iconCarrier">
                           <path
@@ -274,7 +268,7 @@ export default function Home() {
           <div id="section-3-1">
             <div className="font-bold">
               <p className="text-sm uppercase">
-                Our <span class="text-gold">Services</span>
+                Our <span className="text-gold">Services</span>
               </p>
               <h1 className="text-4xl font-semibold mb-10">
                 Find The Best Service <br /> For You
@@ -301,10 +295,10 @@ export default function Home() {
             <div className="grid lg:grid-cols-2 sm:grid-cols-1">
               <div className="relative sm:hidden lg:block lg:w-1/2">
                 <div>
-                  <Image src={Image5} className="absolute" />
+                  <img src={Image5} className="absolute" />
                 </div>
                 <div>
-                  <Image
+                  <img
                     src={Image6}
                     className="absolute top-[10%] left-[30%]"
                   />
@@ -425,7 +419,7 @@ export default function Home() {
               </div>
               <div className="">
                 <div>
-                  <Image src={Image3} className="aspect-1/1 bg-cover bg-center" />
+                  <img src={Image3} className="aspect-1/1 bg-cover bg-center" />
                 </div>
               </div>
             </div>
@@ -468,7 +462,7 @@ export default function Home() {
             <div className="place-self-center relative">
               <div className="bg-light-purple rounded-full sm:w-60 sm:h-60 xl:w-96 xl:h-96 opacity-75 animate-ping duration-[5000] delay-[5000]"></div>
               <div className="absolute top-0">
-                <Image src={Image7} />
+                <img src={Image7} />
               </div>
             </div>
 
@@ -518,7 +512,7 @@ export default function Home() {
             <div className="grid lg:grid-cols-4 sm:grid-cols-2 md:grid-cols-3 gap-6">
               <CardImage
                 src={Image1}
-                product="Hawker 400XP"
+                product="Hawker-400XP"
                 type="Legacy 600"
                 capacity="4-8 Seats"
                 href="./views/hawker-400xp"

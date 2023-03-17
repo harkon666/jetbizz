@@ -1,11 +1,11 @@
 import Image from "next/image";
-import Header from "../../layouts/Header";
+import Header from "@/layouts/Header";
 
 import Image1 from "../../../public/images/Medical Evacuation/AIR-AMBULANCE-medical-flights.jpg";
 import Image2 from "../../../public/images/Medical Evacuation/Air-medical-transport-JetOptions-Private-Jets.jpg";
 
 import Shape from "../../../public/images/service-background-shape.png";
-import Footer from "@/pages/layouts/Footer";
+import Footer from "@/layouts/Footer";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -13,8 +13,8 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Autoplay, Navigation, Pagination } from "swiper";
 import Head from "next/head";
-import TravelKitAmenity from "@/pages/components/TravelKitAmenity";
-import Contact from "@/pages/components/Contact";
+import TravelKitAmenity from "@/components/TravelKitAmenity";
+import Contact from "@/components/Contact";
 
 export default function MedicalEvacuation() {
   return (
@@ -32,7 +32,7 @@ export default function MedicalEvacuation() {
         <section>
           <div className="min-h-screen bg-white py-20 text-semi-black">
             <figure className="relative">
-              <Image
+              <img
                 src={Image1}
                 className="h-[300px] aspect-[16/9] w-full object-cover object-center"
               />
@@ -48,11 +48,11 @@ export default function MedicalEvacuation() {
             {/* Overlay */}
             <div className="bg-white max-w-screen-xl mx-auto my-20 grid lg:grid-cols-2 sm:grid-col-1 gap-10">
               <div className="relative">
-                <Image
+                <img
                   src={Shape}
                   className="absolute -top-10 -left-8 z-0 sm:hidden lg:block"
                 />
-                <Image
+                <img
                   src={Image2}
                   className="absolute top-0 left-0 z-10 aspect-[1/1] max-w-full max-h-full object-cover object-center rounded-lg shadow-lg"
                 />
@@ -89,9 +89,9 @@ export default function MedicalEvacuation() {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         >
                           {" "}
                           <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />{" "}
@@ -110,9 +110,9 @@ export default function MedicalEvacuation() {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         >
                           {" "}
                           <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />{" "}
@@ -131,9 +131,9 @@ export default function MedicalEvacuation() {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         >
                           {" "}
                           <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />{" "}
@@ -153,9 +153,9 @@ export default function MedicalEvacuation() {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         >
                           {" "}
                           <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />{" "}
@@ -174,9 +174,9 @@ export default function MedicalEvacuation() {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         >
                           {" "}
                           <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />{" "}
@@ -194,9 +194,9 @@ export default function MedicalEvacuation() {
                           viewBox="0 0 24 24"
                           fill="none"
                           stroke="currentColor"
-                          stroke-width="2"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeWidth="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         >
                           {" "}
                           <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />{" "}
@@ -242,37 +242,37 @@ export default function MedicalEvacuation() {
                   modules={[Autoplay, Pagination, Navigation]}
                 >
                   <SwiperSlide>
-                    <Image
+                    <img
                       src={Bell1}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <Image
+                    <img
                       src={Bell2}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <Image
+                    <img
                       src={Bell3}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <Image
+                    <img
                       src={Bell1}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <Image
+                    <img
                       src={Bell2}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
-                    <Image
+                    <img
                       src={Bell3}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
