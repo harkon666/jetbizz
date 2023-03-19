@@ -2,15 +2,6 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "@next/font/google";
 
-import Image1 from "../public/images/Jets/Hawker-400XP/beechcraft-hawker-400xp.jpg";
-import Image2 from "../public/images/Jets/Hawker 800XP/hawker-800xp-Exterior-NEW-jS.jpg";
-import Image3 from "../public/images/Helicopters/BELL 407/helicopter-bell_407-1024x768.jpg";
-import Image4 from "../public/images/Helicopters/BELL 412/Bell-412EP-e1427082029160-1200x718.jpg";
-import Image5 from "../public/images/shutterstock_337284917-min.png";
-import Image6 from "../public/images/close-up-photo-good-looking-man-casual-outfit-who-is-smiling-while-typing-something-his-laptop-holding-smartphone-his-left-hand-flying-first-class-plane-min.png";
-import Image7 from "../public/images/Exclusive-and-Luxury-Transfer/Private-Jet-Luxurious-Travel-700x466-1.jpg";
-import Image8 from "../public/images/Medical Evacuation/Air-medical-transport-JetOptions-Private-Jets.jpg";
-
 import Header from "../layouts/Header";
 import Footer from "../layouts/Footer";
 import CardImage from "../components/CardImage";
@@ -33,8 +24,8 @@ export default function Home() {
       <main>
         {/* Section 1 */}
         <section id="home">
-          <section id="parallax">
-            <section id="parallax-content">
+          <div id="parallax">
+            <div id="parallax-content">
               <p>#1 Private Jet Charter</p>
               <h1 className="text-5xl font-semibold">
                 Indonesian Private Charter with Global Coverage
@@ -50,8 +41,8 @@ export default function Home() {
               <div>
                 <button>Our Service</button>
               </div>
-            </section>
-          </section>
+            </div>
+          </div>
         </section>
         {/* Section 1 */}
 
@@ -277,14 +268,18 @@ export default function Home() {
             <div>
               <div className="grid lg:grid-cols-2 sm:grid-cols-2 mx-auto gap-4 xl:w-2/3">
                 <CardImage
-                  src={Image7}
-                  href="./views/executive-and-luxury-transfer"
+                  src={
+                    "images/Exclusive-and-Luxury-Transfer/Private-Jet-Luxurious-Travel-700x466-1.jpg"
+                  }
+                  href="./executive-and-luxury-transfer"
                   product="Exclusice and Luxury Transfer"
                   alt="Luxury Transfer"
                 />
                 <CardImage
-                  src={Image8}
-                  href="./views/medical-evacuation"
+                  src={
+                    "images/Medical Evacuation/Air-medical-transport-JetOptions-Private-Jets.jpg"
+                  }
+                  href="./medical-evacuation"
                   product="Medical Evacuation"
                   alt="Medical Evacuation"
                 />
@@ -295,11 +290,16 @@ export default function Home() {
             <div className="grid lg:grid-cols-2 sm:grid-cols-1">
               <div className="relative sm:hidden lg:block lg:w-1/2">
                 <div>
-                  <img src={Image5} className="absolute" />
+                  <img
+                    src={"images/shutterstock_337284917-min.png"}
+                    className="absolute"
+                  />
                 </div>
                 <div>
                   <img
-                    src={Image6}
+                    src={
+                      "images/close-up-photo-good-looking-man-casual-outfit-who-is-smiling-while-typing-something-his-laptop-holding-smartphone-his-left-hand-flying-first-class-plane-min.png"
+                    }
                     className="absolute top-[10%] left-[30%]"
                   />
                 </div>
@@ -419,7 +419,12 @@ export default function Home() {
               </div>
               <div className="">
                 <div>
-                  <img src={Image3} className="aspect-1/1 bg-cover bg-center" />
+                  <img
+                    src={
+                      "images/Helicopters/BELL 407/helicopter-bell_407-1024x768.jpg"
+                    }
+                    className="aspect-1/1 bg-cover bg-center"
+                  />
                 </div>
               </div>
             </div>
@@ -501,8 +506,8 @@ export default function Home() {
             <div className="flex justify-between items-center w-full">
               <h1 className="text-4xl">Luxury Deals For You</h1>
               <Link
-                href="./views/all-deals"
-                className="px-4 py-3 rounded-full hover:bg-gold hover:text-white sm:text-[12px] md:text-base"
+                href="./all-deals"
+                className="px-4 py-3 rounded-full hover:bg-gold duration-150 delay-150 hover:text-white sm:text-[12px] md:text-base"
               >
                 View All Deals
               </Link>
@@ -511,28 +516,34 @@ export default function Home() {
           <div className="mt-20">
             <div className="grid lg:grid-cols-4 sm:grid-cols-2 md:grid-cols-3 gap-6">
               <CardImage
-                src={Image1}
+                src={"images/Jets/Hawker-400XP/beechcraft-hawker-400xp.jpg"}
                 product="Hawker-400XP"
                 type="Legacy 600"
                 capacity="4-8 Seats"
                 href="./views/hawker-400xp"
               />
               <CardImage
-                src={Image2}
+                src={
+                  "images/Jets/Hawker 800XP/hawker-800xp-Exterior-NEW-jS.jpg"
+                }
                 product="Hawker 800XP"
                 type="Legacy 600"
                 capacity="4-8 Seats"
                 href="./views/hawker-800xp"
               />
               <CardImage
-                src={Image3}
+                src={
+                  "images/Helicopters/BELL 407/helicopter-bell_407-1024x768.jpg"
+                }
                 product="Bell 407"
                 type="Legacy 600"
                 capacity="4-8 Seats"
                 href="./views/bell-407"
               />
               <CardImage
-                src={Image4}
+                src={
+                  "images/Helicopters/BELL 412/Bell-412EP-e1427082029160-1200x718.jpg"
+                }
                 product="Bell 412"
                 type="Legacy 600"
                 capacity="4-8 Seats"

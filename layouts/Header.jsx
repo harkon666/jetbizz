@@ -2,7 +2,7 @@ import Logo from "./Logo";
 import { useRouter } from "next/router";
 import Link from "next/link";
 import NavIcon from "../components/icons/NavIcon";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function Header() {
   const router = useRouter();
@@ -39,6 +39,8 @@ export default function Header() {
     },
   ];
 
+  const [section, setSection] = useState([]);
+
   const [mobile, setMobile] = useState(true);
 
   const handleClick = () => {
@@ -57,6 +59,35 @@ export default function Header() {
     }
   };
 
+  useEffect(() => {
+    const sections = document.querySelectorAll("section[id]");
+
+    setSection(sections);
+    window.onscroll = activeNavbar;
+  }, []);
+
+  const activeNavbar = () => {
+    let scrollY = Math.round(window.pageYOffset);
+
+    section.forEach((element) => {
+      const sectionHeight = element.offsetHeight;
+      const sectionTop = element.offsetTop;
+      let sectionId = element.getAttribute("id");
+      const active = document.querySelector(
+        ".navigation a[href*=" + sectionId + "]"
+      );
+
+      if (scrollY == sectionTop && scrollY <= sectionTop + sectionHeight) {
+        active.classList.remove("text-light-gray");
+        active.classList.add("text-gold");
+      } else {
+        active.classList.remove("text-gold");
+        active.classList.remove("text-light-gray");
+      }
+
+    });
+  };
+
   return (
     <>
       <header>
@@ -68,18 +99,30 @@ export default function Header() {
               </figure>
             </a>
           </div>
-          <ul className="flex justify-between space-x-5 font-semibold">
+          <ul className="navigation flex justify-between space-x-5 font-semibold">
             {data.map((data, i) => {
               if (router.pathname === "/") {
                 return (
                   <li key={i}>
-                    <a href={data.href}>{data.name}</a>
+                    <a
+                      className="text-light-gray hover:text-gold
+                  "
+                      href={data.href}
+                    >
+                      {data.name}
+                    </a>
                   </li>
                 );
               } else {
                 return (
                   <li key={i}>
-                    <Link href={data.route}>{data.name}</Link>
+                    <Link
+                      className="text-light-gray hover:text-gold
+                    "
+                      href={data.route}
+                    >
+                      {data.name}
+                    </Link>
                   </li>
                 );
               }

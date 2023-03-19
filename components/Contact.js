@@ -1,5 +1,4 @@
 import Image from "next/image";
-import ContactBackground from "../public/images/business-min.jpg";
 import { useState } from "react";
 
 export default function Contact() {
@@ -38,7 +37,7 @@ export default function Contact() {
       <div className="lg:px-20 sm:px-0 xl:px-20 xl:mx-36 2xl:mx-32">
         <div className="relative">
           <img
-            src={ContactBackground}
+            src={"images/business-min.jpg"}
             alt="Bg-Contact"
             className="rounded-lg w-full sm:h-[70rem] lg:h-[55rem]"
           />

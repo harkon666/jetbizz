@@ -1,16 +1,10 @@
-import Image from "next/image";
-import Woman from "../public/images/American-Airlines-confident-in-its-entertainment-s.webp";
-import Man from "../public/images/960x0.jpg";
-import TravelKit from "../public/images/Screenshot_119.png";
-
-
 export default function TravelKitAmenity() {
   return (
     <>
       <div className="mb-96">
         <div className="relative">
           <img
-            src={TravelKit}
+            src={"images/Screenshot_119.png"}
             alt="travel kit"
             className="aspect-[16/9] object-cover object-center w-full"
           />
@@ -178,13 +172,15 @@ export default function TravelKitAmenity() {
                 </div>
                 <div>
                   <img
-                    src={Woman}
+                    src={
+                      "images/American-Airlines-confident-in-its-entertainment-s.webp"
+                    }
                     className="aspect-[1/1] object-cover object-center sm:hidden lg:block"
                   />
                 </div>
                 <div>
                   <img
-                    src={Man}
+                    src={"images/960x0.jpg"}
                     className="aspect-[1/1] object-cover object-center sm:hidden lg:block"
                   />
                 </div>
