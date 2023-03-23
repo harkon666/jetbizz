@@ -11,6 +11,7 @@ import { Autoplay, Navigation, Pagination } from "swiper";
 import Head from "next/head";
 import TravelKitAmenity from "@/components/TravelKitAmenity";
 import Contact from "@/components/Contact";
+import BackButton from "@/components/BackButton";
 
 export default function BAE146Series() {
   return (
@@ -29,7 +30,7 @@ export default function BAE146Series() {
           <div className="min-h-screen bg-white py-20 text-semi-black">
             <figure className="relative">
               <img
-                src={'images/jets/BAE 146/BAe-146.jpg'}
+                src={"images/jets/BAE 146/BAe-146.jpg"}
                 className="h-[300px] object-cover object-center w-full"
               />
               <div className="absolute h-full w-full top-0 left-0 bg-gradient-to-r from-slate-700 to-transparent"></div>
@@ -42,22 +43,23 @@ export default function BAE146Series() {
             </figure>
 
             {/* Overlay */}
+            <div className="flex justify-end">
+              <BackButton href="../all-deals" />
+            </div>
             <div className="bg-white max-w-screen-xl mx-auto my-20 grid lg:grid-cols-2 sm:grid-col-1 gap-10">
               <div className="relative">
                 <img
-                  src={'images/service-background-shape.png'}
+                  src={"images/service-background-shape.png"}
                   className="absolute -top-10 -left-8 z-0 sm:hidden lg:block"
                 />
                 <img
-                  src={'images/jets/BAE 146/bae_146_200-int-1-1024x679.jpg'}
+                  src={"images/jets/BAE 146/bae_146_200-int-1-1024x679.jpg"}
                   className="absolute top-0 left-0 z-10 aspect-[20/10] w-auto object-cover object-center rounded-lg shadow-lg"
                 />
               </div>
               <div className="flex flex-col justify-center sm:px-20 lg:px-0">
                 <div className="text-sm font-bold">
-                  <h1 className="text-5xl leading-tight mb-4">
-                    Overview
-                  </h1>
+                  <h1 className="text-5xl leading-tight mb-4">Overview</h1>
                 </div>
                 <div className="space-y-2 mb-4 text-base leading-relaxed tracking-wide">
                   <p>
@@ -169,37 +171,41 @@ export default function BAE146Series() {
                 >
                   <SwiperSlide>
                     <img
-                      src={'images/jets/BAE 146/BAe-146.jpg'}
+                      src={"images/jets/BAE 146/BAe-146.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={'images/jets/BAE 146/bae_146_200-int-1-1024x679.jpg'}
+                      src={"images/jets/BAE 146/bae_146_200-int-1-1024x679.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={'images/jets/BAE 146/Microsoft-Flight-Simulator-3-3.webp'}
+                      src={
+                        "images/jets/BAE 146/Microsoft-Flight-Simulator-3-3.webp"
+                      }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={'images/jets/BAE 146/BAe-146.jpg'}
+                      src={"images/jets/BAE 146/BAe-146.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={'images/jets/BAE 146/bae_146_200-int-1-1024x679.jpg'}
+                      src={"images/jets/BAE 146/bae_146_200-int-1-1024x679.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={'images/jets/BAE 146/Microsoft-Flight-Simulator-3-3.webp'}
+                      src={
+                        "images/jets/BAE 146/Microsoft-Flight-Simulator-3-3.webp"
+                      }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>

@@ -19,6 +19,7 @@ import SpeedIcon from "@/components/icons/SpeedIcon";
 import RangeIcon from "@/components/icons/RangeIcon";
 import EngineIcon from "@/components/icons/EngineIcon";
 import Specification from "@/components/Specification";
+import BackButton from "@/components/BackButton";
 
 export default function GulfstreamIVSP() {
   return (
@@ -50,6 +51,9 @@ export default function GulfstreamIVSP() {
             </figure>
 
             {/* Overlay */}
+            <div className="flex justify-end">
+              <BackButton href="../all-deals" />
+            </div>
             <div className="bg-white max-w-screen-xl mx-auto my-20 grid lg:grid-cols-2 sm:grid-col-1 gap-10">
               <div className="relative">
                 <img
@@ -188,7 +192,9 @@ export default function GulfstreamIVSP() {
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={"images/Jets/Gulfstream IV SP//Gulfstream-IVSP-Int.jpg"}
+                      src={
+                        "images/Jets/Gulfstream IV SP//Gulfstream-IVSP-Int.jpg"
+                      }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
@@ -208,7 +214,9 @@ export default function GulfstreamIVSP() {
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={"images/Jets/Gulfstream IV SP//Gulfstream-IVSP-Int.jpg"}
+                      src={
+                        "images/Jets/Gulfstream IV SP//Gulfstream-IVSP-Int.jpg"
+                      }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>

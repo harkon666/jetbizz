@@ -19,6 +19,7 @@ import SpeedIcon from "@/components/icons/SpeedIcon";
 import RangeIcon from "@/components/icons/RangeIcon";
 import EngineIcon from "@/components/icons/EngineIcon";
 import Specification from "@/components/Specification";
+import BackButton from "@/components/BackButton";
 
 export default function EmbraerPhenom300() {
   return (
@@ -37,7 +38,9 @@ export default function EmbraerPhenom300() {
           <div className="min-h-screen bg-white py-20 text-semi-black">
             <figure className="relative">
               <img
-                src={'images/Jets/Embraer Phenom 300/AeroBT-aero-bk-embraer-Phenom-300_2880x1440.jpg'}
+                src={
+                  "images/Jets/Embraer Phenom 300/AeroBT-aero-bk-embraer-Phenom-300_2880x1440.jpg"
+                }
                 className="h-[300px] w-full object-cover object-center"
               />
               <div className="absolute h-full w-full top-0 left-0 bg-gradient-to-r from-slate-700 to-transparent"></div>
@@ -50,14 +53,19 @@ export default function EmbraerPhenom300() {
             </figure>
 
             {/* Overlay */}
+            <div className="flex justify-end">
+              <BackButton href="../all-deals" />
+            </div>
             <div className="bg-white max-w-screen-xl mx-auto my-20 grid lg:grid-cols-2 sm:grid-col-1 gap-10">
               <div className="relative">
                 <img
-                  src={'images/service-background-shape.png'}
+                  src={"images/service-background-shape.png"}
                   className="absolute -top-10 -left-8 z-0 sm:hidden lg:block"
                 />
                 <img
-                  src={'images/Jets/Embraer Phenom 300/Phenom300046-1120x630-1.jpg'}
+                  src={
+                    "images/Jets/Embraer Phenom 300/Phenom300046-1120x630-1.jpg"
+                  }
                   className="absolute top-0 left-0 z-10 aspect-[2/1] max-w-full max-h-full object-cover object-center rounded-lg shadow-lg"
                 />
               </div>
@@ -171,37 +179,45 @@ export default function EmbraerPhenom300() {
                 >
                   <SwiperSlide>
                     <img
-                      src={'images/Jets/Embraer Phenom 300/0x0.jpg'}
+                      src={"images/Jets/Embraer Phenom 300/0x0.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={'images/Jets/Embraer Phenom 300/AeroBT-aero-bk-embraer-Phenom-300_2880x1440.jpg'}
+                      src={
+                        "images/Jets/Embraer Phenom 300/AeroBT-aero-bk-embraer-Phenom-300_2880x1440.jpg"
+                      }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={'images/Jets/Embraer Phenom 300/Phenom300046-1120x630-1.jpg'}
+                      src={
+                        "images/Jets/Embraer Phenom 300/Phenom300046-1120x630-1.jpg"
+                      }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={'images/Jets/Embraer Phenom 300/0x0.jpg'}
+                      src={"images/Jets/Embraer Phenom 300/0x0.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={'images/Jets/Embraer Phenom 300/AeroBT-aero-bk-embraer-Phenom-300_2880x1440.jpg'}
+                      src={
+                        "images/Jets/Embraer Phenom 300/AeroBT-aero-bk-embraer-Phenom-300_2880x1440.jpg"
+                      }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={'images/Jets/Embraer Phenom 300/Phenom300046-1120x630-1.jpg'}
+                      src={
+                        "images/Jets/Embraer Phenom 300/Phenom300046-1120x630-1.jpg"
+                      }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>

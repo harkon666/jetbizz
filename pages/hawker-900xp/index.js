@@ -47,6 +47,9 @@ export default function Hawker900XP() {
             </figure>
 
             {/* Overlay */}
+            <div className="flex justify-end">
+              <BackButton href="../all-deals" />
+            </div>
             <div className="bg-white max-w-screen-xl mx-auto my-20 grid lg:grid-cols-2 sm:grid-col-1 gap-10">
               <div className="relative">
                 <img

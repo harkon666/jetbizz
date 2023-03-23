@@ -17,6 +17,7 @@ import LandingIcon from "@/components/icons/LandingIcon";
 import FuelIcon from "@/components/icons/FuelIcon";
 import SpeedIcon from "@/components/icons/SpeedIcon";
 import RangeIcon from "@/components/icons/RangeIcon";
+import BackButton from "@/components/BackButton";
 
 export default function Hawker40000XP() {
   return (
@@ -45,6 +46,9 @@ export default function Hawker40000XP() {
             </figure>
 
             {/* Overlay */}
+            <div className="flex justify-end">
+              <BackButton href="../all-deals" />
+            </div>
             <div className="bg-white max-w-screen-xl mx-auto my-20 grid lg:grid-cols-2 sm:grid-col-1 gap-10">
               <div className="relative">
                 <img

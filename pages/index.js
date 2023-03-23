@@ -520,7 +520,7 @@ export default function Home() {
                 product="Hawker-400XP"
                 type="Legacy 600"
                 capacity="4-8 Seats"
-                href="./views/hawker-400xp"
+                href="./hawker-400xp"
               />
               <CardImage
                 src={
@@ -529,7 +529,7 @@ export default function Home() {
                 product="Hawker 800XP"
                 type="Legacy 600"
                 capacity="4-8 Seats"
-                href="./views/hawker-800xp"
+                href="./hawker-800xp"
               />
               <CardImage
                 src={
@@ -538,7 +538,7 @@ export default function Home() {
                 product="Bell 407"
                 type="Legacy 600"
                 capacity="4-8 Seats"
-                href="./views/bell-407"
+                href="./bell-407"
               />
               <CardImage
                 src={
@@ -547,7 +547,7 @@ export default function Home() {
                 product="Bell 412"
                 type="Legacy 600"
                 capacity="4-8 Seats"
-                href="./views/bell-412"
+                href="./bell-412"
               />
             </div>
           </div>

@@ -35,7 +35,7 @@ export default function Hawker800XP() {
         <section>
           <div className="min-h-screen bg-white py-20 text-semi-black">
             <figure className="relative">
-              <img src={'images/main-banner-min.png'} />
+              <img src={"images/main-banner-min.png"} />
               <div className="absolute h-full w-full top-0 left-0 bg-gradient-to-r from-slate-700 to-transparent"></div>
 
               <div className="absolute top-0 h-full w-full flex justify-center items-center">
@@ -46,14 +46,17 @@ export default function Hawker800XP() {
             </figure>
 
             {/* Overlay */}
+            <div className="flex justify-end">
+              <BackButton href="../all-deals" />
+            </div>
             <div className="bg-white max-w-screen-xl mx-auto my-20 grid lg:grid-cols-2 sm:grid-col-1 gap-10">
               <div className="relative">
                 <img
-                  src={'images/service-background-shape.png'}
+                  src={"images/service-background-shape.png"}
                   className="absolute -top-10 -left-8 z-0 sm:hidden lg:block"
                 />
                 <img
-                  src={'images/Jets/Hawker 800XP/N92UP_07.webp'}
+                  src={"images/Jets/Hawker 800XP/N92UP_07.webp"}
                   className="absolute top-0 left-0 z-10 aspect-[2/1] max-w-full max-h-full object-cover object-center rounded-lg shadow-lg"
                 />
               </div>
@@ -174,37 +177,41 @@ export default function Hawker800XP() {
                 >
                   <SwiperSlide>
                     <img
-                      src={'images/Jets/Hawker 800XP/hawker-800-xp-1.jpg'}
+                      src={"images/Jets/Hawker 800XP/hawker-800-xp-1.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={'images/Jets/Hawker 800XP/hawker-800xp-Exterior-NEW-jS.jpg'}
+                      src={
+                        "images/Jets/Hawker 800XP/hawker-800xp-Exterior-NEW-jS.jpg"
+                      }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={'images/Jets/Hawker 800XP/N92UP_07.webp'}
+                      src={"images/Jets/Hawker 800XP/N92UP_07.webp"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={'images/Jets/Hawker 800XP/hawker-800-xp-1.jpg'}
+                      src={"images/Jets/Hawker 800XP/hawker-800-xp-1.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={'images/Jets/Hawker 800XP/hawker-800xp-Exterior-NEW-jS.jpg'}
+                      src={
+                        "images/Jets/Hawker 800XP/hawker-800xp-Exterior-NEW-jS.jpg"
+                      }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={'images/Jets/Hawker 800XP/N92UP_07.webp'}
+                      src={"images/Jets/Hawker 800XP/N92UP_07.webp"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>

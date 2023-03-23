@@ -84,7 +84,6 @@ export default function Header() {
         active.classList.remove("text-gold");
         active.classList.remove("text-light-gray");
       }
-
     });
   };
 
