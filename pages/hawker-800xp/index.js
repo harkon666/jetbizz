@@ -18,6 +18,7 @@ import LandingIcon from "@/components/icons/LandingIcon";
 import FuelIcon from "@/components/icons/FuelIcon";
 import SpeedIcon from "@/components/icons/SpeedIcon";
 import RangeIcon from "@/components/icons/RangeIcon";
+import BackButton from "@/components/BackButton";
 
 export default function Hawker800XP() {
   return (
