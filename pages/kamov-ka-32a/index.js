@@ -152,31 +152,25 @@ export default function AirbusHelicopterEC() {
                   spaceBetween={30}
                   loop={true}
                   autoplay={{
-                    delay: 2500,
-                  }}
+                    delay: 2500,}}
                   breakpoints={{
                     640: {
                       slidesPerView: 1,
                     },
                     1024: {
                       slidesPerView: 2,
-                    },
-                  }}
+                    },}}
                   modules={[Autoplay, Pagination, Navigation]}
                 >
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Helicopters/Kamov KA-32A/32-02-department-of-disaster-prevention-and-mitigation-thailand-kamov-ka-32_PlanespottersNet_1170893_83388d51d5_o.jpg"
-                      }
+                      src={"images/Helicopters/Kamov KA-32A/32-02-department-of-disaster-prevention-and-mitigation-thailand-kamov-ka-32_PlanespottersNet_1170893_83388d51d5_o.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Helicopters/Kamov KA-32A/95e8d6de6e842c7859e01faf026c477a_900.jpg"
-                      }
+                      src={"images/Helicopters/Kamov KA-32A/95e8d6de6e842c7859e01faf026c477a_900.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
@@ -188,17 +182,13 @@ export default function AirbusHelicopterEC() {
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Helicopters/Kamov KA-32A/32-02-department-of-disaster-prevention-and-mitigation-thailand-kamov-ka-32_PlanespottersNet_1170893_83388d51d5_o.jpg"
-                      }
+                      src={"images/Helicopters/Kamov KA-32A/32-02-department-of-disaster-prevention-and-mitigation-thailand-kamov-ka-32_PlanespottersNet_1170893_83388d51d5_o.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Helicopters/Kamov KA-32A/95e8d6de6e842c7859e01faf026c477a_900.jpg"
-                      }
+                      src={"images/Helicopters/Kamov KA-32A/95e8d6de6e842c7859e01faf026c477a_900.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>

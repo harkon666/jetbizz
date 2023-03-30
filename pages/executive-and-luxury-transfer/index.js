@@ -222,7 +222,7 @@ export default function ExecutiveLuxuryTransfer() {
                   Jet <span className="text-gold">Gellery</span>
                 </p>
                 <h1 className="text-4xl font-bold my-4">
-                  Bell 407 Photo Gallery
+                  BELL 407 Photo Gallery
                 </h1>
               </div>
               <div className="px-32 flex justify-center items-center">
@@ -230,16 +230,14 @@ export default function ExecutiveLuxuryTransfer() {
                   spaceBetween={30}
                   loop={true}
                   autoplay={{
-                    delay: 2500,
-                  }}
+                    delay: 2500,}}
                   breakpoints={{
                     640: {
                       slidesPerView: 1,
                     },
                     1024: {
                       slidesPerView: 2,
-                    },
-                  }}
+                    },}}
                   modules={[Autoplay, Pagination, Navigation]}
                 >
                   <SwiperSlide>

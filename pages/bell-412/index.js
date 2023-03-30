@@ -39,7 +39,7 @@ export default function Bell412() {
             <figure className="relative">
               <img
                 src={
-                  "images/Helicopters/Bell 412/Bell-412EP-e1427082029160-1200x718.jpg"
+                  "images/Helicopters/BELL 412/Bell-412EP-e1427082029160-1200x718.jpg"
                 }
                 className="h-[300px] w-full object-cover object-center"
               />
@@ -63,9 +63,7 @@ export default function Bell412() {
                   className="absolute -top-10 -left-8 z-0 sm:hidden lg:block"
                 />
                 <img
-                  src={
-                    "images/Helicopters/Bell 412/LAFD_Bell_412_(cropped).jpg"
-                  }
+                  src={"images/Helicopters/BELL 412/LAFD_Bell_412_(cropped).jpg"}
                   className="absolute top-0 left-0 z-10 aspect-[2/1] max-w-full max-h-full object-cover object-center rounded-lg shadow-lg"
                 />
               </div>
@@ -148,63 +146,49 @@ export default function Bell412() {
                   spaceBetween={30}
                   loop={true}
                   autoplay={{
-                    delay: 2500,
-                  }}
+                    delay: 2500,}}
                   breakpoints={{
                     640: {
                       slidesPerView: 1,
                     },
                     1024: {
                       slidesPerView: 2,
-                    },
-                  }}
+                    },}}
                   modules={[Autoplay, Pagination, Navigation]}
                 >
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Helicopters/Bell 412/412-VIP-seats-cabin.jpg"
-                      }
+                      src={"images/Helicopters/BELL 412/412-VIP-seats-cabin.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Helicopters/Bell 412/Bell-412EP-e1427082029160-1200x718.jpg"
-                      }
+                      src={"images/Helicopters/BELL 412/Bell-412EP-e1427082029160-1200x718.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Helicopters/Bell 412/LAFD_Bell_412_(cropped).jpg"
-                      }
+                      src={"images/Helicopters/BELL 412/LAFD_Bell_412_(cropped).jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Helicopters/Bell 412/412-VIP-seats-cabin.jpg"
-                      }
+                      src={"images/Helicopters/BELL 412/412-VIP-seats-cabin.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Helicopters/Bell 412/Bell-412EP-e1427082029160-1200x718.jpg"
-                      }
+                      src={"images/Helicopters/BELL 412/Bell-412EP-e1427082029160-1200x718.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Helicopters/Bell 412/LAFD_Bell_412_(cropped).jpg"
-                      }
+                      src={"images/Helicopters/BELL 412/LAFD_Bell_412_(cropped).jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>

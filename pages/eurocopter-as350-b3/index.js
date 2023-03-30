@@ -63,9 +63,7 @@ export default function AS350B3() {
                   className="absolute -top-10 -left-8 z-0 sm:hidden lg:block"
                 />
                 <img
-                  src={
-                    "images/Helicopters/Eurocopter AS350B-3/Javaheli-AS350-B3-interior-helicoptercharterjakartaindonesia-javaheli-min-1024x768.jpg"
-                  }
+                  src={"images/Helicopters/Eurocopter AS350B-3/Javaheli-AS350-B3-interior-helicoptercharterjakartaindonesia-javaheli-min-1024x768.jpg"}
                   className="absolute top-0 left-0 z-10 aspect-[2/1] max-w-full max-h-full object-cover object-center rounded-lg shadow-lg"
                 />
               </div>
@@ -150,63 +148,49 @@ export default function AS350B3() {
                   spaceBetween={30}
                   loop={true}
                   autoplay={{
-                    delay: 2500,
-                  }}
+                    delay: 2500,}}
                   breakpoints={{
                     640: {
                       slidesPerView: 1,
                     },
                     1024: {
                       slidesPerView: 2,
-                    },
-                  }}
+                    },}}
                   modules={[Autoplay, Pagination, Navigation]}
                 >
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Helicopters/Eurocopter AS350B-3/561858f6f1f111cc50bd394ed422f876.webp"
-                      }
+                      src={"images/Helicopters/Eurocopter AS350B-3/561858f6f1f111cc50bd394ed422f876.webp"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Helicopters/Eurocopter AS350B-3/AS350B3+-Squirrel-EN.jpg"
-                      }
+                      src={"images/Helicopters/Eurocopter AS350B-3/AS350B3+-Squirrel-EN.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Helicopters/Eurocopter AS350B-3/Javaheli-AS350-B3-interior-helicoptercharterjakartaindonesia-javaheli-min-1024x768.jpg"
-                      }
+                      src={"images/Helicopters/Eurocopter AS350B-3/Javaheli-AS350-B3-interior-helicoptercharterjakartaindonesia-javaheli-min-1024x768.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Helicopters/Eurocopter AS350B-3/561858f6f1f111cc50bd394ed422f876.webp"
-                      }
+                      src={"images/Helicopters/Eurocopter AS350B-3/561858f6f1f111cc50bd394ed422f876.webp"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Helicopters/Eurocopter AS350B-3/AS350B3+-Squirrel-EN.jpg"
-                      }
+                      src={"images/Helicopters/Eurocopter AS350B-3/AS350B3+-Squirrel-EN.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Helicopters/Eurocopter AS350B-3/Javaheli-AS350-B3-interior-helicoptercharterjakartaindonesia-javaheli-min-1024x768.jpg"
-                      }
+                      src={"images/Helicopters/Eurocopter AS350B-3/Javaheli-AS350-B3-interior-helicoptercharterjakartaindonesia-javaheli-min-1024x768.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>

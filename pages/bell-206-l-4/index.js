@@ -61,9 +61,7 @@ export default function Bell206L4() {
                   className="absolute -top-10 -left-8 z-0 sm:hidden lg:block"
                 />
                 <img
-                  src={
-                    "images/Helicopters/Bell 206 L 4/iyNL4qS0mFRlBjcQMOgJHKU3Y6nMUmdr4gG8r9kfYv2aa.jpg"
-                  }
+                  src={"images/Helicopters/BELL 206 L 4/iyNL4qS0mFRlBjcQMOgJHKU3Y6nMUmdr4gG8r9kfYv2aa.jpg"}
                   className="absolute top-0 left-0 z-10 aspect-[2/1] max-w-full max-h-full object-cover object-center rounded-lg shadow-lg"
                 />
               </div>
@@ -151,16 +149,14 @@ export default function Bell206L4() {
                   spaceBetween={30}
                   loop={true}
                   autoplay={{
-                    delay: 2500,
-                  }}
+                    delay: 2500,}}
                   breakpoints={{
                     640: {
                       slidesPerView: 1,
                     },
                     1024: {
                       slidesPerView: 2,
-                    },
-                  }}
+                    },}}
                   modules={[Autoplay, Pagination, Navigation]}
                 >
                   <SwiperSlide>
@@ -171,15 +167,13 @@ export default function Bell206L4() {
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={"images/Helicopters/Bell 206 L 4/18012016-57.jpg"}
+                      src={"images/Helicopters/BELL 206 L 4/18012016-57.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Helicopters/Bell 206 L 4/iyNL4qS0mFRlBjcQMOgJHKU3Y6nMUmdr4gG8r9kfYv2aa.jpg"
-                      }
+                      src={"images/Helicopters/BELL 206 L 4/iyNL4qS0mFRlBjcQMOgJHKU3Y6nMUmdr4gG8r9kfYv2aa.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
@@ -191,15 +185,13 @@ export default function Bell206L4() {
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={"images/Helicopters/Bell 206 L 4/18012016-57.jpg"}
+                      src={"images/Helicopters/BELL 206 L 4/18012016-57.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Helicopters/Bell 206 L 4/iyNL4qS0mFRlBjcQMOgJHKU3Y6nMUmdr4gG8r9kfYv2aa.jpg"
-                      }
+                      src={"images/Helicopters/BELL 206 L 4/iyNL4qS0mFRlBjcQMOgJHKU3Y6nMUmdr4gG8r9kfYv2aa.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>

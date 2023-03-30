@@ -61,9 +61,7 @@ export default function Mi26() {
                   className="absolute -top-10 -left-8 z-0 sm:hidden lg:block"
                 />
                 <img
-                  src={
-                    "images/Helicopters/MI 26/Russian_Air_Force_Mi-26_Beltyukov.jpg"
-                  }
+                  src={"images/Helicopters/MI 26/Russian_Air_Force_Mi-26_Beltyukov.jpg"}
                   className="absolute top-0 left-0 z-10 aspect-[2/1] max-w-full max-h-full object-cover object-center rounded-lg shadow-lg"
                 />
               </div>
@@ -145,16 +143,14 @@ export default function Mi26() {
                   spaceBetween={30}
                   loop={true}
                   autoplay={{
-                    delay: 2500,
-                  }}
+                    delay: 2500,}}
                   breakpoints={{
                     640: {
                       slidesPerView: 1,
                     },
                     1024: {
                       slidesPerView: 2,
-                    },
-                  }}
+                    },}}
                   modules={[Autoplay, Pagination, Navigation]}
                 >
                   <SwiperSlide>
@@ -171,9 +167,7 @@ export default function Mi26() {
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Helicopters/MI 26/Russian_Air_Force_Mi-26_Beltyukov.jpg"
-                      }
+                      src={"images/Helicopters/MI 26/Russian_Air_Force_Mi-26_Beltyukov.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
@@ -191,9 +185,7 @@ export default function Mi26() {
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Helicopters/MI 26/Russian_Air_Force_Mi-26_Beltyukov.jpg"
-                      }
+                      src={"images/Helicopters/MI 26/Russian_Air_Force_Mi-26_Beltyukov.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>

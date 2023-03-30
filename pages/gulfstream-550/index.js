@@ -160,16 +160,14 @@ export default function Gulfstream550() {
                   spaceBetween={30}
                   loop={true}
                   autoplay={{
-                    delay: 2500,
-                  }}
+                    delay: 2500,}}
                   breakpoints={{
                     640: {
                       slidesPerView: 1,
                     },
                     1024: {
                       slidesPerView: 2,
-                    },
-                  }}
+                    },}}
                   modules={[Autoplay, Pagination, Navigation]}
                 >
                   <SwiperSlide>
@@ -186,9 +184,7 @@ export default function Gulfstream550() {
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Jets/Gulfstream 550/Gulfstream-G550-pric1e.webp"
-                      }
+                      src={"images/Jets/Gulfstream 550/Gulfstream-G550-pric1e.webp"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
@@ -206,9 +202,7 @@ export default function Gulfstream550() {
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Jets/Gulfstream 550/Gulfstream-G550-pric1e.webp"
-                      }
+                      src={"images/Jets/Gulfstream 550/Gulfstream-G550-pric1e.webp"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>

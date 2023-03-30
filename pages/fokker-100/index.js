@@ -63,9 +63,7 @@ export default function Fokker50() {
                   className="absolute -top-10 -left-8 z-0 sm:hidden lg:block"
                 />
                 <img
-                  src={
-                    "images/Jets/Fokker 100/Fokker-Executive-Jet-indo-jet-charter.jpg"
-                  }
+                  src={"images/Jets/Fokker 100/Fokker-Executive-Jet-indo-jet-charter.jpg"}
                   className="absolute top-0 left-0 z-10 aspect-[2/1] max-w-full max-h-full object-cover object-center rounded-lg shadow-lg"
                 />
               </div>
@@ -159,63 +157,49 @@ export default function Fokker50() {
                   spaceBetween={30}
                   loop={true}
                   autoplay={{
-                    delay: 2500,
-                  }}
+                    delay: 2500,}}
                   breakpoints={{
                     640: {
                       slidesPerView: 1,
                     },
                     1024: {
                       slidesPerView: 2,
-                    },
-                  }}
+                    },}}
                   modules={[Autoplay, Pagination, Navigation]}
                 >
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Jets/Fokker 100/Fokker-Executive-Jet-indo-jet-charter.jpg"
-                      }
+                      src={"images/Jets/Fokker 100/Fokker-Executive-Jet-indo-jet-charter.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Jets/Fokker 100/VH-FNN-Virgin-Australia-Regional-Fokker-100-Cape-Naturaliste-at-Perth-Airport.jpg"
-                      }
+                      src={"images/Jets/Fokker 100/VH-FNN-Virgin-Australia-Regional-Fokker-100-Cape-Naturaliste-at-Perth-Airport.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Jets/Fokker 100/VH-FZH-Virgin-Australia-Regional-Fokker-F100-in-the-standard-livery-at-Adelaide-West-Beach-Airport.jpg"
-                      }
+                      src={"images/Jets/Fokker 100/VH-FZH-Virgin-Australia-Regional-Fokker-F100-in-the-standard-livery-at-Adelaide-West-Beach-Airport.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Jets/Fokker 100/Fokker-Executive-Jet-indo-jet-charter.jpg"
-                      }
+                      src={"images/Jets/Fokker 100/Fokker-Executive-Jet-indo-jet-charter.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Jets/Fokker 100/VH-FNN-Virgin-Australia-Regional-Fokker-100-Cape-Naturaliste-at-Perth-Airport.jpg"
-                      }
+                      src={"images/Jets/Fokker 100/VH-FNN-Virgin-Australia-Regional-Fokker-100-Cape-Naturaliste-at-Perth-Airport.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Jets/Fokker 100/VH-FZH-Virgin-Australia-Regional-Fokker-F100-in-the-standard-livery-at-Adelaide-West-Beach-Airport.jpg"
-                      }
+                      src={"images/Jets/Fokker 100/VH-FZH-Virgin-Australia-Regional-Fokker-F100-in-the-standard-livery-at-Adelaide-West-Beach-Airport.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>

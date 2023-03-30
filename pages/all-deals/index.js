@@ -58,7 +58,7 @@ export default function AddDeals() {
                   <p className="uppercase">
                     Jet <span className="text-gold">Specification</span>
                   </p>
-                  <h1 className="text-5xl leading-tight mb-4">Bell 407</h1>
+                  <h1 className="text-5xl leading-tight mb-4">BELL 407</h1>
                 </div>
                 <div className="space-y-2 mb-4 text-base leading-relaxed tracking-wide">
                   <p>
@@ -196,16 +196,14 @@ export default function AddDeals() {
                     href="./bae-146-series"
                   />
                   <CardImage
-                    src={
-                      "images/Jets/Beechcraft King Air 200/1979-Beechcraft-King-Air-200-01.jpg"
+                    src={  "images/Jets/Beechcraft King Air 200/1979-Beechcraft-King-Air-200-01.jpg"
                     }
                     product="Beechcraft King Air 200"
                     capacity="6 Seats"
                     href="./beechcraft-king-air-200"
                   />
                   <CardImage
-                    src={
-                      "images/Jets/Beechcraft King Air 350/Beechcraft-King-Air-350i-1090x500.jpg"
+                    src={  "images/Jets/Beechcraft King Air 350/Beechcraft-King-Air-350i-1090x500.jpg"
                     }
                     product="Beechcraft King Air 350"
                     capacity="9-11 Seats"
@@ -218,40 +216,35 @@ export default function AddDeals() {
                     href="./beechcraft-1900-d"
                   />
                   <CardImage
-                    src={
-                      "images/Jets/Beechjet 400a/Hawker-Beechcraft-Beechjet-400A.jpg"
+                    src={  "images/Jets/Beechjet 400a/Hawker-Beechcraft-Beechjet-400A.jpg"
                     }
                     product="Beechjet 400A"
                     capacity="7-9 Seats"
                     href="./beechjet-400a"
                   />
                   <CardImage
-                    src={
-                      "images/Jets/Cessna Citation XLS/Citation_XLS_Ext3-3-1024x723.jpg"
+                    src={  "images/Jets/Cessna Citation XLS/Citation_XLS_Ext3-3-1024x723.jpg"
                     }
                     product="Cessna Citation XLS"
                     capacity="9 Seats"
                     href="./cessna-citation-xls"
                   />
                   <CardImage
-                    src={
-                      "images/Jets/Embraer ERJ 135/Embraer-ERJ-135BJ-Legacy-650-1.jpg"
+                    src={  "images/Jets/Embraer ERJ 135/Embraer-ERJ-135BJ-Legacy-650-1.jpg"
                     }
                     product="Embraer ERJ 135"
                     capacity="16 Seats"
                     href="./embraer-erj-135"
                   />
                   <CardImage
-                    src={
-                      "images/Jets/Embraer Phenom 300/AeroBT-aero-bk-embraer-Phenom-300_2880x1440.jpg"
+                    src={  "images/Jets/Embraer Phenom 300/AeroBT-aero-bk-embraer-Phenom-300_2880x1440.jpg"
                     }
                     product="Embraer Phenom 300"
                     capacity="7 Seats"
                     href="./embraer-phenom-300"
                   />
                   <CardImage
-                    src={
-                      "images/Jets/Embraer Legacy 600/AeroBT-Legacy600_2880x1440.jpg"
+                    src={  "images/Jets/Embraer Legacy 600/AeroBT-Legacy600_2880x1440.jpg"
                     }
                     product="Embraer Legacy 600"
                     capacity="14 Seats"
@@ -270,8 +263,7 @@ export default function AddDeals() {
                     href="./fokker-70"
                   />
                   <CardImage
-                    src={
-                      "images/Jets/Fokker 100/Fokker-Executive-Jet-indo-jet-charter.jpg"
+                    src={  "images/Jets/Fokker 100/Fokker-Executive-Jet-indo-jet-charter.jpg"
                     }
                     product="Fokker 100"
                     capacity="107 Seats"
@@ -312,8 +304,7 @@ export default function AddDeals() {
                   <div>
                     <div className="grid lg:grid-cols-4 sm:grid-cols-2 gap-6">
                       <CardImage
-                        src={
-                          "images/Helicopters/Airbus Helicopter EC/84518_1660386405.webp"
+                        src={  "images/Helicopters/Airbus Helicopter EC/84518_1660386405.webp"
                         }
                         product="Airbus Helicopter EC"
                         capacity="8 Seats"
@@ -326,16 +317,14 @@ export default function AddDeals() {
                         href="./bell-206-l-4"
                       />
                       <CardImage
-                        src={
-                          "images/Helicopters/BELL 407/helicopter-bell_407-1024x768.jpg"
+                        src={  "images/Helicopters/BELL 407/helicopter-bell_407-1024x768.jpg"
                         }
-                        product="Bell 407"
+                        product="BELL 407"
                         capacity="5 Seats"
                         href="./bell-407"
                       />
                       <CardImage
-                        src={
-                          "images/Helicopters/BELL 412/Bell-412EP-e1427082029160-1200x718.jpg"
+                        src={  "images/Helicopters/BELL 412/Bell-412EP-e1427082029160-1200x718.jpg"
                         }
                         product="Bell 412"
                         capacity="6 Seats"
@@ -354,24 +343,21 @@ export default function AddDeals() {
                         href="./bk-117a-4"
                       />
                       <CardImage
-                        src={
-                          "images/Helicopters/Eurocopter AS350B-3/AS350B3+-Squirrel-EN.jpg"
+                        src={  "images/Helicopters/Eurocopter AS350B-3/AS350B3+-Squirrel-EN.jpg"
                         }
                         product="Eurocopter AS350-B3"
                         capacity="4 Seats"
                         href="./eurocopter-as350-b3"
                       />
                       <CardImage
-                        src={
-                          "images/Helicopters/Eurocopter B155-B1/Eurocopter-EC155-B1-G-HOTB.jpg"
+                        src={  "images/Helicopters/Eurocopter B155-B1/Eurocopter-EC155-B1-G-HOTB.jpg"
                         }
                         product="Eurocopter B155-B1"
                         capacity="4-8 Seats"
                         href="./eurocopter-b155-b1"
                       />
                       <CardImage
-                        src={
-                          "images/Helicopters/Kamov KA-32A/95e8d6de6e842c7859e01faf026c477a_900.jpg"
+                        src={  "images/Helicopters/Kamov KA-32A/95e8d6de6e842c7859e01faf026c477a_900.jpg"
                         }
                         product="Kamov KA-32A"
                         capacity="13 Seats"
@@ -384,8 +370,7 @@ export default function AddDeals() {
                         href="./mi-171"
                       />
                       <CardImage
-                        src={
-                          "images/Helicopters/MI 8/Mil_Mi-8P,_Baltic_Airlines_(cropped).jpg"
+                        src={  "images/Helicopters/MI 8/Mil_Mi-8P,_Baltic_Airlines_(cropped).jpg"
                         }
                         product="MI 8"
                         capacity="4-8 Seats"

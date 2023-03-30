@@ -45,7 +45,7 @@ export default function Bell407() {
 
               <div className="absolute top-0 h-full w-full flex justify-center items-center">
                 <h1 className="text-5xl text-light-gray font-semibold">
-                  Bell 407
+                  BELL 407
                 </h1>
               </div>
             </figure>
@@ -61,9 +61,7 @@ export default function Bell407() {
                   className="absolute -top-10 -left-8 z-0 sm:hidden lg:block"
                 />
                 <img
-                  src={
-                    "images/Helicopters/Bell 407/hillsboro-aviation-executive-charter-b407-cabin-detail-small-web-1200x800.jpg"
-                  }
+                  src={"images/Helicopters/BELL 407/hillsboro-aviation-executive-charter-b407-cabin-detail-small-web-1200x800.jpg"}
                   className="absolute top-0 left-0 z-10 aspect-[2/1] max-w-full max-h-full object-cover object-center rounded-lg shadow-lg"
                 />
               </div>
@@ -73,7 +71,7 @@ export default function Bell407() {
                 </div>
                 <div className="space-y-2 mb-4 text-base leading-relaxed tracking-wide">
                   <p>
-                    The Bell 407 is a four-blade, single-engine, civil utility
+                    The BELL 407 is a four-blade, single-engine, civil utility
                     helicopter. A derivative of the Bell 206L-4 LongRanger, the
                     407 uses the four-blade, soft-in-plane design rotor with
                     composite hub developed for the United States Army's OH-58D
@@ -140,7 +138,7 @@ export default function Bell407() {
                   Jet <span className="text-gold">Gellery</span>
                 </p>
                 <h1 className="text-4xl font-bold my-4">
-                  Bell 407 Photo Gallery
+                  BELL 407 Photo Gallery
                 </h1>
               </div>
               <div className="px-32 flex justify-center items-center">
@@ -148,16 +146,14 @@ export default function Bell407() {
                   spaceBetween={30}
                   loop={true}
                   autoplay={{
-                    delay: 2500,
-                  }}
+                    delay: 2500,}}
                   breakpoints={{
                     640: {
                       slidesPerView: 1,
                     },
                     1024: {
                       slidesPerView: 2,
-                    },
-                  }}
+                    },}}
                   modules={[Autoplay, Pagination, Navigation]}
                 >
                   <SwiperSlide>
@@ -168,17 +164,13 @@ export default function Bell407() {
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Helicopters/Bell 407/helicopter-bell_407-1024x768.jpg"
-                      }
+                      src={"images/Helicopters/BELL 407/helicopter-bell_407-1024x768.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Helicopters/Bell 407/hillsboro-aviation-executive-charter-b407-cabin-detail-small-web-1200x800.jpg"
-                      }
+                      src={"images/Helicopters/BELL 407/hillsboro-aviation-executive-charter-b407-cabin-detail-small-web-1200x800.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
@@ -190,17 +182,13 @@ export default function Bell407() {
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Helicopters/Bell 407/helicopter-bell_407-1024x768.jpg"
-                      }
+                      src={"images/Helicopters/BELL 407/helicopter-bell_407-1024x768.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Helicopters/Bell 407/hillsboro-aviation-executive-charter-b407-cabin-detail-small-web-1200x800.jpg"
-                      }
+                      src={"images/Helicopters/BELL 407/hillsboro-aviation-executive-charter-b407-cabin-detail-small-web-1200x800.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>

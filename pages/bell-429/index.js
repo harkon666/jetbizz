@@ -38,7 +38,7 @@ export default function Bell429() {
           <div className="min-h-screen bg-white py-20 text-semi-black">
             <figure className="relative">
               <img
-                src={"images/Helicopters/Bell 429/Bell-12-135.jpg"}
+                src={"images/Helicopters/BELL 429/Bell-12-135.jpg"}
                 className="h-[300px] w-full object-cover object-center"
               />
               <div className="absolute h-full w-full top-0 left-0 bg-gradient-to-r from-slate-700 to-transparent"></div>
@@ -61,7 +61,7 @@ export default function Bell429() {
                   className="absolute -top-10 -left-8 z-0 sm:hidden lg:block"
                 />
                 <img
-                  src={"images/Helicopters/Bell 429/download.jpeg"}
+                  src={"images/Helicopters/BELL 429/download.jpeg"}
                   className="absolute top-0 left-0 z-10 aspect-[2/1] max-w-full max-h-full object-cover object-center rounded-lg shadow-lg"
                 />
               </div>
@@ -145,51 +145,49 @@ export default function Bell429() {
                   spaceBetween={30}
                   loop={true}
                   autoplay={{
-                    delay: 2500,
-                  }}
+                    delay: 2500,}}
                   breakpoints={{
                     640: {
                       slidesPerView: 1,
                     },
                     1024: {
                       slidesPerView: 2,
-                    },
-                  }}
+                    },}}
                   modules={[Autoplay, Pagination, Navigation]}
                 >
                   <SwiperSlide>
                     <img
-                      src={"images/Helicopters/Bell 429/AWN20141014151158.jpg"}
+                      src={"images/Helicopters/BELL 429/AWN20141014151158.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={"images/Helicopters/Bell 429/Bell-12-135.jpg"}
+                      src={"images/Helicopters/BELL 429/Bell-12-135.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={"images/Helicopters/Bell 429/download.jpeg"}
+                      src={"images/Helicopters/BELL 429/download.jpeg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={"images/Helicopters/Bell 429/AWN20141014151158.jpg"}
+                      src={"images/Helicopters/BELL 429/AWN20141014151158.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={"images/Helicopters/Bell 429/Bell-12-135.jpg"}
+                      src={"images/Helicopters/BELL 429/Bell-12-135.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={"images/Helicopters/Bell 429/download.jpeg"}
+                      src={"images/Helicopters/BELL 429/download.jpeg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>

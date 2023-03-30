@@ -164,16 +164,14 @@ export default function Hawker800XP() {
                   spaceBetween={30}
                   loop={true}
                   autoplay={{
-                    delay: 2500,
-                  }}
+                    delay: 2500,}}
                   breakpoints={{
                     640: {
                       slidesPerView: 1,
                     },
                     1024: {
                       slidesPerView: 2,
-                    },
-                  }}
+                    },}}
                   modules={[Autoplay, Pagination, Navigation]}
                 >
                   <SwiperSlide>
@@ -184,9 +182,7 @@ export default function Hawker800XP() {
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Jets/Hawker 800XP/hawker-800xp-Exterior-NEW-jS.jpg"
-                      }
+                      src={"images/Jets/Hawker 800XP/hawker-800xp-Exterior-NEW-jS.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
@@ -204,9 +200,7 @@ export default function Hawker800XP() {
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Jets/Hawker 800XP/hawker-800xp-Exterior-NEW-jS.jpg"
-                      }
+                      src={"images/Jets/Hawker 800XP/hawker-800xp-Exterior-NEW-jS.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>

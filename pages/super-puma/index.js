@@ -145,23 +145,19 @@ export default function SuperPuma() {
                   spaceBetween={30}
                   loop={true}
                   autoplay={{
-                    delay: 2500,
-                  }}
+                    delay: 2500,}}
                   breakpoints={{
                     640: {
                       slidesPerView: 1,
                     },
                     1024: {
                       slidesPerView: 2,
-                    },
-                  }}
+                    },}}
                   modules={[Autoplay, Pagination, Navigation]}
                 >
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Helicopters/Super Puma/0dbcffc0d40410d5a3be8b1a7c7eea25e8cb01c8-tc-img-preview.jpg"
-                      }
+                      src={"images/Helicopters/Super Puma/0dbcffc0d40410d5a3be8b1a7c7eea25e8cb01c8-tc-img-preview.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
@@ -179,9 +175,7 @@ export default function SuperPuma() {
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Helicopters/Super Puma/0dbcffc0d40410d5a3be8b1a7c7eea25e8cb01c8-tc-img-preview.jpg"
-                      }
+                      src={"images/Helicopters/Super Puma/0dbcffc0d40410d5a3be8b1a7c7eea25e8cb01c8-tc-img-preview.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>

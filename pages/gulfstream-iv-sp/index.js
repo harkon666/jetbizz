@@ -164,16 +164,14 @@ export default function GulfstreamIVSP() {
                   spaceBetween={30}
                   loop={true}
                   autoplay={{
-                    delay: 2500,
-                  }}
+                    delay: 2500,}}
                   breakpoints={{
                     640: {
                       slidesPerView: 1,
                     },
                     1024: {
                       slidesPerView: 2,
-                    },
-                  }}
+                    },}}
                   modules={[Autoplay, Pagination, Navigation]}
                 >
                   <SwiperSlide>
@@ -184,17 +182,13 @@ export default function GulfstreamIVSP() {
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Jets/Gulfstream IV SP/gulfstream-iv-iv-sp.jpg"
-                      }
+                      src={"images/Jets/Gulfstream IV SP/gulfstream-iv-iv-sp.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Jets/Gulfstream IV SP//Gulfstream-IVSP-Int.jpg"
-                      }
+                      src={"images/Jets/Gulfstream IV SP//Gulfstream-IVSP-Int.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
@@ -206,17 +200,13 @@ export default function GulfstreamIVSP() {
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Jets/Gulfstream IV SP/gulfstream-iv-iv-sp.jpg"
-                      }
+                      src={"images/Jets/Gulfstream IV SP/gulfstream-iv-iv-sp.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Jets/Gulfstream IV SP//Gulfstream-IVSP-Int.jpg"
-                      }
+                      src={"images/Jets/Gulfstream IV SP//Gulfstream-IVSP-Int.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>

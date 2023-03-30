@@ -161,31 +161,25 @@ export default function EmbraerERJ135() {
                   spaceBetween={30}
                   loop={true}
                   autoplay={{
-                    delay: 2500,
-                  }}
+                    delay: 2500,}}
                   breakpoints={{
                     640: {
                       slidesPerView: 1,
                     },
                     1024: {
                       slidesPerView: 2,
-                    },
-                  }}
+                    },}}
                   modules={[Autoplay, Pagination, Navigation]}
                 >
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Jets/Embraer ERJ 135/cl-erj-conversions-7.jpg"
-                      }
+                      src={"images/Jets/Embraer ERJ 135/cl-erj-conversions-7.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Jets/Embraer ERJ 135/Embraer-ERJ-135BJ-Legacy-650-1.jpg"
-                      }
+                      src={"images/Jets/Embraer ERJ 135/Embraer-ERJ-135BJ-Legacy-650-1.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
@@ -197,17 +191,13 @@ export default function EmbraerERJ135() {
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Jets/Embraer ERJ 135/cl-erj-conversions-7.jpg"
-                      }
+                      src={"images/Jets/Embraer ERJ 135/cl-erj-conversions-7.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Jets/Embraer ERJ 135/Embraer-ERJ-135BJ-Legacy-650-1.jpg"
-                      }
+                      src={"images/Jets/Embraer ERJ 135/Embraer-ERJ-135BJ-Legacy-650-1.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>

@@ -63,9 +63,7 @@ export default function BeechcraftKingAir200() {
                   className="absolute -top-10 -left-8 z-0 sm:hidden lg:block"
                 />
                 <img
-                  src={
-                    "images/Jets/Beechcraft King Air 200/Beechcraft King Air 200 - Cabin 2_0.jpg"
-                  }
+                  src={"images/Jets/Beechcraft King Air 200/Beechcraft King Air 200 - Cabin 2_0.jpg"}
                   className="absolute top-0 left-0 z-10 aspect-[2/1] max-w-full max-h-full object-cover object-center rounded-lg shadow-lg"
                 />
               </div>
@@ -167,63 +165,49 @@ export default function BeechcraftKingAir200() {
                   spaceBetween={30}
                   loop={true}
                   autoplay={{
-                    delay: 2500,
-                  }}
+                    delay: 2500,}}
                   breakpoints={{
                     640: {
                       slidesPerView: 1,
                     },
                     1024: {
                       slidesPerView: 2,
-                    },
-                  }}
+                    },}}
                   modules={[Autoplay, Pagination, Navigation]}
                 >
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Jets/Beechcraft King Air 200/1979-Beechcraft-King-Air-200-01.jpg"
-                      }
+                      src={"images/Jets/Beechcraft King Air 200/1979-Beechcraft-King-Air-200-01.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Jets/Beechcraft King Air 200/Beechcraft King Air 200 - Cabin 2_0.jpg"
-                      }
+                      src={"images/Jets/Beechcraft King Air 200/Beechcraft King Air 200 - Cabin 2_0.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Jets/Beechcraft King Air 200/King-Air-200-Charter.jpg"
-                      }
+                      src={"images/Jets/Beechcraft King Air 200/King-Air-200-Charter.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Jets/Beechcraft King Air 200/1979-Beechcraft-King-Air-200-01.jpg"
-                      }
+                      src={"images/Jets/Beechcraft King Air 200/1979-Beechcraft-King-Air-200-01.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Jets/Beechcraft King Air 200/Beechcraft King Air 200 - Cabin 2_0.jpg"
-                      }
+                      src={"images/Jets/Beechcraft King Air 200/Beechcraft King Air 200 - Cabin 2_0.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Jets/Beechcraft King Air 200/King-Air-200-Charter.jpg"
-                      }
+                      src={"images/Jets/Beechcraft King Air 200/King-Air-200-Charter.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>

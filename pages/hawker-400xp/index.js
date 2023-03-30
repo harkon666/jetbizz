@@ -56,7 +56,7 @@ export default function Hawker40000XP() {
                   className="absolute -top-10 -left-8 z-0 sm:hidden lg:block"
                 />
                 <img
-                  src={"images/jets/Hawker-400XP/hawker-400xp-interior-1.jpg"}
+                  src={"images/Jets/Hawker-400XP/hawker-400xp-interior-1.jpg"}
                   className="absolute top-0 left-0 z-10 aspect-[2/1] max-w-full max-h-full object-cover object-center rounded-lg shadow-lg"
                 />
               </div>
@@ -164,63 +164,49 @@ export default function Hawker40000XP() {
                   spaceBetween={30}
                   loop={true}
                   autoplay={{
-                    delay: 2500,
-                  }}
+                    delay: 2500,}}
                   breakpoints={{
                     640: {
                       slidesPerView: 1,
                     },
                     1024: {
                       slidesPerView: 2,
-                    },
-                  }}
+                    },}}
                   modules={[Autoplay, Pagination, Navigation]}
                 >
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/jets/Hawker-400XP/hawker-400xp-interior-1.jpg"
-                      }
+                      src={"images/Jets/Hawker-400XP/hawker-400xp-interior-1.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/jets/Hawker-400XP/beechcraft-hawker-400xp.jpg"
-                      }
+                      src={"images/Jets/Hawker-400XP/beechcraft-hawker-400xp.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/jets/Hawker-400XP/Starmedevac-hawker-400.jpg"
-                      }
+                      src={"images/Jets/Hawker-400XP/Starmedevac-hawker-400.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/jets/Hawker-400XP/hawker-400xp-interior-1.jpg"
-                      }
+                      src={"images/Jets/Hawker-400XP/hawker-400xp-interior-1.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/jets/Hawker-400XP/beechcraft-hawker-400xp.jpg"
-                      }
+                      src={"images/Jets/Hawker-400XP/beechcraft-hawker-400xp.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/jets/Hawker-400XP/Starmedevac-hawker-400.jpg"
-                      }
+                      src={"images/Jets/Hawker-400XP/Starmedevac-hawker-400.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>

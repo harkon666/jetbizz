@@ -27,19 +27,19 @@ export default function Home() {
           <div id="parallax">
             <div id="parallax-content">
               <p>#1 Private Jet Charter</p>
-              <h1 className="text-5xl font-semibold">
+              <h1 className="text-5xl font-semibold text-white">
                 Indonesian Private Charter with Global Coverage
               </h1>
 
-              <p>
-                JetBizz is one of exclusive aviation services in Indonesia. Our
+              <p className="text-white">
+                Jetbizz Aviation is one of exclusive aviation services in Indonesia. Our
                 professional focus is providing our clients exceptional jet
                 charter service through making every air travel experience as
                 time saving, enjoyable, and cost-effective as possible.
               </p>
 
               <div>
-                <button>Our Service</button>
+                <button className="text-white">Our Service</button>
               </div>
             </div>
           </div>
@@ -47,7 +47,7 @@ export default function Home() {
         {/* Section 1 */}
 
         {/* Section 2 */}
-        <section id="pages">
+        <section id="services">
           <div id="overlay">
             <div id="overlay-image">
               <div id="overlay-1"></div>
@@ -245,17 +245,13 @@ export default function Home() {
                   </li>
                 </ul>
               </div>
-
-              <div className="my-6">
-                <button className="">Our Service</button>
-              </div>
             </div>
           </div>
         </section>
         {/* Section 2 */}
 
         {/* Section 3 */}
-        <section id="service">
+        {/* <section id="service">
           <div id="section-3-1">
             <div className="font-bold">
               <p className="text-sm uppercase">
@@ -268,17 +264,13 @@ export default function Home() {
             <div>
               <div className="grid lg:grid-cols-2 sm:grid-cols-2 mx-auto gap-4 xl:w-2/3">
                 <CardImage
-                  src={
-                    "images/Exclusive-and-Luxury-Transfer/Private-Jet-Luxurious-Travel-700x466-1.jpg"
-                  }
+                  src={"images/Exclusive-and-Luxury-Transfer/Private-Jet-Luxurious-Travel-700x466-1.jpg"}
                   href="./executive-and-luxury-transfer"
                   product="Exclusice and Luxury Transfer"
                   alt="Luxury Transfer"
                 />
                 <CardImage
-                  src={
-                    "images/Medical Evacuation/Air-medical-transport-JetOptions-Private-Jets.jpg"
-                  }
+                  src={"images/Medical Evacuation/Air-medical-transport-JetOptions-Private-Jets.jpg"}
                   href="./medical-evacuation"
                   product="Medical Evacuation"
                   alt="Medical Evacuation"
@@ -297,8 +289,7 @@ export default function Home() {
                 </div>
                 <div>
                   <img
-                    src={
-                      "images/close-up-photo-good-looking-man-casual-outfit-who-is-smiling-while-typing-something-his-laptop-holding-smartphone-his-left-hand-flying-first-class-plane-min.png"
+                    src={  "images/close-up-photo-good-looking-man-casual-outfit-who-is-smiling-while-typing-something-his-laptop-holding-smartphone-his-left-hand-flying-first-class-plane-min.png"
                     }
                     className="absolute top-[10%] left-[30%]"
                   />
@@ -420,8 +411,7 @@ export default function Home() {
               <div className="">
                 <div>
                   <img
-                    src={
-                      "images/Helicopters/BELL 407/helicopter-bell_407-1024x768.jpg"
+                    src={  "images/Helicopters/BELL 407/helicopter-bell_407-1024x768.jpg"
                     }
                     className="aspect-1/1 bg-cover bg-center"
                   />
@@ -429,7 +419,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         {/* Section 3 */}
 
         {/* Sectiom 4 */}
@@ -498,7 +488,7 @@ export default function Home() {
         {/* Sectiom 4 */}
 
         {/* Section 5 */}
-        <section id="packages">
+        <section id="our-deals">
           <div className="font-bold">
             <p className="text-sm uppercase">
               Luxury <span className="text-gold">Charter</span>
@@ -535,7 +525,7 @@ export default function Home() {
                 src={
                   "images/Helicopters/BELL 407/helicopter-bell_407-1024x768.jpg"
                 }
-                product="Bell 407"
+                product="BELL 407"
                 type="Legacy 600"
                 capacity="4-8 Seats"
                 href="./bell-407"
@@ -591,8 +581,7 @@ export default function Home() {
                   loop={true}
                   autoplay={{
                     delay: 2500,
-                    disableOnInteraction: false,
-                  }}
+                    disableOnInteraction: false,}}
                   slidesPerView={2}
                   modules={[Autoplay, Pagination, Navigation]}
                 >

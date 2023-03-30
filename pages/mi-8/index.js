@@ -140,16 +140,14 @@ export default function Mi8() {
                   spaceBetween={30}
                   loop={true}
                   autoplay={{
-                    delay: 2500,
-                  }}
+                    delay: 2500,}}
                   breakpoints={{
                     640: {
                       slidesPerView: 1,
                     },
                     1024: {
                       slidesPerView: 2,
-                    },
-                  }}
+                    },}}
                   modules={[Autoplay, Pagination, Navigation]}
                 >
                   <SwiperSlide>
@@ -160,9 +158,7 @@ export default function Mi8() {
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Helicopters/MI 8/Mil_Mi-8P,_Baltic_Airlines_(cropped).jpg"
-                      }
+                      src={"images/Helicopters/MI 8/Mil_Mi-8P,_Baltic_Airlines_(cropped).jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
@@ -180,9 +176,7 @@ export default function Mi8() {
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Helicopters/MI 8/Mil_Mi-8P,_Baltic_Airlines_(cropped).jpg"
-                      }
+                      src={"images/Helicopters/MI 8/Mil_Mi-8P,_Baltic_Airlines_(cropped).jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>

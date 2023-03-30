@@ -55,9 +55,7 @@ export default function MedicalEvacuation() {
                   className="absolute -top-10 -left-8 z-0 sm:hidden lg:block"
                 />
                 <img
-                  src={
-                    "images/Medical Evacuation/Air-medical-transport-JetOptions-Private-Jets.jpg"
-                  }
+                  src={"images/Medical Evacuation/Air-medical-transport-JetOptions-Private-Jets.jpg"}
                   className="absolute top-0 left-0 z-10 aspect-[1/1] max-w-full max-h-full object-cover object-center rounded-lg shadow-lg"
                 />
               </div>
@@ -225,7 +223,7 @@ export default function MedicalEvacuation() {
                   Jet <span className="text-gold">Gellery</span>
                 </p>
                 <h1 className="text-4xl font-bold my-4">
-                  Bell 407 Photo Gallery
+                  BELL 407 Photo Gallery
                 </h1>
               </div>
               <div className="px-32 flex justify-center items-center">
@@ -233,16 +231,14 @@ export default function MedicalEvacuation() {
                   spaceBetween={30}
                   loop={true}
                   autoplay={{
-                    delay: 2500,
-                  }}
+                    delay: 2500,}}
                   breakpoints={{
                     640: {
                       slidesPerView: 1,
                     },
                     1024: {
                       slidesPerView: 2,
-                    },
-                  }}
+                    },}}
                   modules={[Autoplay, Pagination, Navigation]}
                 >
                   <SwiperSlide>
