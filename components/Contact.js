@@ -44,7 +44,7 @@ export default function Contact() {
           <div className="absolute h-full w-full top-0 left-0 bg-gradient-to-r from-slate-700 to-slate-700 opacity-70 lg:rounded-lg sm:rounded-none"></div>
           <div className="absolute top-0 z-40 w-full lg:my-20 sm:my-10">
             <div className="font-bold text-light-gray text-center">
-              <h1 className="text-4xl">Contact With JetBizz</h1>
+              <h1 className="text-4xl">Contact With Jetbizz Aviation</h1>
             </div>
 
             <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-10 p-20 text-light-gray opacity-70">
@@ -55,6 +55,9 @@ export default function Contact() {
                 onChange={onChangeFormMail}
                 placeholder="Name*"
                 value={formMail.name}
+                style={{
+                  backgroundColor: '#00000050'
+                }}
               />
               <input
                 className="p-5 outline-none focus:ring focus:ring-gold placeholder:text-light-gray"
@@ -63,6 +66,9 @@ export default function Contact() {
                 onChange={onChangeFormMail}
                 placeholder="Email*"
                 value={formMail.email}
+                style={{
+                  backgroundColor: '#00000050'
+                }}
               />
               <input
                 className="lg:col-span-2 p-5 outline-none focus:ring focus:ring-gold placeholder:text-light-gray"
@@ -71,6 +77,9 @@ export default function Contact() {
                 onChange={onChangeFormMail}
                 placeholder="Phone*"
                 value={formMail.phone}
+                style={{
+                  backgroundColor: '#00000050'
+                }}
               />
               <textarea
                 className="lg:col-span-2 sm:col-span-1 p-5 outline-none focus:ring focus:ring-gold placeholder:text-light-gray"
@@ -80,6 +89,9 @@ export default function Contact() {
                 placeholder="Message"
                 rows="10"
                 value={formMail.description}
+                style={{
+                  backgroundColor: '#00000050'
+                }}
               ></textarea>
             </div>
             <div className="flex justify-center">

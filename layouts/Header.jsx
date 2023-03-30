@@ -13,29 +13,14 @@ export default function Header() {
       name: "Home",
     },
     {
-      route: "/#pages",
-      href: "#pages",
-      name: "Pages",
-    },
-    {
-      route: "/#service",
-      href: "#service",
-      name: "Service",
+      route: "/#services",
+      href: "#services",
+      name: "Services",
     },
     {
       route: "/#our-deals",
       href: "#our-deals",
       name: "Our Deals",
-    },
-    {
-      route: "/#packages",
-      href: "#packages",
-      name: "Packages",
-    },
-    {
-      route: "/#our-blogs",
-      href: "#our-blogs",
-      name: "Our Blogs",
     },
   ];
 
@@ -80,9 +65,6 @@ export default function Header() {
       if (scrollY == sectionTop && scrollY <= sectionTop + sectionHeight) {
         active.classList.remove("text-light-gray");
         active.classList.add("text-gold");
-      } else {
-        active.classList.remove("text-gold");
-        active.classList.remove("text-light-gray");
       }
     });
   };

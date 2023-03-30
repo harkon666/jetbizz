@@ -10,7 +10,7 @@ export default function TravelKitAmenity() {
           />
           <div className="absolute h-full w-full top-0 left-0 bg-gradient-to-r from-slate-700 to-slate-700 opacity-90"></div>
           <div className="absolute top-5 z-20 min-h-screen">
-            <div className="text-center text-light-gray py-20">
+            <div className="text-center text-light-gray py-10">
               <p className="uppercase font-bold text-sm">
                 Travel Kit <span className="text-gold">Amenity</span>
               </p>
@@ -18,14 +18,6 @@ export default function TravelKitAmenity() {
                 <h1 className="text-4xl font-bold my-4">
                   Our Travel Kit Amenity
                 </h1>
-                <p>
-                  Sit lorem nostra nulla porttitor sed semper amet. Aliquam
-                  rutrum maximus nam nisl aenean pulvinar dapibus interdum
-                  sagittis dolor. Maecenas felis litora ultricies tincidunt
-                  cursus donec sed quis. Lectus laoreet aptent si pretium
-                  inceptos et cras adipiscing integer. Aenean taciti consequat
-                  enim dictumst ipsum.
-                </p>
               </div>
             </div>
             <div>

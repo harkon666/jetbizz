@@ -10,7 +10,7 @@ export default function Footer() {
             <Logo />
 
             <p>
-              JetBizz is one of exclusive aviation services in Indonesia. Our
+              Jetbizz Aviation is one of exclusive aviation services in Indonesia. Our
               professional focus is providing our clients exceptional jet
               charter service through making every air travel experience as time
               saving, enjoyable, and cost-effective as possible.
@@ -23,17 +23,11 @@ export default function Footer() {
             <a href="" className="hover:text-gold">
               About Us
             </a>
-            <a href="" className="hover:text-gold">
-              Our Course
-            </a>
             <a href="#package" className="hover:text-gold">
               Packages
             </a>
             <a href="#service" className="hover:text-gold">
               Service
-            </a>
-            <a href="" className="hover:text-gold">
-              Contacts
             </a>
           </div>
           <div className="flex flex-col space-y-4">
@@ -83,6 +77,8 @@ export default function Footer() {
             <p>
               Jl. Mekarwangi No.75 RT.02 RW.012 Sariwaingi, Parongpong, Bandung
               Barat Jawa Barat Indonesia 40559
+              <br />
+              +62 811-9518-983
             </p>
           </div>
           <div className="w-1/2">
@@ -90,6 +86,8 @@ export default function Footer() {
             <p>
               Bandara Husein Sastranegara Kav.5 Bandung, Jawa Barat Indonesia
               40174
+              <br />
+              +62 811-9518-983
             </p>
           </div>
         </div>

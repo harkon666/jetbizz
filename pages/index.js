@@ -27,11 +27,11 @@ export default function Home() {
           <div id="parallax">
             <div id="parallax-content">
               <p>#1 Private Jet Charter</p>
-              <h1 className="text-5xl font-semibold">
+              <h1 className="text-5xl font-semibold text-white">
                 Indonesian Private Charter with Global Coverage
               </h1>
 
-              <p>
+              <p className="text-white">
                 JetBizz is one of exclusive aviation services in Indonesia. Our
                 professional focus is providing our clients exceptional jet
                 charter service through making every air travel experience as
@@ -39,7 +39,7 @@ export default function Home() {
               </p>
 
               <div>
-                <button>Our Service</button>
+                <button className="text-white">Our Service</button>
               </div>
             </div>
           </div>
@@ -47,7 +47,7 @@ export default function Home() {
         {/* Section 1 */}
 
         {/* Section 2 */}
-        <section id="pages">
+        <section id="services">
           <div id="overlay">
             <div id="overlay-image">
               <div id="overlay-1"></div>
@@ -255,7 +255,7 @@ export default function Home() {
         {/* Section 2 */}
 
         {/* Section 3 */}
-        <section id="service">
+        {/* <section id="service">
           <div id="section-3-1">
             <div className="font-bold">
               <p className="text-sm uppercase">
@@ -429,7 +429,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         {/* Section 3 */}
 
         {/* Sectiom 4 */}
@@ -498,7 +498,7 @@ export default function Home() {
         {/* Sectiom 4 */}
 
         {/* Section 5 */}
-        <section id="packages">
+        <section id="our-deals">
           <div className="font-bold">
             <p className="text-sm uppercase">
               Luxury <span className="text-gold">Charter</span>
@@ -509,7 +509,7 @@ export default function Home() {
                 href="./all-deals"
                 className="px-4 py-3 rounded-full hover:bg-gold duration-150 delay-150 hover:text-white sm:text-[12px] md:text-base"
               >
-                View All Deals
+                View All Deals  
               </Link>
             </div>
           </div>

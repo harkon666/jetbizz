@@ -128,11 +128,11 @@ header {
   @apply min-h-screen sm:bg-center;
 }
 
-#pages {
+#services {
   @apply bg-white min-h-screen relative;
 }
 
-#pages button {
+#services button {
   @apply bg-semi-black font-semibold px-4 py-3 hover:bg-gold rounded-lg text-lg text-white sm:text-base;
 }
 
