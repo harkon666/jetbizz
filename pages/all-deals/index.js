@@ -53,7 +53,7 @@ export default function AddDeals() {
                   className="absolute top-0 left-0 z-10 aspect-[1/1] max-w-full max-h-full object-cover object-center rounded-lg shadow-lg"
                 />
               </div>
-              <div className="flex flex-col justify-center sm:px-20 lg:px-0">
+              <div className="flex flex-col justify-center mx-10 md:px-20 lg:px-0">
                 <div className="text-sm font-bold">
                   <p className="uppercase">
                     Jet <span className="text-gold">Specification</span>
@@ -157,7 +157,7 @@ export default function AddDeals() {
             </div>
             {/* Overlay */}
 
-            <div className="lg:mx-32 my-20 sm:mx-20">
+            <div className="mx-10 lg:mx-32 my-20 md:mx-20">
               <div className="font-bold text-semi-black mb-10">
                 <p className="uppercase">
                   Our <span className="text-gold">Luxury</span> Jets
@@ -170,7 +170,7 @@ export default function AddDeals() {
               </div>
 
               <div>
-                <div className="grid lg:grid-cols-4 sm:grid-cols-2 gap-6">
+                <div className="grid lg:grid-cols-4 grid-cols-2 md:grid-cols-3 gap-6">
                   <CardImage
                     src={"images/Jets/Hawker-400XP/Starmedevac-hawker-400.jpg"}
                     product="Hawker-400XP"
@@ -290,6 +290,12 @@ export default function AddDeals() {
                     href="./gulfstream-550"
                   />
                   <CardImage
+                    src={"images/Jets/Gulfstream 500/1.jpeg"}
+                    product="Gulfstream 500"
+                    capacity="16+ Seats"
+                    href="./gulfstream-500"
+                  />
+                  <CardImage
                     src={"images/Jets/Learjet 31A/Learjet31A_1.jpg"}
                     product="Learjet 31 A"
                     capacity="6 Seats"
@@ -310,7 +316,7 @@ export default function AddDeals() {
                   </div>
 
                   <div>
-                    <div className="grid lg:grid-cols-4 sm:grid-cols-2 gap-6">
+                    <div className="grid lg:grid-cols-4 grid-cols-2 md:grid-cols-3 gap-6">
                       <CardImage
                         src={
                           "images/Helicopters/Airbus Helicopter EC/84518_1660386405.webp"
@@ -363,7 +369,7 @@ export default function AddDeals() {
                       />
                       <CardImage
                         src={
-                          "images/Helicopters/Eurocopter B155-B1/Eurocopter-EC155-B1-G-HOTB.jpg"
+                          "images/Helicopters/Eurocopter B155-B1/1.webp"
                         }
                         product="Eurocopter B155-B1"
                         capacity="4-8 Seats"

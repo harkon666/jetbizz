@@ -119,13 +119,13 @@ html {
 }
 
 header {
-  @apply bg-gradient-to-r from-slate-700 to-transparent z-50 fixed top-0 left-0  w-full px-20;
+  @apply bg-gradient-to-r from-slate-700 to-transparent z-50 fixed top-0 left-0  w-full px-10;
 }
 
 #home {
   background-image: url("../public/images/businesswoman-going-up-with-luggage-ladder-private-airplane-jet-modern-passenger-plane-confident-european-woman-wear-formal-suit-glasses-civil-aviation-concept-air-travel-business-min.png");
   background-attachment: fixed;
-  @apply min-h-screen sm:bg-center;
+  @apply min-h-screen bg-center;
 }
 
 #services {
@@ -145,7 +145,7 @@ header {
 }
 
 #our-deals {
-  @apply w-full bg-white text-semi-black px-40 min-h-screen pt-20 sm:px-20 lg:px-32;
+  @apply w-full bg-white text-semi-black px-10 min-h-screen pt-20 sm:px-20 lg:px-32;
 }
 
 #packages {
@@ -157,7 +157,7 @@ header {
 }
 
 footer {
-  @apply w-full bg-[#19232D] text-light-gray px-40 min-h-screen pt-20 sm:px-20;
+  @apply w-full bg-[#19232D] text-light-gray px-10 min-h-screen pt-20 sm:px-20;
 }
 
 #parallax {
@@ -165,7 +165,7 @@ footer {
 }
 
 #parallax-content {
-  @apply space-y-10 sm:px-20 sm:py-20 sm:w-full lg:w-2/3 xl:w-1/2;
+  @apply space-y-10 px-10 sm:px-20 sm:py-20 sm:w-full lg:w-2/3 xl:w-1/2;
 }
 
 #parallax-content p {

@@ -54,10 +54,10 @@ export default function BAE146Series() {
                 />
                 <img
                   src={"images/Jets/BAE 146/bae_146_200-int-1-1024x679.jpg"}
-                  className="absolute top-0 left-0 z-10 aspect-[20/10] w-auto object-cover object-center rounded-lg shadow-lg"
+                  className="absolute top-0 hidden lg:block left-0 z-10 aspect-[20/10] w-auto object-cover object-center rounded-lg shadow-lg"
                 />
               </div>
-              <div className="flex flex-col justify-center sm:px-20 lg:px-0">
+              <div className="flex flex-col justify-center px-10 lg:px-0">
                 <div className="text-sm font-bold">
                   <h1 className="text-5xl leading-tight mb-4">Overview</h1>
                 </div>
@@ -76,7 +76,7 @@ export default function BAE146Series() {
             {/* Overlay */}
 
             {/* Specification List */}
-            <div className="w-full py-20 lg:px-32 sm:px-10 md:px-20">
+            <div className="w-full py-20 lg:px-32 px-10">
               <div className="text-sm font-bold text-center">
                 <p className="uppercase">
                   Jet <span className="text-gold">Specification</span>

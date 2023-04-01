@@ -34,20 +34,20 @@ export default function Contact() {
 
   return (
     <>
-      <div className="lg:px-20 sm:px-0 xl:px-20 xl:mx-36 2xl:mx-32">
+      <div className="lg:px-20 px-0 xl:px-20 xl:mx-36 2xl:mx-32">
         <div className="relative">
           <img
             src={"images/business-min.jpg"}
             alt="Bg-Contact"
-            className="rounded-lg w-full sm:h-[70rem] lg:h-[55rem]"
+            className="rounded-lg w-full h-[55rem] lg:h-[50rem]"
           />
-          <div className="absolute h-full w-full top-0 left-0 bg-gradient-to-r from-slate-700 to-slate-700 opacity-70 lg:rounded-lg sm:rounded-none"></div>
-          <div className="absolute top-0 z-40 w-full lg:my-20 sm:my-10">
+          <div className="absolute h-full w-full top-0 left-0 bg-gradient-to-r from-slate-700 to-slate-700 opacity-70 lg:rounded-lg rounded-none"></div>
+          <div className="absolute top-0 z-40 w-full lg:my-20 my-10">
             <div className="font-bold text-light-gray text-center">
               <h1 className="text-4xl">Contact With Jetbizz Aviation</h1>
             </div>
 
-            <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-10 p-20 text-light-gray opacity-70">
+            <div className="grid lg:grid-cols-2 grid-cols-1 gap-10 p-10 text-light-gray opacity-70">
               <input
                 className="p-5 outline-none focus:ring focus:ring-gold placeholder:text-light-gray"
                 type="text"

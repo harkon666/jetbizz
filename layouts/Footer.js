@@ -72,7 +72,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="grid grid-cols-2 mt-20 p-10 bg-white text-semi-black">
-          <div className="w-1/2">
+          <div className="">
             <h1 className="mb-4 font-semibold text-xl">Corporation office</h1>
             <p>
               Jl. Mekarwangi No.75 RT.02 RW.012 Sariwaingi, Parongpong, Bandung
@@ -81,7 +81,7 @@ export default function Footer() {
               +62 811-9518-983
             </p>
           </div>
-          <div className="w-1/2">
+          <div className="">
             <h1 className="mb-4 font-semibold text-xl">Operation Office</h1>
             <p>
               Bandara Husein Sastranegara Kav.5 Bandung, Jawa Barat Indonesia
@@ -91,7 +91,7 @@ export default function Footer() {
             </p>
           </div>
         </div>
-        <div className="flex justify-end mt-20">
+        <div className="flex justify-end mt-10 pb-5">
           <p>@2022 Copyright by Jetbizz.</p>
         </div>
       </footer>

@@ -72,7 +72,7 @@ export default function Header() {
   return (
     <>
       <header>
-        <nav className="lg:flex justify-between items-center w-full sm:hidden">
+        <nav className="lg:flex justify-between items-center w-full hidden">
           <div>
             <a href="#home">
               <figure>
@@ -112,7 +112,7 @@ export default function Header() {
           <div></div>
         </nav>
 
-        <nav className="lg:hidden sm:block w-full z-[100]">
+        <nav className="block lg:hidden w-full z-[100]">
           <div className="flex justify-between items-center w-full">
             <a href="#home">
               <figure>

@@ -514,7 +514,7 @@ export default function Home() {
             </div>
           </div>
           <div className="mt-20">
-            <div className="grid lg:grid-cols-4 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            <div className="grid lg:grid-cols-4 grid-cols-2 md:grid-cols-3 gap-6">
               <CardImage
                 src={"images/Jets/Hawker-400XP/beechcraft-hawker-400xp.jpg"}
                 product="Hawker-400XP"

@@ -12,16 +12,16 @@ import Head from "next/head";
 import TravelKitAmenity from "@/components/TravelKitAmenity";
 import Contact from "@/components/Contact";
 import OverviewList from "@/components/OverviewList";
+import Specification from "@/components/Specification";
 import TakeoffIcon from "@/components/icons/TakeoffIcon";
 import LandingIcon from "@/components/icons/LandingIcon";
 import FuelIcon from "@/components/icons/FuelIcon";
 import SpeedIcon from "@/components/icons/SpeedIcon";
 import RangeIcon from "@/components/icons/RangeIcon";
 import EngineIcon from "@/components/icons/EngineIcon";
-import Specification from "@/components/Specification";
 import BackButton from "@/components/BackButton";
 
-export default function Fokker50() {
+export default function Gulfstream500() {
   return (
     <>
       <Head>
@@ -38,16 +38,14 @@ export default function Fokker50() {
           <div className="min-h-screen bg-white py-20 text-semi-black">
             <figure className="relative">
               <img
-                src={
-                  "images/Jets/Fokker 50/CityJet_Fokker_50_OO-VLN_LUX_2010-2-27.png"
-                }
+                src={"images/Jets/Gulfstream 500/1.jpeg"}
                 className="h-[300px] w-full object-cover object-center"
               />
               <div className="absolute h-full w-full top-0 left-0 bg-gradient-to-r from-slate-700 to-transparent"></div>
 
               <div className="absolute top-0 h-full w-full flex justify-center items-center">
                 <h1 className="text-5xl text-light-gray font-semibold">
-                  Fokker 50
+                  Gulfstream 500
                 </h1>
               </div>
             </figure>
@@ -63,7 +61,7 @@ export default function Fokker50() {
                   className="absolute -top-10 -left-8 z-0 sm:hidden lg:block"
                 />
                 <img
-                  src={"images/Jets/Fokker 50/72434_palf502_412926.jpg"}
+                  src={"images/Jets/Gulfstream 500/2.jpeg"}
                   className="absolute top-0 left-0 z-10 aspect-[2/1] max-w-full max-h-full object-cover object-center rounded-lg shadow-lg"
                 />
               </div>
@@ -73,21 +71,22 @@ export default function Fokker50() {
                 </div>
                 <div className="space-y-2 mb-4 text-base leading-relaxed tracking-wide">
                   <p>
-                    The Fokker 50 is a turboprop-powered airliner, designed as
-                    an improved version of the successful Fokker F27 Friendship.
-                    The Fokker 60 is a stretched freighter version of the Fokker
-                    50. Both aircraft were manufactured and supported by Dutch
-                    aircraft manufacturer Fokker.
+                    Introduced into service in 2018, the Gulfstream G500 is a
+                    business jet aircraft produced by General Dynamics'
+                    Gulfstream Aerospace unit, located in Savannah, Georgia. As
+                    a shorter-range version of the G550, this aircraft has the
+                    same exterior appearance and PlaneView cockpit but does not
+                    have the Enhanced Vision System (EVS) as standard equipment.
                   </p>
                 </div>
                 <div>
                   <ul className="grid lg:grid-cols-2 sm:grid-cols-1 gap-4">
                     <OverviewList point="Crew: 2" />
-                    <OverviewList point="Passengers: 46" />
-                    <OverviewList point="Cabin Volume: 8m³" />
-                    <OverviewList point="Cabin Width: 2.50 m" />
-                    <OverviewList point="Exterior Height: 22 ft 2 in" />
-                    <OverviewList point="Internal Baggage: 14m³ " />
+                    <OverviewList point="Passengers: 16+, 1 Lavatory" />
+                    <OverviewList point="Cabin Volume: 1.715 cu ft" />
+                    <OverviewList point="Cabin Width: 7 ft 11 In" />
+                    <OverviewList point="Cabin Height: 41 ft 6 In" />
+                    <OverviewList point="Internal Baggage: 175 cu ft" />
                   </ul>
                 </div>
               </div>
@@ -100,40 +99,40 @@ export default function Fokker50() {
                 <p className="uppercase">
                   Jet <span className="text-gold">Specification</span>
                 </p>
-                <h1 className="text-4xl leading-tight mb-4">Fokker 50</h1>
+                <h1 className="text-4xl leading-tight mb-4">Gulfstream 500</h1>
               </div>
               <div className="grid grid-cols-2 lg:grid-cols-3 place-items-center gap-4">
                 <Specification
                   icon={<TakeoffIcon />}
-                  value="4.430"
+                  value="5.300"
                   unit="ft"
                   title="Takeoff Distance"
                 />
 
                 <Specification
                   icon={<LandingIcon />}
-                  value="3.710"
+                  value="3.100"
                   unit="ft"
                   title="Landing Distance"
                 />
 
                 <Specification
                   icon={<FuelIcon />}
-                  value="9.080"
+                  value="28.850"
                   unit="Lb"
                   title="Fuel Capacity"
                 />
 
                 <Specification
                   icon={<SpeedIcon />}
-                  value="305"
+                  value="616"
                   unit="kts"
                   title="Max Speed"
                 />
 
                 <Specification
                   icon={<RangeIcon />}
-                  value="900"
+                  value="5.200"
                   unit="nm"
                   title="Max Range"
                 />
@@ -141,8 +140,7 @@ export default function Fokker50() {
                 <Specification
                   icon={<EngineIcon />}
                   value="2"
-                  unit=""
-                  title="Total Engines"
+                  title="Total Engine"
                 />
               </div>
             </div>
@@ -155,7 +153,7 @@ export default function Fokker50() {
                   Jet <span className="text-gold">Gellery</span>
                 </p>
                 <h1 className="text-4xl font-bold my-4">
-                  Fokker 50 Photo Gallery
+                  Gulfstream 500 Photo Gallery
                 </h1>
               </div>
               <div className="px-32 flex justify-center items-center">
@@ -177,41 +175,55 @@ export default function Fokker50() {
                 >
                   <SwiperSlide>
                     <img
-                      src={"images/Jets/Fokker 50/72434_palf502_412926.jpg"}
+                      src={"images/Jets/Gulfstream 500/1.jpeg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Jets/Fokker 50/CityJet_Fokker_50_OO-VLN_LUX_2010-2-27.png"
-                      }
+                      src={"images/Jets/Gulfstream 500/2.jpeg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={"images/Jets/Fokker 50/download.jpeg"}
+                      src={"images/Jets/Gulfstream 500/3.jpeg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={"images/Jets/Fokker 50/72434_palf502_412926.jpg"}
+                      src={"images/Jets/Gulfstream 500/1.jpeg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={
-                        "images/Jets/Fokker 50/CityJet_Fokker_50_OO-VLN_LUX_2010-2-27.png"
-                      }
+                      src={"images/Jets/Gulfstream 500/2.jpeg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={"images/Jets/Fokker 50/download.jpeg"}
+                      src={"images/Jets/Gulfstream 500/3.jpeg"}
+                      className="aspect-[2/1] bg-center bg-cover"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <img
+                      src={"images/Jets/Gulfstream 500/4.jpeg"}
+                      className="aspect-[2/1] bg-center bg-cover"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <img
+                      src={"images/Jets/Gulfstream 500/5.jpeg"}
+                      className="aspect-[2/1] bg-center bg-cover"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <img
+                      src={"images/Jets/Gulfstream 500/6.jpeg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>

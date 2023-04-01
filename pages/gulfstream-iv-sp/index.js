@@ -65,7 +65,7 @@ export default function GulfstreamIVSP() {
                   className="absolute top-0 left-0 z-10 aspect-[2/1] max-w-full max-h-full object-cover object-center rounded-lg shadow-lg"
                 />
               </div>
-              <div className="flex flex-col justify-center sm:px-20 lg:px-0">
+              <div className="flex flex-col justify-center px-10 lg:px-0">
                 <div className="text-sm font-bold">
                   <h1 className="text-4xl leading-tight mb-4">Overview</h1>
                 </div>
@@ -94,7 +94,7 @@ export default function GulfstreamIVSP() {
             {/* Overlay */}
 
             {/* Specification List */}
-            <div className="w-full py-20 lg:px-32 sm:px-10">
+            <div className="w-full py-20 lg:px-32 px-10">
               <div className="text-sm font-bold text-center">
                 <p className="uppercase">
                   Jet <span className="text-gold">Specification</span>
@@ -103,7 +103,7 @@ export default function GulfstreamIVSP() {
                   Gulfstream IV SP
                 </h1>
               </div>
-              <div className="grid sm:grid-cols-2 lg:grid-cols-3 place-items-center gap-4">
+              <div className="grid grid-cols-2 lg:grid-cols-3 place-items-center gap-4">
                 <Specification
                   icon={<TakeoffIcon />}
                   value="5.450"

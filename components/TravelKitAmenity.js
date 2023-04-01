@@ -21,8 +21,8 @@ export default function TravelKitAmenity() {
               </div>
             </div>
             <div>
-              <div className="grid lg:grid-cols-2 bg-light-gray xl:mx-52 sm:mx-20">
-                <div className="my-auto mx-10 sm:py-10">
+              <div className="grid md:grid-cols-2 bg-light-gray xl:mx-52 mx-10">
+                <div className="my-auto mx-10 py-10">
                   <h1 className="text-2xl font-bold text-center">Woman Kits</h1>
                   <div className="flex items-center">
                     <ul className="grid grid-cols-1 text-sm">
@@ -167,16 +167,16 @@ export default function TravelKitAmenity() {
                     src={
                       "images/American-Airlines-confident-in-its-entertainment-s.webp"
                     }
-                    className="aspect-[1/1] object-cover object-center sm:hidden lg:block"
+                    className="aspect-[1/1] object-cover object-center hidden md:block"
                   />
                 </div>
                 <div>
                   <img
                     src={"images/960x0.jpg"}
-                    className="aspect-[1/1] object-cover object-center sm:hidden lg:block"
+                    className="aspect-[1/1] object-cover object-center hidden md:block"
                   />
                 </div>
-                <div className="my-auto mx-10 sm:py-10">
+                <div className="my-auto mx-10 py-10">
                   <h1 className="text-2xl font-bold text-center">Man Kits</h1>
                   <div className="flex items-center">
                     <ul className="grid grid-cols-1 text-sm">
@@ -334,7 +334,7 @@ export default function TravelKitAmenity() {
           </div>
         </div>
       </div>
-      <div className="lg:h-[25rem] md:h-[35rem] sm:h-[40rem]"></div>
+      <div className="h-[25rem]"></div>
     </>
   );
 }

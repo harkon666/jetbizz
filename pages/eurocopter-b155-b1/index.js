@@ -12,16 +12,16 @@ import Head from "next/head";
 import TravelKitAmenity from "@/components/TravelKitAmenity";
 import Contact from "@/components/Contact";
 import OverviewList from "@/components/OverviewList";
+import Specification from "@/components/Specification";
 import TakeoffIcon from "@/components/icons/TakeoffIcon";
 import LandingIcon from "@/components/icons/LandingIcon";
 import FuelIcon from "@/components/icons/FuelIcon";
 import SpeedIcon from "@/components/icons/SpeedIcon";
 import RangeIcon from "@/components/icons/RangeIcon";
 import EngineIcon from "@/components/icons/EngineIcon";
-import Specification from "@/components/Specification";
 import BackButton from "@/components/BackButton";
 
-export default function Fokker50() {
+export default function Bell412() {
   return (
     <>
       <Head>
@@ -38,16 +38,14 @@ export default function Fokker50() {
           <div className="min-h-screen bg-white py-20 text-semi-black">
             <figure className="relative">
               <img
-                src={
-                  "images/Jets/Fokker 50/CityJet_Fokker_50_OO-VLN_LUX_2010-2-27.png"
-                }
+                src={"images/Helicopters/Eurocopter B155-B1/1.webp"}
                 className="h-[300px] w-full object-cover object-center"
               />
               <div className="absolute h-full w-full top-0 left-0 bg-gradient-to-r from-slate-700 to-transparent"></div>
 
               <div className="absolute top-0 h-full w-full flex justify-center items-center">
                 <h1 className="text-5xl text-light-gray font-semibold">
-                  Fokker 50
+                  Eurocopter B155 B1
                 </h1>
               </div>
             </figure>
@@ -63,7 +61,7 @@ export default function Fokker50() {
                   className="absolute -top-10 -left-8 z-0 sm:hidden lg:block"
                 />
                 <img
-                  src={"images/Jets/Fokker 50/72434_palf502_412926.jpg"}
+                  src={"images/Helicopters/Eurocopter B155-B1/2.jpg"}
                   className="absolute top-0 left-0 z-10 aspect-[2/1] max-w-full max-h-full object-cover object-center rounded-lg shadow-lg"
                 />
               </div>
@@ -73,69 +71,56 @@ export default function Fokker50() {
                 </div>
                 <div className="space-y-2 mb-4 text-base leading-relaxed tracking-wide">
                   <p>
-                    The Fokker 50 is a turboprop-powered airliner, designed as
-                    an improved version of the successful Fokker F27 Friendship.
-                    The Fokker 60 is a stretched freighter version of the Fokker
-                    50. Both aircraft were manufactured and supported by Dutch
-                    aircraft manufacturer Fokker.
+                    The Eurocopter EC155 is a long-range medium-lift passenger
+                    transport helicopter developed by Eurocopter from its
+                    Dauphin family for civil aviation use. It is a twin-engined
+                    aircraft and can carry up to 13 passengers along with 1 or 2
+                    crew, depending on customer configuration.
                   </p>
                 </div>
                 <div>
-                  <ul className="grid lg:grid-cols-2 sm:grid-cols-1 gap-4">
+                  <ul className="grid lg:grid-cols-2 sm:grid-cols-1 space-y-4">
                     <OverviewList point="Crew: 2" />
-                    <OverviewList point="Passengers: 46" />
-                    <OverviewList point="Cabin Volume: 8m³" />
-                    <OverviewList point="Cabin Width: 2.50 m" />
-                    <OverviewList point="Exterior Height: 22 ft 2 in" />
-                    <OverviewList point="Internal Baggage: 14m³ " />
+                    <OverviewList point="Passengers: 6" />
+                    <OverviewList point="Cabin Volume: 255 cu ft" />
+                    <OverviewList point="Cabin Width: 6 ft 72 in" />
+                    <OverviewList point="Cabin Length: 8 ft 37 In" />
+                    <OverviewList point="Cabin Height: 4 ft 39 in" />
                   </ul>
                 </div>
               </div>
             </div>
             {/* Overlay */}
 
-            {/* Specification List */}
             <div className="w-full py-20 lg:px-32 px-10">
               <div className="text-sm font-bold text-center">
                 <p className="uppercase">
-                  Jet <span className="text-gold">Specification</span>
+                  Heli <span className="text-gold">Specification</span>
                 </p>
-                <h1 className="text-4xl leading-tight mb-4">Fokker 50</h1>
+                <h1 className="text-4xl leading-tight mb-4">
+                  Eurocopter B155 B1
+                </h1>
               </div>
               <div className="grid grid-cols-2 lg:grid-cols-3 place-items-center gap-4">
                 <Specification
-                  icon={<TakeoffIcon />}
-                  value="4.430"
-                  unit="ft"
-                  title="Takeoff Distance"
-                />
-
-                <Specification
-                  icon={<LandingIcon />}
-                  value="3.710"
-                  unit="ft"
-                  title="Landing Distance"
-                />
-
-                <Specification
                   icon={<FuelIcon />}
-                  value="9.080"
+                  value="2.224"
                   unit="Lb"
                   title="Fuel Capacity"
                 />
 
                 <Specification
                   icon={<SpeedIcon />}
-                  value="305"
+                  value="151"
                   unit="kts"
                   title="Max Speed"
                 />
 
                 <Specification
                   icon={<RangeIcon />}
-                  value="900"
+                  value="438"
                   unit="nm"
-                  title="Max Range"
+                  title="VFR Max Range"
                 />
 
                 <Specification
@@ -146,7 +131,6 @@ export default function Fokker50() {
                 />
               </div>
             </div>
-            {/* Specification List */}
 
             {/* Jet Gallery */}
             <div className="w-full bg-light-gray py-20">
@@ -155,7 +139,7 @@ export default function Fokker50() {
                   Jet <span className="text-gold">Gellery</span>
                 </p>
                 <h1 className="text-4xl font-bold my-4">
-                  Fokker 50 Photo Gallery
+                  Eurocopter B155 B1 Photo Gallery
                 </h1>
               </div>
               <div className="px-32 flex justify-center items-center">
@@ -177,41 +161,41 @@ export default function Fokker50() {
                 >
                   <SwiperSlide>
                     <img
-                      src={"images/Jets/Fokker 50/72434_palf502_412926.jpg"}
-                      className="aspect-[2/1] bg-center bg-cover"
-                    />
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <img
                       src={
-                        "images/Jets/Fokker 50/CityJet_Fokker_50_OO-VLN_LUX_2010-2-27.png"
+                        "images/Helicopters/Bell 412/412-VIP-seats-cabin.jpg"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={"images/Jets/Fokker 50/download.jpeg"}
+                      src={"images/Helicopters/Eurocopter B155-B1/1.webp"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={"images/Jets/Fokker 50/72434_palf502_412926.jpg"}
+                      src={"images/Helicopters/Eurocopter B155-B1/2.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Jets/Fokker 50/CityJet_Fokker_50_OO-VLN_LUX_2010-2-27.png"
+                        "images/Helicopters/Bell 412/412-VIP-seats-cabin.jpg"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={"images/Jets/Fokker 50/download.jpeg"}
+                      src={"images/Helicopters/Eurocopter B155-B1/1.webp"}
+                      className="aspect-[2/1] bg-center bg-cover"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <img
+                      src={"images/Helicopters/Eurocopter B155-B1/2.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
@@ -219,8 +203,6 @@ export default function Fokker50() {
               </div>
             </div>
             {/* Jet Gallery */}
-
-            <TravelKitAmenity />
 
             <Contact />
           </div>
