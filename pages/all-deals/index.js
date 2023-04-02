@@ -170,7 +170,7 @@ export default function AddDeals() {
               </div>
 
               <div>
-                <div className="grid lg:grid-cols-4 grid-cols-2 md:grid-cols-3 gap-6">
+                <div className="grid lg:grid-cols-4 xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                   <CardImage
                     src={"images/Jets/Hawker-400XP/Starmedevac-hawker-400.jpg"}
                     product="Hawker-400XP"
@@ -316,7 +316,7 @@ export default function AddDeals() {
                   </div>
 
                   <div>
-                    <div className="grid lg:grid-cols-4 grid-cols-2 md:grid-cols-3 gap-6">
+                    <div className="grid lg:grid-cols-4 xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                       <CardImage
                         src={
                           "images/Helicopters/Airbus Helicopter EC/84518_1660386405.webp"

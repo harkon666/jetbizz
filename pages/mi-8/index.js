@@ -96,7 +96,7 @@ export default function Mi8() {
                 </p>
                 <h1 className="text-4xl leading-tight mb-4">MI 8</h1>
               </div>
-              <div className="grid grid-cols-2 lg:grid-cols-3 place-items-center gap-4">
+              <div className="grid xs:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-items-center gap-4">
                 <Specification
                   icon={<FuelIcon />}
                   value="186"
@@ -135,7 +135,7 @@ export default function Mi8() {
                 </p>
                 <h1 className="text-4xl font-bold my-4">MI 8 Photo Gallery</h1>
               </div>
-              <div className="px-32 flex justify-center items-center">
+              <div className="xs:px-10 sm:px-32 flex justify-center items-center">
                 <Swiper
                   spaceBetween={30}
                   loop={true}

@@ -104,7 +104,7 @@ export default function AirbusHelicopterEC() {
                   Airbus Helicopter EC
                 </h1>
               </div>
-              <div className="grid grid-cols-2 lg:grid-cols-3 place-items-center gap-4">
+              <div className="grid xs:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-items-center gap-4">
                 <Specification
                   icon={<FuelIcon />}
                   value="186"
@@ -145,7 +145,7 @@ export default function AirbusHelicopterEC() {
                   Airbus Helicopter EC Photo Gallery
                 </h1>
               </div>
-              <div className="px-32 flex justify-center items-center">
+              <div className="xs:px-10 sm:px-32 flex justify-center items-center">
                 <Swiper
                   spaceBetween={30}
                   loop={true}

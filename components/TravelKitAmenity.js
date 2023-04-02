@@ -334,7 +334,7 @@ export default function TravelKitAmenity() {
           </div>
         </div>
       </div>
-      <div className="h-[25rem]"></div>
+      <div className="sm:h-[25rem] xs:h-[35rem]"></div>
     </>
   );
 }

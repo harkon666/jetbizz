@@ -98,7 +98,7 @@ export default function Hawker900XP() {
                 </p>
                 <h1 className="text-4xl leading-tight mb-4">Hawker 900XP</h1>
               </div>
-              <div className="grid grid-cols-2 lg:grid-cols-3 place-items-center gap-4">
+              <div className="grid xs:grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 place-items-center gap-4">
                 <Specification
                   icon={<TakeoffIcon />}
                   value="4.965"
@@ -153,7 +153,7 @@ export default function Hawker900XP() {
                   Hawker 900XP Photo Gallery
                 </h1>
               </div>
-              <div className="px-32 flex justify-center items-center">
+              <div className="xs:px-10 sm:px-32 flex justify-center items-center">
                 <Swiper
                   spaceBetween={30}
                   loop={true}

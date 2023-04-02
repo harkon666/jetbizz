@@ -83,8 +83,8 @@ export default function BAE146Series() {
                 </p>
                 <h1 className="text-5xl leading-tight mb-4">BAE 146 Series</h1>
               </div>
-              <div>
-                <table className="table border-collapse border border-slate-300 w-full rounded-lg shadow-lg">
+              <div className="overflow-auto">
+                <table className="table border-collapse border border-slate-300 sm:w-full rounded-lg shadow-lg xs:w-[150%]">
                   <thead>
                     <tr>
                       <th className="p-4">#</th>
@@ -149,10 +149,10 @@ export default function BAE146Series() {
                   Jet <span className="text-gold">Gellery</span>
                 </p>
                 <h1 className="text-4xl font-bold my-4">
-                  Hawker-400XP Photo Gallery
+                  BAE 146 Series Photo Gallery
                 </h1>
               </div>
-              <div className="px-32 flex justify-center items-center">
+              <div className="xs:px-10 sm:px-32 flex justify-center items-center">
                 <Swiper
                   spaceBetween={30}
                   loop={true}

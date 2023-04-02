@@ -197,11 +197,11 @@ footer {
 }
 
 #overlay-text {
-  @apply absolute top-[20%] right-[10%] bg-light-gray p-10 text-semi-black mx-auto sm:left-[10%] xl:left-[30%];
+  @apply absolute xs:top-0 xs:right-0 bg-light-gray p-10 text-semi-black mx-auto sm:left-[10%] xl:left-[30%];
 }
 
 #overlay-text-list ul {
-  @apply grid grid-cols-3 font-semibold space-y-2 items-center text-lg sm:text-sm lg:text-base;
+  @apply grid xs:grid-cols-2 xs:text-sm grid-cols-3 font-semibold space-y-2 items-center text-lg sm:text-sm lg:text-base;
 }
 
 #swiper figcaption {

@@ -11,6 +11,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'xs': '414px',
+      },
       colors: {
         gold: "#BC9B2F",
         "light-gray": "#F9F9F9",

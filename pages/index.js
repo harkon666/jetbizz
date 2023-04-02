@@ -507,14 +507,14 @@ export default function Home() {
               <h1 className="text-4xl">Luxury Deals For You</h1>
               <Link
                 href="./all-deals"
-                className="px-4 py-3 rounded-full hover:bg-gold duration-150 delay-150 hover:text-white sm:text-[12px] md:text-base"
+                className="px-4 py-3 rounded-full hover:bg-gold duration-150 delay-150 hover:text-white xs:text-[10px] sm:text-[12px] md:text-base"
               >
                 View All Deals  
               </Link>
             </div>
           </div>
           <div className="mt-20">
-            <div className="grid lg:grid-cols-4 grid-cols-2 md:grid-cols-3 gap-6">
+            <div className="grid xs:grid-cols-1 lg:grid-cols-4 sm:grid-cols-2 md:grid-cols-3 gap-6">
               <CardImage
                 src={"images/Jets/Hawker-400XP/beechcraft-hawker-400xp.jpg"}
                 product="Hawker-400XP"
