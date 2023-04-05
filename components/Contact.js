@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { useState } from "react";
+import toast, { Toaster } from 'react-hot-toast';
 
 export default function Contact() {
   const [formMail, setFormMail] = useState({
@@ -28,12 +29,16 @@ export default function Contact() {
         setFormMail({
           name: '', email: '', phone: '', description: ''
         })
+        toast.success("success send message")
       }
+    }).catch(() => {
+      toast.error("Failed, try again later")
     })
   }
 
   return (
     <>
+      <Toaster />
       <div className="lg:px-20 px-0 xl:px-20 xl:mx-36 2xl:mx-32">
         <div className="relative">
           <img

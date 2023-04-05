@@ -10,7 +10,7 @@ export default function (req, res) {
     },
   });
 
-  let info = transporter.sendMail({
+  transporter.sendMail({
     from: `"${req.body.name}" <${process.env.EMAIL}>`, // sender address
     to: process.env.EMAIL, // list of receivers
     subject: "Hello ✔", // Subject line
@@ -19,8 +19,10 @@ export default function (req, res) {
   }, (err, info) => {
     if (err) {
       console.log(err)
+      res.send(400)
     } else {
       console.log(info)
+      res.send(200)
     }
   });
 }
