@@ -27,7 +27,7 @@ export default function Home() {
           <div id="parallax">
             <div id="parallax-content">
               <p>#1 Private Jet Charter</p>
-              <h1 className="text-5xl font-semibold text-white">
+              <h1 className="xxs:text-3xl sm:text-5xl font-semibold text-white">
                 Indonesian Private Charter with Global Coverage
               </h1>
 
@@ -56,7 +56,7 @@ export default function Home() {
             <div id="overlay-text">
               <p className="text-lg">Why Choose Us</p>
 
-              <h1 className="text-4xl">Why Choose a Private Jet Charter?</h1>
+              <h1 className="sm:text-4xl xxs:text-3xl">Why Choose a Private Jet Charter?</h1>
 
               <p className="my-6 font-semibold">
                 We provide aircraft charters to business professionals, to
@@ -503,11 +503,11 @@ export default function Home() {
             <p className="text-sm uppercase">
               Luxury <span className="text-gold">Charter</span>
             </p>
-            <div className="flex justify-between items-center w-full">
+            <div className="flex sm:justify-between sm:items-center xxs:items-start w-full xxs:flex-col">
               <h1 className="text-4xl">Luxury Deals For You</h1>
               <Link
                 href="./all-deals"
-                className="px-4 py-3 rounded-full hover:bg-gold duration-150 delay-150 hover:text-white xs:text-[10px] sm:text-[12px] md:text-base"
+                className="px-4 py-3 rounded-full hover:bg-gold duration-150 delay-150 hover:text-white xxs:text-[10px] sm:text-[12px] md:text-base"
               >
                 View All Deals  
               </Link>
