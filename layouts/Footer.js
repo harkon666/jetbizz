@@ -75,7 +75,7 @@ export default function Footer() {
           <div className="">
             <h1 className="mb-4 font-semibold text-xl">Corporation office</h1>
             <p>
-              Jl. Mekarwangi No.75 RT.02 RW.012 Sariwaingi, Parongpong, Bandung
+              Jl. Mekarwangi No.75 RT.02 RW.012 Sariwangi, Parongpong, Bandung
               Barat Jawa Barat Indonesia 40559
               <br />
               +62 811-9518-983

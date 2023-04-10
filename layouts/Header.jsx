@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 import NavIcon from "../components/icons/NavIcon";
 import { useEffect, useState } from "react";
+import Head from "next/head";
 
 export default function Header() {
   const router = useRouter();
@@ -71,6 +72,7 @@ export default function Header() {
 
   return (
     <>
+    
       <header>
         <nav className="lg:flex justify-between items-center w-full hidden">
           <div>
