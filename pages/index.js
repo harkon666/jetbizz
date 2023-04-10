@@ -37,10 +37,6 @@ export default function Home() {
                 charter service through making every air travel experience as
                 time saving, enjoyable, and cost-effective as possible.
               </p>
-
-              <div>
-                <button className="text-white">Our Service</button>
-              </div>
             </div>
           </div>
         </section>
@@ -244,10 +240,6 @@ export default function Home() {
                     </div>
                   </li>
                 </ul>
-              </div>
-
-              <div className="my-6">
-                <button className="">Our Service</button>
               </div>
             </div>
           </div>

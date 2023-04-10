@@ -15,7 +15,7 @@ export default function Contact() {
 
   const sendMail = async () => {
     console.log(formMail)
-    fetch('/api/contact', {
+    fetch('https://api.jetbizzaviation.com/contact', {
       method: 'POST',
       headers: {
         'Accept': 'application/json, text/plain, */*',
