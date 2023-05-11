@@ -318,262 +318,16 @@ export default function Home() {
             </div>
           </div>
         </section>
-        {/* Section 2 */}
-
-        {/* Section 3 */}
-        {/* <section id="service">
-          <div id="section-3-1">
-            <div className="font-bold">
-              <p className="text-sm uppercase">
-                Our <span className="text-gold">Services</span>
-              </p>
-              <h1 className="text-4xl font-semibold mb-10">
-                Find The Best Service <br /> For You
-              </h1>
-            </div>
-            <div>
-              <div className="grid lg:grid-cols-2 sm:grid-cols-2 mx-auto gap-4 xl:w-2/3">
-                <CardImage
-                  src={
-                    "images/Exclusive-and-Luxury-Transfer/Private-Jet-Luxurious-Travel-700x466-1.jpg"
-                  }
-                  href="./executive-and-luxury-transfer"
-                  product="Exclusice and Luxury Transfer"
-                  alt="Luxury Transfer"
-                />
-                <CardImage
-                  src={
-                    "images/Medical Evacuation/Air-medical-transport-JetOptions-Private-Jets.jpg"
-                  }
-                  href="./medical-evacuation"
-                  product="Medical Evacuation"
-                  alt="Medical Evacuation"
-                />
-              </div>
-            </div>
-          </div>
-          <div className="w-full bg-light-gray text-semi-black px-40 min-h-screen py-20 sm:px-20 lg:px-32">
-            <div className="grid lg:grid-cols-2 sm:grid-cols-1">
-              <div className="relative sm:hidden lg:block lg:w-1/2">
-                <div>
-                  <img
-                    src={"images/shutterstock_337284917-min.png"}
-                    className="absolute"
-                  />
-                </div>
-                <div>
-                  <img
-                    src={
-                      "images/close-up-photo-good-looking-man-casual-outfit-who-is-smiling-while-typing-something-his-laptop-holding-smartphone-his-left-hand-flying-first-class-plane-min.png"
-                    }
-                    className="absolute top-[10%] left-[30%]"
-                  />
-                </div>
-              </div>
-              <div>
-                <div>
-                  <p className="text-xl text-gold">Benefit Of Service</p>
-                  <h1 className="text-4xl font-semibold">
-                    Benefit of Private Jet.
-                  </h1>
-                  <p className="my-4">
-                    By constantly improving on the best. It’s in this spirit
-                    that the Phenom 300E received further enhancements, becoming
-                    the most successful.
-                  </p>
-                </div>
-                <div className="mt-10">
-                  <ul className="list-disc text-gold grid lg:grid-cols-2 sm:grid-cols-1 gap-6">
-                    <li>
-                      <div className="text-semi-black">
-                        Full range of the latest generation jets, VIP aircraft
-                        and helicopters for worldwide charter
-                      </div>
-                    </li>
-                    <li>
-                      <div className="text-semi-black">
-                        We advise you on the best of the best, the newest and
-                        most competitively priced private jets on the planet
-                      </div>
-                    </li>
-                    <li>
-                      <div className="text-semi-black">
-                        Dedicated and experienced Aviation Consultants available
-                        24 hours / 365 days
-                      </div>
-                    </li>
-                    <li>
-                      <div className="text-semi-black">
-                        Creating a tailor made service to meet your own personal
-                        requirements.
-                      </div>
-                    </li>
-                    <li>
-                      <div className="text-semi-black">
-                        Choose your airport – choose your departure time
-                      </div>
-                    </li>
-                    <li>
-                      <div className="text-semi-black">
-                        Fly from dedicated private jet airports, or choose from
-                        main International airports, the choice is yours
-                      </div>
-                    </li>
-                    <li>
-                      <div className="text-semi-black">
-                        Enjoy fine dining on board, choose from a selection of
-                        international cuisine, Champagne, fine wines and full
-                        bar included
-                      </div>
-                    </li>
-                    <li>
-                      <div className="text-semi-black">
-                        Flying by Private Jet provides a flexible alternative to
-                        the stress of flying with scheduled airlines
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="grid lg:grid-cols-2 sm:grid-cols-1 place-content-between gap-6 mt-20 2xl:mt-32">
-              <div>
-                <ul className="list-disc text-gold grid lg:grid-cols-2 sm:grid-cols-1 gap-6">
-                  <li>
-                    <div className="text-semi-black">
-                      Arrive at the Private Jet Terminal just 20 minutes before
-                      take-off
-                    </div>
-                  </li>
-                  <li>
-                    <div className="text-semi-black">
-                      We use VIP lounge and swift check-in facilities
-                    </div>
-                  </li>
-                  <li>
-                    <div className="text-semi-black">
-                      24hr Flight Tracking – we keep you informed of the status
-                      of your flight around the clock
-                    </div>
-                  </li>
-                  <li>
-                    <div className="text-semi-black">
-                      Our clients enjoy value for money and quality without
-                      compromise. No other company comes close
-                    </div>
-                  </li>
-                  <li>
-                    <div className="text-semi-black">
-                      Whatever you need, from chauffeur driven transportation to
-                      custom branding the aircraft, everything is possible
-                    </div>
-                  </li>
-                  <li>
-                    <div className="text-semi-black">
-                      We aim high. We have the means and experience to fulfil
-                      every enquiry, every single time
-                    </div>
-                  </li>
-                  <li>
-                    <div className="text-semi-black">
-                      Together with BIJB (Bandara Internasional Jawa Barat) we
-                      provide Umrah flight as a solution for west java pilgrims,
-                      departed from Kertajati Airport to Makkah and also Madinah
-                    </div>
-                  </li>
-                </ul>
-              </div>
-              <div className="">
-                <div>
-                  <img
-                    src={
-                      "images/Helicopters/BELL 407/helicopter-bell_407-1024x768.jpg"
-                    }
-                    className="aspect-1/1 bg-cover bg-center"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </section> */}
-        {/* Section 3 */}
-
-        {/* Sectiom 4 */}
-        {/* <section id="our-deals">
-          <div className="text-center">
-            <p className="font-semibold text-lg">
-              Jet <span className="text-gold">Safety</span>
-            </p>
-            <h1 className="text-4xl">Embraer P-300E Safety</h1>
-          </div>
-          <div className="grid lg:grid-cols-3 sm:grid-cols-1 place-content-between mt-10">
-            <div>
-              <div className="my-10">
-                <div className="bg-light-purple rounded-full w-10 h-10 flex justify-center items-center text-2xl font-bold">
-                  1
-                </div>
-                <h1 className="text-2xl">Punching way above its weight</h1>
-                <p className="mt-5">
-                  There is a very fast AVANCE L5 system for internet access and
-                  it did not disappoint.
-                </p>
-              </div>
-              <div>
-                <div className="bg-light-purple rounded-full w-10 h-10 flex justify-center items-center text-2xl font-bold">
-                  2
-                </div>
-                <h1 className="text-2xl">Punching way above its weight</h1>
-                <p className="mt-5">
-                  There is a very fast AVANCE L5 system for internet access and
-                  it did not disappoint.
-                </p>
-              </div>
-            </div>
-
-            <div className="place-self-center relative">
-              <div className="bg-light-purple rounded-full sm:w-60 sm:h-60 xl:w-96 xl:h-96 opacity-75 animate-ping duration-[5000] delay-[5000]"></div>
-              <div className="absolute top-0">
-                <img src={Image7} />
-              </div>
-            </div>
-
-            <div>
-              <div className="my-10">
-                <div className="bg-light-purple rounded-full w-10 h-10 flex justify-center items-center text-2xl font-bold">
-                  3
-                </div>
-                <h1 className="text-2xl">Punching way above its weight</h1>
-                <p className="mt-5">
-                  There is a very fast AVANCE L5 system for internet access and
-                  it did not disappoint.
-                </p>
-              </div>
-              <div>
-                <div className="bg-light-purple rounded-full w-10 h-10 flex justify-center items-center text-2xl font-bold">
-                  4
-                </div>
-                <h1 className="text-2xl">Punching way above its weight</h1>
-                <p className="mt-5">
-                  There is a very fast AVANCE L5 system for internet access and
-                  it did not disappoint.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section> */}
-        {/* Sectiom 4 */}
-
-        {/* Section 5 */}
         <section id="our-deals">
           <div className="font-bold">
             <p className="text-sm uppercase">
               Luxury <span className="text-gold">Charter</span>
             </p>
             <div className="sm:flex sm:justify-between sm:items-center xxs:items-start w-full xxs:flex-col sm:flex-row">
-              <h1 className="sm:text-4xl xxs:text-3xl">Luxury Deals For You</h1>
+              <h1 className="sm:text-4xl xxs:text-3xl xxs:mb-4">Luxury Deals For You</h1>
               <Link
                 href="./all-deals"
-                className="px-4 py-3 rounded-full hover:bg-gold duration-150 delay-150 hover:text-white xxs:text-[10px] sm:text-[12px] md:text-base"
+                className="px-4 py-3 rounded-full bg-gold duration-150 delay-150 hover:text-white xxs:text-[12px] sm:text-[12px] md:text-base"
               >
                 View All Deals
               </Link>
@@ -582,7 +336,7 @@ export default function Home() {
           <div className="mt-20">
             <div className="grid xs:grid-cols-1 lg:grid-cols-4 sm:grid-cols-2 md:grid-cols-3 gap-6">
               <CardImage
-                src={"images/Jets/Hawker-400XP/beechcraft-hawker-400xp.jpg"}
+                src={"https://jetbizzaviation.com/images/Jets/Hawker-400XP/beechcraft-hawker-400xp.jpg"}
                 product="Hawker-400XP"
                 type="Legacy 600"
                 capacity="4-8 Seats"
@@ -590,7 +344,7 @@ export default function Home() {
               />
               <CardImage
                 src={
-                  "images/Jets/Hawker 800XP/hawker-800xp-Exterior-NEW-jS.jpg"
+                  "https://jetbizzaviation.com/images/Jets/Hawker 800XP/hawker-800xp-Exterior-NEW-jS.jpg"
                 }
                 product="Hawker 800XP"
                 type="Legacy 600"
@@ -599,7 +353,7 @@ export default function Home() {
               />
               <CardImage
                 src={
-                  "images/Helicopters/BELL 407/helicopter-bell_407-1024x768.jpg"
+                  "https://jetbizzaviation.com/images/Helicopters/BELL 407/helicopter-bell_407-1024x768.jpg"
                 }
                 product="Bell 407"
                 type="Legacy 600"
@@ -608,7 +362,7 @@ export default function Home() {
               />
               <CardImage
                 src={
-                  "images/Helicopters/BELL 412/Bell-412EP-e1427082029160-1200x718.jpg"
+                  "https://jetbizzaviation.com/images/Helicopters/BELL 412/Bell-412EP-e1427082029160-1200x718.jpg"
                 }
                 product="Bell 412"
                 type="Legacy 600"
@@ -629,85 +383,6 @@ export default function Home() {
             </blockquote>
           </div>
         </section>
-        {/* Section 5 */}
-
-        {/* Section-6 */}
-        {/* <section id="our-blog">
-          <div>
-            <blockquote className="text-3xl text-semi-black text-center">
-              <span>"</span>
-              <em>
-                Giving unforgetable experience, air travel as time saving,
-                cost-effective as possible.
-              </em>
-              <span>"</span>
-            </blockquote>
-          </div>
-          <div className="py-20">
-            <div className="font-semibold text-center">
-              <p className="text-xl">
-                <span className="text-gold">JetBizz</span> Blog
-              </p>
-              <h1 className="text-4xl">Latest News From Us</h1>
-            </div>
-            <div className="mt-20">
-              <div>
-                <Swiper
-                  spaceBetween={30}
-                  loop={true}
-                  autoplay={{
-                    delay: 2500,
-                    disableOnInteraction: false,
-                  }}
-                  slidesPerView={2}
-                  modules={[Autoplay, Pagination, Navigation]}
-                >
-                  <SwiperSlide>
-                    <SwiperImage
-                      src={Image1}
-                      alt="Image 1"
-                      author="GW"
-                      title="Loren ipsum dolor sit amet asu"
-                      category="FPS"
-                      href="./hawker-400xp"
-                    />
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <SwiperImage
-                      src={Image2}
-                      alt="Image 4"
-                      author="GW"
-                      title="Loren ipsum dolor sit amet asu"
-                      category="FPS"
-                      href="./hawker-400xp"
-                    />
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <SwiperImage
-                      src={Image3}
-                      alt="Image 4"
-                      author="GW"
-                      title="Loren ipsum dolor sit amet asu"
-                      category="FPS"
-                      href="./hawker-400xp"
-                    />
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <SwiperImage
-                      src={Image4}
-                      alt="Image 4"
-                      author="GW"
-                      title="Loren ipsum dolor sit amet asu"
-                      category="FPS"
-                      href="./hawker-400xp"
-                    />
-                  </SwiperSlide>
-                </Swiper>
-              </div>
-            </div>
-          </div>
-        </section> */}
-        {/* Section-6 */}
       </main>
 
       <Footer />

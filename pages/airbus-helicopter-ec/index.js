@@ -111,7 +111,7 @@ export default function AirbusHelicopterEC() {
             <figure className="relative">
               <img
                 src={
-                  "images/Helicopters/Airbus Helicopter EC/84518_1660386405.webp"
+                  "https://jetbizzaviation.com/images/Helicopters/Airbus Helicopter EC/84518_1660386405.webp"
                 }
                 className="h-[300px] w-full object-cover object-center"
               />
@@ -131,12 +131,12 @@ export default function AirbusHelicopterEC() {
             <div className="bg-white max-w-screen-xl mx-auto my-20 grid lg:grid-cols-2 sm:grid-col-1 gap-10">
               <div className="relative">
                 <img
-                  src={"images/service-background-shape.png"}
+                  src={"https://jetbizzaviation.com/images/service-background-shape.png"}
                   className="absolute -top-10 -left-8 z-0 sm:hidden lg:block"
                 />
                 <img
                   src={
-                    "images/Helicopters/Airbus Helicopter EC/sp-hit-private-airbus-helicopters-ec-130-t2_PlanespottersNet_824237_b5766ff393_o.jpg"
+                    "https://jetbizzaviation.com/images/Helicopters/Airbus Helicopter EC/sp-hit-private-airbus-helicopters-ec-130-t2_PlanespottersNet_824237_b5766ff393_o.jpg"
                   }
                   className="absolute top-0 left-0 z-10 aspect-[2/1] max-w-full max-h-full object-cover object-center rounded-lg shadow-lg"
                 />
@@ -237,7 +237,7 @@ export default function AirbusHelicopterEC() {
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Helicopters/Airbus Helicopter EC/84518_1660386405.webp"
+                        "https://jetbizzaviation.com/images/Helicopters/Airbus Helicopter EC/84518_1660386405.webp"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
@@ -245,7 +245,7 @@ export default function AirbusHelicopterEC() {
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Helicopters/Airbus Helicopter EC/EC135-Hermes_Interior.jpg"
+                        "https://jetbizzaviation.com/images/Helicopters/Airbus Helicopter EC/EC135-Hermes_Interior.jpg"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
@@ -253,7 +253,7 @@ export default function AirbusHelicopterEC() {
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Helicopters/Airbus Helicopter EC/sp-hit-private-airbus-helicopters-ec-130-t2_PlanespottersNet_824237_b5766ff393_o.jpg"
+                        "https://jetbizzaviation.com/images/Helicopters/Airbus Helicopter EC/sp-hit-private-airbus-helicopters-ec-130-t2_PlanespottersNet_824237_b5766ff393_o.jpg"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
@@ -261,7 +261,7 @@ export default function AirbusHelicopterEC() {
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Helicopters/Airbus Helicopter EC/84518_1660386405.webp"
+                        "https://jetbizzaviation.com/images/Helicopters/Airbus Helicopter EC/84518_1660386405.webp"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
@@ -269,7 +269,7 @@ export default function AirbusHelicopterEC() {
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Helicopters/Airbus Helicopter EC/EC135-Hermes_Interior.jpg"
+                        "https://jetbizzaviation.com/images/Helicopters/Airbus Helicopter EC/EC135-Hermes_Interior.jpg"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
@@ -277,7 +277,7 @@ export default function AirbusHelicopterEC() {
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Helicopters/Airbus Helicopter EC/sp-hit-private-airbus-helicopters-ec-130-t2_PlanespottersNet_824237_b5766ff393_o.jpg"
+                        "https://jetbizzaviation.com/images/Helicopters/Airbus Helicopter EC/sp-hit-private-airbus-helicopters-ec-130-t2_PlanespottersNet_824237_b5766ff393_o.jpg"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />

@@ -110,7 +110,7 @@ export default function BK117A4() {
           <div className="min-h-screen bg-white py-20 text-semi-black">
             <figure className="relative">
               <img
-                src={"images/Helicopters/BK117A-4/BK117A4_i3.jpg"}
+                src={"https://jetbizzaviation.com/images/Helicopters/BK117A-4/BK117A4_i3.jpg"}
                 className="h-[300px] w-full object-cover object-center"
               />
               <div className="absolute h-full w-full top-0 left-0 bg-gradient-to-r from-slate-700 to-transparent"></div>
@@ -129,11 +129,11 @@ export default function BK117A4() {
             <div className="bg-white max-w-screen-xl mx-auto my-20 grid lg:grid-cols-2 sm:grid-col-1 gap-10">
               <div className="relative">
                 <img
-                  src={"images/service-background-shape.png"}
+                  src={"https://jetbizzaviation.com/images/service-background-shape.png"}
                   className="absolute -top-10 -left-8 z-0 sm:hidden lg:block"
                 />
                 <img
-                  src={"images/Helicopters/BK117A-4/maxresdefault.jpg"}
+                  src={"https://jetbizzaviation.com/images/Helicopters/BK117A-4/maxresdefault.jpg"}
                   className="absolute top-0 left-0 z-10 aspect-[2/1] max-w-full max-h-full object-cover object-center rounded-lg shadow-lg"
                 />
               </div>
@@ -225,37 +225,37 @@ export default function BK117A4() {
                 >
                   <SwiperSlide>
                     <img
-                      src={"images/Helicopters/BK117A-4/BK117A4_i3.jpg"}
+                      src={"https://jetbizzaviation.com/images/Helicopters/BK117A-4/BK117A4_i3.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={"images/Helicopters/BK117A-4/ext2.jpg"}
+                      src={"https://jetbizzaviation.com/images/Helicopters/BK117A-4/ext2.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={"images/Helicopters/BK117A-4/maxresdefault.jpg"}
+                      src={"https://jetbizzaviation.com/images/Helicopters/BK117A-4/maxresdefault.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={"images/Helicopters/BK117A-4/BK117A4_i3.jpg"}
+                      src={"https://jetbizzaviation.com/images/Helicopters/BK117A-4/BK117A4_i3.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={"images/Helicopters/BK117A-4/ext2.jpg"}
+                      src={"https://jetbizzaviation.com/images/Helicopters/BK117A-4/ext2.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={"images/Helicopters/BK117A-4/maxresdefault.jpg"}
+                      src={"https://jetbizzaviation.com/images/Helicopters/BK117A-4/maxresdefault.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>

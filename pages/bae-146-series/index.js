@@ -102,7 +102,7 @@ export default function BAE146Series() {
           <div className="min-h-screen bg-white py-20 text-semi-black">
             <figure className="relative">
               <img
-                src={"images/Jets/BAE 146/BAe-146.jpg"}
+                src={"https://jetbizzaviation.com/images/Jets/BAE 146/BAe-146.jpg"}
                 className="h-[300px] object-cover object-center w-full"
               />
               <div className="absolute h-full w-full top-0 left-0 bg-gradient-to-r from-slate-700 to-transparent"></div>
@@ -121,11 +121,11 @@ export default function BAE146Series() {
             <div className="bg-white max-w-screen-xl mx-auto my-20 grid lg:grid-cols-2 sm:grid-col-1 gap-10">
               <div className="relative">
                 <img
-                  src={"images/service-background-shape.png"}
+                  src={"https://jetbizzaviation.com/images/service-background-shape.png"}
                   className="absolute -top-10 -left-8 z-0 sm:hidden lg:block"
                 />
                 <img
-                  src={"images/Jets/BAE 146/bae_146_200-int-1-1024x679.jpg"}
+                  src={"https://jetbizzaviation.com/images/Jets/BAE 146/bae_146_200-int-1-1024x679.jpg"}
                   className="absolute top-0 hidden lg:block left-0 z-10 aspect-[20/10] w-auto object-cover object-center rounded-lg shadow-lg"
                 />
               </div>
@@ -243,40 +243,40 @@ export default function BAE146Series() {
                 >
                   <SwiperSlide>
                     <img
-                      src={"images/Jets/BAE 146/BAe-146.jpg"}
+                      src={"https://jetbizzaviation.com/images/Jets/BAE 146/BAe-146.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={"images/Jets/BAE 146/bae_146_200-int-1-1024x679.jpg"}
+                      src={"https://jetbizzaviation.com/images/Jets/BAE 146/bae_146_200-int-1-1024x679.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Jets/BAE 146/Microsoft-Flight-Simulator-3-3.webp"
+                        "https://jetbizzaviation.com/images/Jets/BAE 146/Microsoft-Flight-Simulator-3-3.webp"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={"images/Jets/BAE 146/BAe-146.jpg"}
+                      src={"https://jetbizzaviation.com/images/Jets/BAE 146/BAe-146.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={"images/Jets/BAE 146/bae_146_200-int-1-1024x679.jpg"}
+                      src={"https://jetbizzaviation.com/images/Jets/BAE 146/bae_146_200-int-1-1024x679.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Jets/BAE 146/Microsoft-Flight-Simulator-3-3.webp"
+                        "https://jetbizzaviation.com/images/Jets/BAE 146/Microsoft-Flight-Simulator-3-3.webp"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />

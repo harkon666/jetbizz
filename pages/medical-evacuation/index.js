@@ -103,7 +103,7 @@ export default function MedicalEvacuation() {
             <figure className="relative">
               <img
                 src={
-                  "images/Medical Evacuation/AIR-AMBULANCE-medical-flights.jpg"
+                  "https://jetbizzaviation.com/images/Medical Evacuation/AIR-AMBULANCE-medical-flights.jpg"
                 }
                 className="h-[300px] aspect-[2/1] w-full object-cover object-center"
               />
@@ -123,12 +123,12 @@ export default function MedicalEvacuation() {
             <div className="bg-white max-w-screen-xl mx-auto my-20 grid lg:grid-cols-2 sm:grid-col-1 gap-10">
               <div className="relative">
                 <img
-                  src={"images/service-background-shape.png"}
+                  src={"https://jetbizzaviation.com/images/service-background-shape.png"}
                   className="absolute -top-10 -left-8 z-0 sm:hidden lg:block"
                 />
                 <img
                   src={
-                    "images/Medical Evacuation/Air-medical-transport-JetOptions-Private-Jets.jpg"
+                    "https://jetbizzaviation.com/images/Medical Evacuation/Air-medical-transport-JetOptions-Private-Jets.jpg"
                   }
                   className="absolute top-0 left-0 z-10 aspect-[1/1] max-w-full max-h-full object-cover object-center rounded-lg shadow-lg"
                 />

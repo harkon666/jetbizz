@@ -111,7 +111,7 @@ export default function AirbusHelicopterEC() {
             <figure className="relative">
               <img
                 src={
-                  "images/Helicopters/Kamov KA-32A/32-02-department-of-disaster-prevention-and-mitigation-thailand-kamov-ka-32_PlanespottersNet_1170893_83388d51d5_o.jpg"
+                  "https://jetbizzaviation.com/images/Helicopters/Kamov KA-32A/32-02-department-of-disaster-prevention-and-mitigation-thailand-kamov-ka-32_PlanespottersNet_1170893_83388d51d5_o.jpg"
                 }
                 className="h-[300px] w-full object-cover object-center"
               />
@@ -131,11 +131,11 @@ export default function AirbusHelicopterEC() {
             <div className="bg-white max-w-screen-xl mx-auto my-20 grid lg:grid-cols-2 sm:grid-col-1 gap-10">
               <div className="relative">
                 <img
-                  src={"images/service-background-shape.png"}
+                  src={"https://jetbizzaviation.com/images/service-background-shape.png"}
                   className="absolute -top-10 -left-8 z-0 sm:hidden lg:block"
                 />
                 <img
-                  src={"images/Helicopters/Kamov KA-32A/ka_32civil_7.jpg"}
+                  src={"https://jetbizzaviation.com/images/Helicopters/Kamov KA-32A/ka_32civil_7.jpg"}
                   className="absolute top-0 left-0 z-10 aspect-[2/1] max-w-full max-h-full object-cover object-center rounded-lg shadow-lg"
                 />
               </div>
@@ -239,7 +239,7 @@ export default function AirbusHelicopterEC() {
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Helicopters/Kamov KA-32A/32-02-department-of-disaster-prevention-and-mitigation-thailand-kamov-ka-32_PlanespottersNet_1170893_83388d51d5_o.jpg"
+                        "https://jetbizzaviation.com/images/Helicopters/Kamov KA-32A/32-02-department-of-disaster-prevention-and-mitigation-thailand-kamov-ka-32_PlanespottersNet_1170893_83388d51d5_o.jpg"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
@@ -247,21 +247,21 @@ export default function AirbusHelicopterEC() {
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Helicopters/Kamov KA-32A/95e8d6de6e842c7859e01faf026c477a_900.jpg"
+                        "https://jetbizzaviation.com/images/Helicopters/Kamov KA-32A/95e8d6de6e842c7859e01faf026c477a_900.jpg"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={"images/Helicopters/Kamov KA-32A/ka_32civil_7.jpg"}
+                      src={"https://jetbizzaviation.com/images/Helicopters/Kamov KA-32A/ka_32civil_7.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Helicopters/Kamov KA-32A/32-02-department-of-disaster-prevention-and-mitigation-thailand-kamov-ka-32_PlanespottersNet_1170893_83388d51d5_o.jpg"
+                        "https://jetbizzaviation.com/images/Helicopters/Kamov KA-32A/32-02-department-of-disaster-prevention-and-mitigation-thailand-kamov-ka-32_PlanespottersNet_1170893_83388d51d5_o.jpg"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
@@ -269,14 +269,14 @@ export default function AirbusHelicopterEC() {
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Helicopters/Kamov KA-32A/95e8d6de6e842c7859e01faf026c477a_900.jpg"
+                        "https://jetbizzaviation.com/images/Helicopters/Kamov KA-32A/95e8d6de6e842c7859e01faf026c477a_900.jpg"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={"images/Helicopters/Kamov KA-32A/ka_32civil_7.jpg"}
+                      src={"https://jetbizzaviation.com/images/Helicopters/Kamov KA-32A/ka_32civil_7.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>

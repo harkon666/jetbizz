@@ -20,14 +20,14 @@ export default function Footer() {
             <h1 className="border-b-2 text-semibold text-xl border-gold">
               About Us
             </h1>
-            <a href="" className="hover:text-gold">
-              About Us
+            <a href="./#home" className="hover:text-gold">
+              Home
             </a>
-            <a href="#package" className="hover:text-gold">
-              Packages
+            <a href="./#services" className="hover:text-gold">
+              Services
             </a>
-            <a href="#service" className="hover:text-gold">
-              Service
+            <a href="./#our-deals" className="hover:text-gold">
+              Our Deals
             </a>
           </div>
           <div className="flex flex-col space-y-4">
@@ -49,6 +49,9 @@ export default function Footer() {
             <Link href="./embraer-phenom-300" className="hover:text-gold">
               Embraer Phenom 300
             </Link>
+            <Link href="./all-deals" className="hover:text-gold">
+              More Private Jets
+            </Link>
           </div>
           <div className="flex flex-col space-y-4">
             <h1 className="border-b-2 text-semibold text-xl border-gold">
@@ -68,6 +71,9 @@ export default function Footer() {
             </Link>
             <Link href="./bell-429" className="hover:text-gold">
               Bell 429
+            </Link>
+            <Link href="./all-deals#helicopters" className="hover:text-gold">
+              More Helicopters
             </Link>
           </div>
         </div>

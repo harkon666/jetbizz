@@ -42,7 +42,7 @@ export default function Contact() {
       <div className="lg:px-20 px-0 xl:px-20 xl:mx-36 2xl:mx-32">
         <div className="relative">
           <img
-            src={"images/business-min.jpg"}
+            src={"https://jetbizzaviation.com/images/business-min.jpg"}
             alt="Bg-Contact"
             className="rounded-lg w-full h-[55rem] lg:h-[50rem]"
           />

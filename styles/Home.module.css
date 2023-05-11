@@ -278,7 +278,7 @@
 }
 
 .backgroundImg {
-  background-image: url("../public/images//aircrafts-airport.jpg");
+  background-image: url("../public/images/aircrafts-airport.jpg");
   background-size: cover;
   background-attachment: fixed;
 }

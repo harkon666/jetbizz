@@ -104,7 +104,7 @@ export default function ExecutiveLuxuryTransfer() {
             <figure className="relative">
               <img
                 src={
-                  "images/Exclusive-and-Luxury-Transfer/Private-Jet-Luxurious-Travel-700x466-1.jpg"
+                  "https://jetbizzaviation.com/images/Exclusive-and-Luxury-Transfer/Private-Jet-Luxurious-Travel-700x466-1.jpg"
                 }
                 className="h-[300px] aspect-[2/1] w-full object-cover object-center"
               />
@@ -124,11 +124,11 @@ export default function ExecutiveLuxuryTransfer() {
             <div className="bg-white max-w-screen-xl mx-auto my-20 grid lg:grid-cols-2 sm:grid-col-1 gap-10">
               <div className="relative">
                 <img
-                  src={"images/service-background-shape.png"}
+                  src={"https://jetbizzaviation.com/images/service-background-shape.png"}
                   className="absolute -top-10 -left-8 z-0 sm:hidden lg:block"
                 />
                 <img
-                  src={"images/Exclusive-and-Luxury-Transfer/wp5332496.jpg"}
+                  src={"https://jetbizzaviation.com/images/Exclusive-and-Luxury-Transfer/wp5332496.jpg"}
                   className="absolute top-0 left-0 z-10 aspect-[1/1] max-w-full max-h-full object-cover object-center rounded-lg shadow-lg"
                 />
               </div>

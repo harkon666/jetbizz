@@ -4,7 +4,7 @@ export default function TravelKitAmenity() {
       <div className="mb-96">
         <div className="relative">
           <img
-            src={"images/Screenshot_119.png"}
+            src={"https://jetbizzaviation.com/images/Screenshot_119.png"}
             alt="travel kit"
             className="aspect-[16/9] object-cover object-center w-full"
           />
@@ -207,14 +207,14 @@ export default function TravelKitAmenity() {
                 <div>
                   <img
                     src={
-                      "images/American-Airlines-confident-in-its-entertainment-s.webp"
+                      "https://jetbizzaviation.com/images/American-Airlines-confident-in-its-entertainment-s.webp"
                     }
                     className="aspect-[1/1] object-cover object-center hidden md:block"
                   />
                 </div>
                 <div>
                   <img
-                    src={"images/960x0.jpg"}
+                    src={"https://jetbizzaviation.com/images/960x0.jpg"}
                     className="aspect-[1/1] object-cover object-center hidden md:block"
                   />
                 </div>

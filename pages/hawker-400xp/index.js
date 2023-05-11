@@ -107,7 +107,7 @@ export default function Hawker40000XP() {
         <section>
           <div className="min-h-screen bg-white py-20 text-semi-black">
             <figure className="relative">
-              <img src={"images/main-banner-min.png"} />
+              <img src={"https://jetbizzaviation.com/images/main-banner-min.png"} />
               <div className="absolute h-full w-full top-0 left-0 bg-gradient-to-r from-slate-700 to-transparent"></div>
 
               <div className="absolute top-0 h-full w-full flex justify-center items-center">
@@ -124,11 +124,11 @@ export default function Hawker40000XP() {
             <div className="bg-white max-w-screen-xl mx-auto my-20 grid lg:grid-cols-2 sm:grid-col-1 gap-10">
               <div className="relative">
                 <img
-                  src={"images/service-background-shape.png"}
+                  src={"https://jetbizzaviation.com/images/service-background-shape.png"}
                   className="absolute -top-10 -left-8 z-0 sm:hidden lg:block"
                 />
                 <img
-                  src={"images/Jets/Hawker-400XP/hawker-400xp-interior-1.jpg"}
+                  src={"https://jetbizzaviation.com/images/Jets/Hawker-400XP/hawker-400xp-interior-1.jpg"}
                   className="absolute top-0 left-0 z-10 aspect-[2/1] max-w-full max-h-full object-cover object-center rounded-lg shadow-lg"
                 />
               </div>
@@ -251,7 +251,7 @@ export default function Hawker40000XP() {
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Jets/Hawker-400XP/hawker-400xp-interior-1.jpg"
+                        "https://jetbizzaviation.com/images/Jets/Hawker-400XP/hawker-400xp-interior-1.jpg"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
@@ -259,7 +259,7 @@ export default function Hawker40000XP() {
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Jets/Hawker-400XP/beechcraft-hawker-400xp.jpg"
+                        "https://jetbizzaviation.com/images/Jets/Hawker-400XP/beechcraft-hawker-400xp.jpg"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
@@ -267,7 +267,7 @@ export default function Hawker40000XP() {
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Jets/Hawker-400XP/Starmedevac-hawker-400.jpg"
+                        "https://jetbizzaviation.com/images/Jets/Hawker-400XP/Starmedevac-hawker-400.jpg"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
@@ -275,7 +275,7 @@ export default function Hawker40000XP() {
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Jets/Hawker-400XP/hawker-400xp-interior-1.jpg"
+                        "https://jetbizzaviation.com/images/Jets/Hawker-400XP/hawker-400xp-interior-1.jpg"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
@@ -283,7 +283,7 @@ export default function Hawker40000XP() {
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Jets/Hawker-400XP/beechcraft-hawker-400xp.jpg"
+                        "https://jetbizzaviation.com/images/Jets/Hawker-400XP/beechcraft-hawker-400xp.jpg"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
@@ -291,7 +291,7 @@ export default function Hawker40000XP() {
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Jets/Hawker-400XP/Starmedevac-hawker-400.jpg"
+                        "https://jetbizzaviation.com/images/Jets/Hawker-400XP/Starmedevac-hawker-400.jpg"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />

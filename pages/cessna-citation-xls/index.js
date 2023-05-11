@@ -111,7 +111,7 @@ export default function CessnaCitationXLS() {
             <figure className="relative">
               <img
                 src={
-                  "images/Jets/Cessna Citation XLS/Citation_XLS_Ext3-3-1024x723.jpg"
+                  "https://jetbizzaviation.com/images/Jets/Cessna Citation XLS/Citation_XLS_Ext3-3-1024x723.jpg"
                 }
                 className="h-[300px] w-full object-cover object-center"
               />
@@ -131,12 +131,12 @@ export default function CessnaCitationXLS() {
             <div className="bg-white max-w-screen-xl mx-auto my-20 grid lg:grid-cols-2 sm:grid-col-1 gap-10">
               <div className="relative">
                 <img
-                  src={"images/service-background-shape.png"}
+                  src={"https://jetbizzaviation.com/images/service-background-shape.png"}
                   className="absolute -top-10 -left-8 z-0 sm:hidden lg:block"
                 />
                 <img
                   src={
-                    "images/Jets/Cessna Citation XLS/5e442edc68579197839539.jpg"
+                    "https://jetbizzaviation.com/images/Jets/Cessna Citation XLS/5e442edc68579197839539.jpg"
                   }
                   className="absolute top-0 left-0 z-10 aspect-[2/1] max-w-full max-h-full object-cover object-center rounded-lg shadow-lg"
                 />
@@ -253,7 +253,7 @@ export default function CessnaCitationXLS() {
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Jets/Cessna Citation XLS/5e442edc68579197839539.jpg"
+                        "https://jetbizzaviation.com/images/Jets/Cessna Citation XLS/5e442edc68579197839539.jpg"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
@@ -261,21 +261,21 @@ export default function CessnaCitationXLS() {
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Jets/Cessna Citation XLS/Citation_XLS_Ext3-3-1024x723.jpg"
+                        "https://jetbizzaviation.com/images/Jets/Cessna Citation XLS/Citation_XLS_Ext3-3-1024x723.jpg"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={"images/Jets/Cessna Citation XLS/images.jpeg"}
+                      src={"https://jetbizzaviation.com/images/Jets/Cessna Citation XLS/images.jpeg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Jets/Cessna Citation XLS/5e442edc68579197839539.jpg"
+                        "https://jetbizzaviation.com/images/Jets/Cessna Citation XLS/5e442edc68579197839539.jpg"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
@@ -283,14 +283,14 @@ export default function CessnaCitationXLS() {
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Jets/Cessna Citation XLS/Citation_XLS_Ext3-3-1024x723.jpg"
+                        "https://jetbizzaviation.com/images/Jets/Cessna Citation XLS/Citation_XLS_Ext3-3-1024x723.jpg"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={"images/Jets/Cessna Citation XLS/images.jpeg"}
+                      src={"https://jetbizzaviation.com/images/Jets/Cessna Citation XLS/images.jpeg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>

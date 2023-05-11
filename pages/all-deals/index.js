@@ -114,32 +114,32 @@ export default function AddDeals() {
               <div>
                 <div className="grid lg:grid-cols-4 xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                   <CardImage
-                    src={"images/Jets/Hawker-400XP/Starmedevac-hawker-400.jpg"}
+                    src={"https://jetbizzaviation.com/images/Jets/Hawker-400XP/Starmedevac-hawker-400.jpg"}
                     product="Hawker-400XP"
                     capacity="6 Seats"
                     href="./hawker-400xp"
                   />
                   <CardImage
-                    src={"images/Jets/Hawker 800XP/hawker-800-xp-1.jpg"}
+                    src={"https://jetbizzaviation.com/images/Jets/Hawker 800XP/hawker-800-xp-1.jpg"}
                     product="Hawker 800XP"
                     capacity="8 Seats"
                     href="./hawker-800xp"
                   />
                   <CardImage
-                    src={"images/Jets/Hawker 900XP/Hawker-900XP-Ext-JS.webp"}
+                    src={"https://jetbizzaviation.com/images/Jets/Hawker 900XP/Hawker-900XP-Ext-JS.webp"}
                     product="Hawker 900XP"
                     capacity="8 Seats"
                     href="./hawker-900xp"
                   />
                   <CardImage
-                    src={"images/Jets/BAE 146/BAe-146.jpg"}
+                    src={"https://jetbizzaviation.com/images/Jets/BAE 146/BAe-146.jpg"}
                     product="BAE 146 Series"
                     capacity="70 - 112 Seats"
                     href="./bae-146-series"
                   />
                   <CardImage
                     src={
-                      "images/Jets/Beechcraft King Air 200/1979-Beechcraft-King-Air-200-01.jpg"
+                      "https://jetbizzaviation.com/images/Jets/Beechcraft King Air 200/1979-Beechcraft-King-Air-200-01.jpg"
                     }
                     product="Beechcraft King Air 200"
                     capacity="6 Seats"
@@ -147,21 +147,21 @@ export default function AddDeals() {
                   />
                   <CardImage
                     src={
-                      "images/Jets/Beechcraft King Air 350/Beechcraft-King-Air-350i-1090x500.jpg"
+                      "https://jetbizzaviation.com/images/Jets/Beechcraft King Air 350/Beechcraft-King-Air-350i-1090x500.jpg"
                     }
                     product="Beechcraft King Air 350"
                     capacity="9-11 Seats"
                     href="./beechcraft-king-air-350"
                   />
                   <CardImage
-                    src={"images/Jets/Beechcraft 1900D/1574693448.jpg"}
+                    src={"https://jetbizzaviation.com/images/Jets/Beechcraft 1900D/1574693448.jpg"}
                     product="Beechcraft 1900D"
                     capacity="19 Seats"
                     href="./beechcraft-1900-d"
                   />
                   <CardImage
                     src={
-                      "images/Jets/Beechjet 400a/Hawker-Beechcraft-Beechjet-400A.jpg"
+                      "https://jetbizzaviation.com/images/Jets/Beechjet 400a/Hawker-Beechcraft-Beechjet-400A.jpg"
                     }
                     product="Beechjet 400A"
                     capacity="7-9 Seats"
@@ -169,7 +169,7 @@ export default function AddDeals() {
                   />
                   <CardImage
                     src={
-                      "images/Jets/Cessna Citation XLS/Citation_XLS_Ext3-3-1024x723.jpg"
+                      "https://jetbizzaviation.com/images/Jets/Cessna Citation XLS/Citation_XLS_Ext3-3-1024x723.jpg"
                     }
                     product="Cessna Citation XLS"
                     capacity="9 Seats"
@@ -177,7 +177,7 @@ export default function AddDeals() {
                   />
                   <CardImage
                     src={
-                      "images/Jets/Embraer ERJ 135/Embraer-ERJ-135BJ-Legacy-650-1.jpg"
+                      "https://jetbizzaviation.com/images/Jets/Embraer ERJ 135/Embraer-ERJ-135BJ-Legacy-650-1.jpg"
                     }
                     product="Embraer ERJ 135"
                     capacity="16 Seats"
@@ -185,7 +185,7 @@ export default function AddDeals() {
                   />
                   <CardImage
                     src={
-                      "images/Jets/Embraer Phenom 300/AeroBT-aero-bk-embraer-Phenom-300_2880x1440.jpg"
+                      "https://jetbizzaviation.com/images/Jets/Embraer Phenom 300/AeroBT-aero-bk-embraer-Phenom-300_2880x1440.jpg"
                     }
                     product="Embraer Phenom 300"
                     capacity="7 Seats"
@@ -193,59 +193,59 @@ export default function AddDeals() {
                   />
                   <CardImage
                     src={
-                      "images/Jets/Embraer Legacy 600/AeroBT-Legacy600_2880x1440.jpg"
+                      "https://jetbizzaviation.com/images/Jets/Embraer Legacy 600/AeroBT-Legacy600_2880x1440.jpg"
                     }
                     product="Embraer Legacy 600"
                     capacity="14 Seats"
                     href="./embraer-legacy-600"
                   />
                   <CardImage
-                    src={"images/Jets/Fokker 50/72434_palf502_412926.jpg"}
+                    src={"https://jetbizzaviation.com/images/Jets/Fokker 50/72434_palf502_412926.jpg"}
                     product="Fokker 50"
                     capacity="46 Seats"
                     href="./fokker-50"
                   />
                   <CardImage
-                    src={"images/Jets/Fokker 70/fokker-70-1.webp"}
+                    src={"https://jetbizzaviation.com/images/Jets/Fokker 70/fokker-70-1.webp"}
                     product="Fokker 70"
                     capacity="85 Seats"
                     href="./fokker-70"
                   />
                   <CardImage
                     src={
-                      "images/Jets/Fokker 100/Fokker-Executive-Jet-indo-jet-charter.jpg"
+                      "https://jetbizzaviation.com/images/Jets/Fokker 100/Fokker-Executive-Jet-indo-jet-charter.jpg"
                     }
                     product="Fokker 100"
                     capacity="107 Seats"
                     href="./fokker-100"
                   />
                   <CardImage
-                    src={"images/Jets/Gulfstream IV SP/gulfstream-iv-iv-sp.jpg"}
+                    src={"https://jetbizzaviation.com/images/Jets/Gulfstream IV SP/gulfstream-iv-iv-sp.jpg"}
                     product="Gulfstream IV SP"
                     capacity="14 Seats"
                     href="./gulfstream-iv-sp"
                   />
                   <CardImage
-                    src={"images/Jets/Gulfstream 550/APERTUS+Jordon+G550.jpg"}
+                    src={"https://jetbizzaviation.com/images/Jets/Gulfstream 550/APERTUS+Jordon+G550.jpg"}
                     product="Gulfstream 550"
                     capacity="19 Seats"
                     href="./gulfstream-550"
                   />
                   <CardImage
-                    src={"images/Jets/Gulfstream 500/1.jpeg"}
+                    src={"https://jetbizzaviation.com/images/Jets/Gulfstream 500/1.jpeg"}
                     product="Gulfstream 500"
                     capacity="16+ Seats"
                     href="./gulfstream-500"
                   />
                   <CardImage
-                    src={"images/Jets/Learjet 31A/Learjet31A_1.jpg"}
+                    src={"https://jetbizzaviation.com/images/Jets/Learjet 31A/Learjet31A_1.jpg"}
                     product="Learjet 31 A"
                     capacity="6 Seats"
                     href="./learjet-31a"
                   />
                 </div>
 
-                <div className="my-20">
+                <div id="helicopters" className="my-20">
                   <div className="font-bold text-semi-black mb-10">
                     <p className="uppercase">
                       Our <span className="text-gold">Luxury</span> Helicopters
@@ -261,21 +261,21 @@ export default function AddDeals() {
                     <div className="grid lg:grid-cols-4 xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                       <CardImage
                         src={
-                          "images/Helicopters/Airbus Helicopter EC/84518_1660386405.webp"
+                          "https://jetbizzaviation.com/images/Helicopters/Airbus Helicopter EC/84518_1660386405.webp"
                         }
                         product="Airbus Helicopter EC"
                         capacity="8 Seats"
                         href="./airbus-helicopter-ec"
                       />
                       <CardImage
-                        src={"images/Helicopters/BELL 206 L 4/18012016-29.jpg"}
+                        src={"https://jetbizzaviation.com/images/Helicopters/BELL 206 L 4/18012016-29.jpg"}
                         product="Bell 206 L-4"
                         capacity="4 Seats"
                         href="./bell-206-l-4"
                       />
                       <CardImage
                         src={
-                          "images/Helicopters/BELL 407/helicopter-bell_407-1024x768.jpg"
+                          "https://jetbizzaviation.com/images/Helicopters/BELL 407/helicopter-bell_407-1024x768.jpg"
                         }
                         product="Bell 407"
                         capacity="5 Seats"
@@ -283,68 +283,68 @@ export default function AddDeals() {
                       />
                       <CardImage
                         src={
-                          "images/Helicopters/BELL 412/Bell-412EP-e1427082029160-1200x718.jpg"
+                          "https://jetbizzaviation.com/images/Helicopters/BELL 412/Bell-412EP-e1427082029160-1200x718.jpg"
                         }
                         product="Bell 412"
                         capacity="6 Seats"
                         href="./bell-412"
                       />
                       <CardImage
-                        src={"images/Helicopters/BELL 429/download.jpeg"}
+                        src={"https://jetbizzaviation.com/images/Helicopters/BELL 429/download.jpeg"}
                         product="Bell 429"
                         capacity="5 Seats"
                         href="./bell-429"
                       />
                       <CardImage
-                        src={"images/Helicopters/BK117A-4/maxresdefault.jpg"}
+                        src={"https://jetbizzaviation.com/images/Helicopters/BK117A-4/maxresdefault.jpg"}
                         product="BK 117A-4"
                         capacity="up to 10 Seats"
                         href="./bk-117a-4"
                       />
                       <CardImage
                         src={
-                          "images/Helicopters/Eurocopter AS350B-3/AS350B3+-Squirrel-EN.jpg"
+                          "https://jetbizzaviation.com/images/Helicopters/Eurocopter AS350B-3/AS350B3+-Squirrel-EN.jpg"
                         }
                         product="Eurocopter AS350-B3"
                         capacity="4 Seats"
                         href="./eurocopter-as350-b3"
                       />
                       <CardImage
-                        src={"images/Helicopters/Eurocopter B155-B1/1.webp"}
+                        src={"https://jetbizzaviation.com/images/Helicopters/Eurocopter B155-B1/1.webp"}
                         product="Eurocopter B155-B1"
                         capacity="4-8 Seats"
                         href="./eurocopter-b155-b1"
                       />
                       <CardImage
                         src={
-                          "images/Helicopters/Kamov KA-32A/95e8d6de6e842c7859e01faf026c477a_900.jpg"
+                          "https://jetbizzaviation.com/images/Helicopters/Kamov KA-32A/95e8d6de6e842c7859e01faf026c477a_900.jpg"
                         }
                         product="Kamov KA-32A"
                         capacity="13 Seats"
                         href="./kamov-ka-32a"
                       />
                       <CardImage
-                        src={"images/Helicopters/MI 171/mi-171e_uganda.jpg"}
+                        src={"https://jetbizzaviation.com/images/Helicopters/MI 171/mi-171e_uganda.jpg"}
                         product="MI 171"
                         capacity="4-8 Seats"
                         href="./mi-171"
                       />
                       <CardImage
                         src={
-                          "images/Helicopters/MI 8/Mil_Mi-8P,_Baltic_Airlines_(cropped).jpg"
+                          "https://jetbizzaviation.com/images/Helicopters/MI 8/Mil_Mi-8P,_Baltic_Airlines_(cropped).jpg"
                         }
                         product="MI 8"
                         capacity="4-8 Seats"
                         href="./mi-8"
                       />
                       <CardImage
-                        src={"images/Helicopters/MI 26/miil-mi-26-1.jpg"}
+                        src={"https://jetbizzaviation.com/images/Helicopters/MI 26/miil-mi-26-1.jpg"}
                         product="MI 26"
                         capacity="4-8 Seats"
                         href="./mi-26"
                       />
                       <CardImage
-                        src={"images/Helicopters/Super Puma/superpuma-4.jpg"}
+                        src={"https://jetbizzaviation.com/images/Helicopters/Super Puma/superpuma-4.jpg"}
                         product="Super Puma"
                         capacity="20-24 Seats"
                         href="./super-puma"

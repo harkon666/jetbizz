@@ -110,7 +110,7 @@ export default function EmbraerLegacy600() {
           <div className="min-h-screen bg-white py-20 text-semi-black">
             <figure className="relative">
               <img
-                src={"images/Jets/Embraer Legacy 600/LEGACY-600-SX-KKA.jpg"}
+                src={"https://jetbizzaviation.com/images/Jets/Embraer Legacy 600/LEGACY-600-SX-KKA.jpg"}
                 className="h-[300px] w-full object-cover object-center"
               />
               <div className="absolute h-full w-full top-0 left-0 bg-gradient-to-r from-slate-700 to-transparent"></div>
@@ -129,12 +129,12 @@ export default function EmbraerLegacy600() {
             <div className="bg-white max-w-screen-xl mx-auto my-20 grid lg:grid-cols-2 sm:grid-col-1 gap-10">
               <div className="relative">
                 <img
-                  src={"images/service-background-shape.png"}
+                  src={"https://jetbizzaviation.com/images/service-background-shape.png"}
                   className="absolute -top-10 -left-8 z-0 sm:hidden lg:block"
                 />
                 <img
                   src={
-                    "images/Jets/Embraer Legacy 600/N317LL_Legacy600_socia.jpg"
+                    "https://jetbizzaviation.com/images/Jets/Embraer Legacy 600/N317LL_Legacy600_socia.jpg"
                   }
                   className="absolute top-0 left-0 z-10 aspect-[2/1] max-w-full max-h-full object-cover object-center rounded-lg shadow-lg"
                 />
@@ -247,7 +247,7 @@ export default function EmbraerLegacy600() {
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Jets/Embraer Legacy 600/AeroBT-Legacy600_2880x1440.jpg"
+                        "https://jetbizzaviation.com/images/Jets/Embraer Legacy 600/AeroBT-Legacy600_2880x1440.jpg"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
@@ -255,7 +255,7 @@ export default function EmbraerLegacy600() {
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Jets/Embraer Legacy 600/LEGACY-600-SX-KKA.jpg"
+                        "https://jetbizzaviation.com/images/Jets/Embraer Legacy 600/LEGACY-600-SX-KKA.jpg"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
@@ -263,7 +263,7 @@ export default function EmbraerLegacy600() {
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Jets/Embraer Legacy 600/N317LL_Legacy600_socia.jpg"
+                        "https://jetbizzaviation.com/images/Jets/Embraer Legacy 600/N317LL_Legacy600_socia.jpg"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
@@ -271,7 +271,7 @@ export default function EmbraerLegacy600() {
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Jets/Embraer Legacy 600/AeroBT-Legacy600_2880x1440.jpg"
+                        "https://jetbizzaviation.com/images/Jets/Embraer Legacy 600/AeroBT-Legacy600_2880x1440.jpg"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
@@ -279,7 +279,7 @@ export default function EmbraerLegacy600() {
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Jets/Embraer Legacy 600/LEGACY-600-SX-KKA.jpg"
+                        "https://jetbizzaviation.com/images/Jets/Embraer Legacy 600/LEGACY-600-SX-KKA.jpg"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
@@ -287,7 +287,7 @@ export default function EmbraerLegacy600() {
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Jets/Embraer Legacy 600/N317LL_Legacy600_socia.jpg"
+                        "https://jetbizzaviation.com/images/Jets/Embraer Legacy 600/N317LL_Legacy600_socia.jpg"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />

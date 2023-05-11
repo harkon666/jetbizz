@@ -111,7 +111,7 @@ export default function EmbraerERJ135() {
             <figure className="relative">
               <img
                 src={
-                  "images/Jets/Embraer ERJ 135/Embraer-ERJ-135BJ-Legacy-650-1.jpg"
+                  "https://jetbizzaviation.com/images/Jets/Embraer ERJ 135/Embraer-ERJ-135BJ-Legacy-650-1.jpg"
                 }
                 className="h-[300px] w-full object-cover object-center"
               />
@@ -131,11 +131,11 @@ export default function EmbraerERJ135() {
             <div className="bg-white max-w-screen-xl mx-auto my-20 grid lg:grid-cols-2 sm:grid-col-1 gap-10">
               <div className="relative">
                 <img
-                  src={"images/service-background-shape.png"}
+                  src={"https://jetbizzaviation.com/images/service-background-shape.png"}
                   className="absolute -top-10 -left-8 z-0 sm:hidden lg:block"
                 />
                 <img
-                  src={"images/Jets/Embraer ERJ 135/cl-erj-conversions-7.jpg"}
+                  src={"https://jetbizzaviation.com/images/Jets/Embraer ERJ 135/cl-erj-conversions-7.jpg"}
                   className="absolute top-0 left-0 z-10 aspect-[2/1] max-w-full max-h-full object-cover object-center rounded-lg shadow-lg"
                 />
               </div>
@@ -248,7 +248,7 @@ export default function EmbraerERJ135() {
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Jets/Embraer ERJ 135/cl-erj-conversions-7.jpg"
+                        "https://jetbizzaviation.com/images/Jets/Embraer ERJ 135/cl-erj-conversions-7.jpg"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
@@ -256,21 +256,21 @@ export default function EmbraerERJ135() {
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Jets/Embraer ERJ 135/Embraer-ERJ-135BJ-Legacy-650-1.jpg"
+                        "https://jetbizzaviation.com/images/Jets/Embraer ERJ 135/Embraer-ERJ-135BJ-Legacy-650-1.jpg"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={"images/Jets/Embraer ERJ 135/ERJ145-Exterior-5.jpg"}
+                      src={"https://jetbizzaviation.com/images/Jets/Embraer ERJ 135/ERJ145-Exterior-5.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Jets/Embraer ERJ 135/cl-erj-conversions-7.jpg"
+                        "https://jetbizzaviation.com/images/Jets/Embraer ERJ 135/cl-erj-conversions-7.jpg"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
@@ -278,14 +278,14 @@ export default function EmbraerERJ135() {
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Jets/Embraer ERJ 135/Embraer-ERJ-135BJ-Legacy-650-1.jpg"
+                        "https://jetbizzaviation.com/images/Jets/Embraer ERJ 135/Embraer-ERJ-135BJ-Legacy-650-1.jpg"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={"images/Jets/Embraer ERJ 135/ERJ145-Exterior-5.jpg"}
+                      src={"https://jetbizzaviation.com/images/Jets/Embraer ERJ 135/ERJ145-Exterior-5.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>

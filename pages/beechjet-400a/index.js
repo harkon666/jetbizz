@@ -109,7 +109,7 @@ export default function Beechjet400A() {
         <section>
           <div className="min-h-screen bg-white py-20 text-semi-black">
             <figure className="relative">
-              <img src={"images/main-banner-min.png"} />
+              <img src={"https://jetbizzaviation.com/images/main-banner-min.png"} />
               <div className="absolute h-full w-full top-0 left-0 bg-gradient-to-r from-slate-700 to-transparent"></div>
 
               <div className="absolute top-0 h-full w-full flex justify-center items-center">
@@ -126,11 +126,11 @@ export default function Beechjet400A() {
             <div className="bg-white max-w-screen-xl mx-auto my-20 grid lg:grid-cols-2 sm:grid-col-1 gap-10">
               <div className="relative">
                 <img
-                  src={"images/service-background-shape.png"}
+                  src={"https://jetbizzaviation.com/images/service-background-shape.png"}
                   className="absolute -top-10 -left-8 z-0 sm:hidden lg:block"
                 />
                 <img
-                  src={"images/Jets/Beechjet 400a/5b437c876e6e12a4.jpg"}
+                  src={"https://jetbizzaviation.com/images/Jets/Beechjet 400a/5b437c876e6e12a4.jpg"}
                   className="absolute top-0 left-0 z-10 aspect-[2/1] max-w-full max-h-full object-cover object-center rounded-lg shadow-lg"
                 />
               </div>
@@ -245,14 +245,14 @@ export default function Beechjet400A() {
                 >
                   <SwiperSlide>
                     <img
-                      src={"images/Jets/Beechjet 400a/5b437c876e6e12a4.jpg"}
+                      src={"https://jetbizzaviation.com/images/Jets/Beechjet 400a/5b437c876e6e12a4.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Jets/Beechjet 400a/Beechcraft-Beechjet-400A-e1566237074491.jpg"
+                        "https://jetbizzaviation.com/images/Jets/Beechjet 400a/Beechcraft-Beechjet-400A-e1566237074491.jpg"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
@@ -260,21 +260,21 @@ export default function Beechjet400A() {
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Jets/Beechjet 400a/Hawker-Beechcraft-Beechjet-400A.jpg"
+                        "https://jetbizzaviation.com/images/Jets/Beechjet 400a/Hawker-Beechcraft-Beechjet-400A.jpg"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={"images/Jets/Beechjet 400a/5b437c876e6e12a4.jpg"}
+                      src={"https://jetbizzaviation.com/images/Jets/Beechjet 400a/5b437c876e6e12a4.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Jets/Beechjet 400a/Beechcraft-Beechjet-400A-e1566237074491.jpg"
+                        "https://jetbizzaviation.com/images/Jets/Beechjet 400a/Beechcraft-Beechjet-400A-e1566237074491.jpg"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
@@ -282,7 +282,7 @@ export default function Beechjet400A() {
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Jets/Beechjet 400a/Hawker-Beechcraft-Beechjet-400A.jpg"
+                        "https://jetbizzaviation.com/images/Jets/Beechjet 400a/Hawker-Beechcraft-Beechjet-400A.jpg"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />

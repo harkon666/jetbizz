@@ -111,7 +111,7 @@ export default function AS350B3() {
             <figure className="relative">
               <img
                 src={
-                  "images/Helicopters/Eurocopter AS350B-3/561858f6f1f111cc50bd394ed422f876.webp"
+                  "https://jetbizzaviation.com/images/Helicopters/Eurocopter AS350B-3/561858f6f1f111cc50bd394ed422f876.webp"
                 }
                 className="h-[300px] w-full object-cover object-center"
               />
@@ -131,12 +131,12 @@ export default function AS350B3() {
             <div className="bg-white max-w-screen-xl mx-auto my-20 grid lg:grid-cols-2 sm:grid-col-1 gap-10">
               <div className="relative">
                 <img
-                  src={"images/service-background-shape.png"}
+                  src={"https://jetbizzaviation.com/images/service-background-shape.png"}
                   className="absolute -top-10 -left-8 z-0 sm:hidden lg:block"
                 />
                 <img
                   src={
-                    "images/Helicopters/Eurocopter AS350B-3/Javaheli-AS350-B3-interior-helicoptercharterjakartaindonesia-javaheli-min-1024x768.jpg"
+                    "https://jetbizzaviation.com/images/Helicopters/Eurocopter AS350B-3/Javaheli-AS350-B3-interior-helicoptercharterjakartaindonesia-javaheli-min-1024x768.jpg"
                   }
                   className="absolute top-0 left-0 z-10 aspect-[2/1] max-w-full max-h-full object-cover object-center rounded-lg shadow-lg"
                 />
@@ -237,7 +237,7 @@ export default function AS350B3() {
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Helicopters/Eurocopter AS350B-3/561858f6f1f111cc50bd394ed422f876.webp"
+                        "https://jetbizzaviation.com/images/Helicopters/Eurocopter AS350B-3/561858f6f1f111cc50bd394ed422f876.webp"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
@@ -245,7 +245,7 @@ export default function AS350B3() {
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Helicopters/Eurocopter AS350B-3/AS350B3+-Squirrel-EN.jpg"
+                        "https://jetbizzaviation.com/images/Helicopters/Eurocopter AS350B-3/AS350B3+-Squirrel-EN.jpg"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
@@ -253,7 +253,7 @@ export default function AS350B3() {
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Helicopters/Eurocopter AS350B-3/Javaheli-AS350-B3-interior-helicoptercharterjakartaindonesia-javaheli-min-1024x768.jpg"
+                        "https://jetbizzaviation.com/images/Helicopters/Eurocopter AS350B-3/Javaheli-AS350-B3-interior-helicoptercharterjakartaindonesia-javaheli-min-1024x768.jpg"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
@@ -261,7 +261,7 @@ export default function AS350B3() {
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Helicopters/Eurocopter AS350B-3/561858f6f1f111cc50bd394ed422f876.webp"
+                        "https://jetbizzaviation.com/images/Helicopters/Eurocopter AS350B-3/561858f6f1f111cc50bd394ed422f876.webp"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
@@ -269,7 +269,7 @@ export default function AS350B3() {
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Helicopters/Eurocopter AS350B-3/AS350B3+-Squirrel-EN.jpg"
+                        "https://jetbizzaviation.com/images/Helicopters/Eurocopter AS350B-3/AS350B3+-Squirrel-EN.jpg"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
@@ -277,7 +277,7 @@ export default function AS350B3() {
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Helicopters/Eurocopter AS350B-3/Javaheli-AS350-B3-interior-helicoptercharterjakartaindonesia-javaheli-min-1024x768.jpg"
+                        "https://jetbizzaviation.com/images/Helicopters/Eurocopter AS350B-3/Javaheli-AS350-B3-interior-helicoptercharterjakartaindonesia-javaheli-min-1024x768.jpg"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />

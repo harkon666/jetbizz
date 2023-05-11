@@ -110,7 +110,7 @@ export default function BeechcraftKingAir350() {
           <div className="min-h-screen bg-white py-20 text-semi-black">
             <figure className="relative">
               <img
-                src={"images/Jets/Beechcraft 1900D/1574693448.jpg"}
+                src={"https://jetbizzaviation.com/images/Jets/Beechcraft 1900D/1574693448.jpg"}
                 className="h-[300px] w-full object-cover object-center"
               />
               <div className="absolute h-full w-full top-0 left-0 bg-gradient-to-r from-slate-700 to-transparent"></div>
@@ -129,12 +129,12 @@ export default function BeechcraftKingAir350() {
             <div className="bg-white max-w-screen-xl mx-auto my-20 grid lg:grid-cols-2 sm:grid-col-1 gap-10">
               <div className="relative">
                 <img
-                  src={"images/service-background-shape.png"}
+                  src={"https://jetbizzaviation.com/images/service-background-shape.png"}
                   className="absolute -top-10 -left-8 z-0 sm:hidden lg:block"
                 />
                 <img
                   src={
-                    "images/Jets/Beechcraft 1900D/RGE_Eastindo_Berry_BeechRGD-02.jpg"
+                    "https://jetbizzaviation.com/images/Jets/Beechcraft 1900D/RGE_Eastindo_Berry_BeechRGD-02.jpg"
                   }
                   className="absolute top-0 left-0 z-10 aspect-[2/1] max-w-full max-h-full object-cover object-center rounded-lg shadow-lg"
                 />
@@ -250,40 +250,40 @@ export default function BeechcraftKingAir350() {
                 >
                   <SwiperSlide>
                     <img
-                      src={"images/Jets/Beechcraft 1900D/1574693448.jpg"}
+                      src={"https://jetbizzaviation.com/images/Jets/Beechcraft 1900D/1574693448.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={"images/Jets/Beechcraft 1900D/images.jpeg"}
+                      src={"https://jetbizzaviation.com/images/Jets/Beechcraft 1900D/images.jpeg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Jets/Beechcraft 1900D/RGE_Eastindo_Berry_BeechRGD-02.jpg"
+                        "https://jetbizzaviation.com/images/Jets/Beechcraft 1900D/RGE_Eastindo_Berry_BeechRGD-02.jpg"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={"images/Jets/Beechcraft 1900D/1574693448.jpg"}
+                      src={"https://jetbizzaviation.com/images/Jets/Beechcraft 1900D/1574693448.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={"images/Jets/Beechcraft 1900D/images.jpeg"}
+                      src={"https://jetbizzaviation.com/images/Jets/Beechcraft 1900D/images.jpeg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Jets/Beechcraft 1900D/RGE_Eastindo_Berry_BeechRGD-02.jpg"
+                        "https://jetbizzaviation.com/images/Jets/Beechcraft 1900D/RGE_Eastindo_Berry_BeechRGD-02.jpg"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />

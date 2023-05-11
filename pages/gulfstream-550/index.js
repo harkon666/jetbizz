@@ -110,7 +110,7 @@ export default function Gulfstream550() {
           <div className="min-h-screen bg-white py-20 text-semi-black">
             <figure className="relative">
               <img
-                src={"images/Jets/Gulfstream 550/APERTUS+Jordon+G550.jpg"}
+                src={"https://jetbizzaviation.com/images/Jets/Gulfstream 550/APERTUS+Jordon+G550.jpg"}
                 className="h-[300px] w-full object-cover object-center"
               />
               <div className="absolute h-full w-full top-0 left-0 bg-gradient-to-r from-slate-700 to-transparent"></div>
@@ -129,11 +129,11 @@ export default function Gulfstream550() {
             <div className="bg-white max-w-screen-xl mx-auto my-20 grid lg:grid-cols-2 sm:grid-col-1 gap-10">
               <div className="relative">
                 <img
-                  src={"images/service-background-shape.png"}
+                  src={"https://jetbizzaviation.com/images/service-background-shape.png"}
                   className="absolute -top-10 -left-8 z-0 sm:hidden lg:block"
                 />
                 <img
-                  src={"images/Jets/Gulfstream 550/132-3.jpg"}
+                  src={"https://jetbizzaviation.com/images/Jets/Gulfstream 550/132-3.jpg"}
                   className="absolute top-0 left-0 z-10 aspect-[2/1] max-w-full max-h-full object-cover object-center rounded-lg shadow-lg"
                 />
               </div>
@@ -246,40 +246,40 @@ export default function Gulfstream550() {
                 >
                   <SwiperSlide>
                     <img
-                      src={"images/Jets/Gulfstream 550/132-3.jpg"}
+                      src={"https://jetbizzaviation.com/images/Jets/Gulfstream 550/132-3.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={"images/Jets/Gulfstream 550/APERTUS+Jordon+G550.jpg"}
+                      src={"https://jetbizzaviation.com/images/Jets/Gulfstream 550/APERTUS+Jordon+G550.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Jets/Gulfstream 550/Gulfstream-G550-pric1e.webp"
+                        "https://jetbizzaviation.com/images/Jets/Gulfstream 550/Gulfstream-G550-pric1e.webp"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={"images/Jets/Gulfstream 550/132-3.jpg"}
+                      src={"https://jetbizzaviation.com/images/Jets/Gulfstream 550/132-3.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src={"images/Jets/Gulfstream 550/APERTUS+Jordon+G550.jpg"}
+                      src={"https://jetbizzaviation.com/images/Jets/Gulfstream 550/APERTUS+Jordon+G550.jpg"}
                       className="aspect-[2/1] bg-center bg-cover"
                     />
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
                       src={
-                        "images/Jets/Gulfstream 550/Gulfstream-G550-pric1e.webp"
+                        "https://jetbizzaviation.com/images/Jets/Gulfstream 550/Gulfstream-G550-pric1e.webp"
                       }
                       className="aspect-[2/1] bg-center bg-cover"
                     />
